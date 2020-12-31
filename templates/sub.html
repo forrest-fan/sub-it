@@ -2,5 +2,16 @@
 {% block title %}Home Page{% endblock %}
 {% block subActive %}class="active"{% endblock %}
 {% block content %}
-<h1>Sub</h1>
+    <h1>Sub</h1>
+    <form action="{{ url_for('sub')}} " method='post' enctype="multipart/form-data">
+        <input type='file' id='foodImg' name='foodImg' accept='image/png, image/jpg' required/>
+        <input type='submit' id='uploadImg' name='uploadImg' value='Upload' />
+    </form>
+{% endblock %}
+{% block scripts %}
+    <script>
+        $('#uploadImg').on('click', function() {
+            
+        });
+    </script>
 {% endblock %}

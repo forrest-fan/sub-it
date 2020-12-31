@@ -1,4 +1,5 @@
 from flask import Flask, redirect, url_for, render_template, request
+from werkzeug.utils import secure_filename
 import pyrebase
 import json
 
@@ -103,9 +104,18 @@ def setGoal():
     user['data']['dailyGoal'] = newGoal
     return str(newGoal)
 
-@app.route("/sub")
+@app.route("/sub", methods=['GET', 'POST'])
 def sub():
-    return render_template("sub.html")
+    if request.method == 'POST':
+        img = request.files['foodImg']
+        img.save('./files/' + secure_filename(img.filename))
+        return render_template("sub.html")
+    else:
+        return render_template("sub.html")
+
+# @app.route("/uploadImg")
+# def uploadImg():
+    
 
 @app.route("/history")
 def history():

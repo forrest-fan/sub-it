@@ -1,0 +1,74 @@
+.signin-page {
+    position:relative;
+    height: 800px;
+    width: 100%;
+}
+
+.signin-container {
+    position: absolute;
+    height: 400px;
+    width: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+
+.signin-container h5 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.signin-container h5 a {
+    text-decoration: underline;
+    color: #51c299;
+}
+
+.signin-container h5 a:hover {
+    color: #56a78a;
+}
+
+.signin-container input {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #555;
+    padding: 3px 5px;
+    margin: 15px 0px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    transition: border-color 0.3s;
+}
+
+.signin-container input:focus {
+    border-color: #51c299;
+}
+
+.signin-container input:-webkit-autofill,
+.signin-container input:-webkit-autofill:hover, 
+.signin-container input:-webkit-autofill:focus, 
+.signin-container input:-webkit-autofill:active  {
+    box-shadow: 0 0 0 30px white inset !important;
+}
+
+.signin-container #signinBtn, #signupBtn {
+    background-color: #51c299;
+    color: #fff;
+    font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 12px 0px 8px 0px;
+    border: none;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.signin-container #signinBtn:hover, #signupBtn:hover {
+    background-color: #56a78a;
+}
+
+.signin-container #failMessage {
+    color: red;
+}

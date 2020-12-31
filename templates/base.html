@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{% block title %}{% endblock %}</title>
+        {% block links %}{% endblock %}
+        <link rel="icon" href="{{ url_for('static', filename='img/favicon.png') }}" />
+        <link rel="stylesheet" href="{{ url_for('static',filename='styles/base.css') }}" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    </head>
+    <body>
+        <div class="sidebar">
+            <div class="logo-container">
+                <img src="{{ url_for('static',filename='img/logo.png') }}"/>
+                <h1>SUB.IT</h1>
+            </div>
+            <div class="links-container">
+                <ul>
+                    <li {% block dashActive %}{% endblock %}><a href="{{ url_for('dash') }}"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a></li>
+                    <li {% block subActive %}{% endblock %}><a href="{{ url_for('sub') }}"><i class="fas fa-hamburger"></i><span>Sub It</span></a></li>
+                    <li {% block histActive %}{% endblock %}><a href="{{ url_for('history') }}"><i class="fas fa-clock"></i><span>History</a></span></li>
+                    <li {% block learnActive %}{% endblock %}><a href="{{ url_for('discover') }}"><i class="fas fa-eye"></i><span>Discover</a></span></li>
+                    <li {% block rewardsActive %}{% endblock %}><a href="{{ url_for('rewards') }}"><i class="fas fa-trophy"></i><span>Rewards</a></span></li>
+                    <li {% block profActive %}{% endblock %}><a href="{{ url_for('profile') }}"><i class="fas fa-user-alt"></i><span>Profile</a></span></li>
+                </ul>
+            </div>
+            <div class="footer">
+                <p>
+                {% if auth %}
+                    <a id='signOutLink'>Sign Out</a>
+                {% else %}
+                    <a href="{{ url_for('signin')}}">Sign In</a>
+                {% endif %}
+                •<a>About</a>•<a>Terms & Conditions</a></p>
+            </div>
+        </div>
+        <div class="main-content">
+            {% block content %}{% endblock %}
+        </div>
+        <div class="toast" id="signoutUnsuccessful">
+            <p><i class="fas fa-times"></i> Sign out unsuccessful.</p>
+        </div>
+        <div class="toast" id="signoutSuccessful">
+            <p><i class="fas fa-check"></i> Sign out successful.</p>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script>
+            $('#signOutLink').on('click', function(e) {
+                e.preventDefault();
+                $.ajax({
+                    url: "{{ url_for('handlesignout') }}",
+                    method: 'POST',
+                    data: {},
+                    success: function(success) {
+                        $('#signoutSuccessful').addClass('show');
+                        setTimeout(function() {
+                            $('#signoutSuccessful').removeClass('show');
+                            window.location.href = "{{ url_for('signin') }}";
+                        }, 3000);
+                    },
+                    error: function() {
+                        $('#signoutUnsuccessful').addClass('show');
+                        setTimeout(function() {
+                            $('#signoutUnsuccessful').removeClass('show');
+                        }, 3000);
+                    }
+                });
+            });
+        </script>
+        {% block scripts %}{% endblock %}
+    </body>
+</html>

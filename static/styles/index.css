@@ -1,0 +1,145 @@
+.dash-container {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.dash-container .dash-item {
+    border-radius: 10px;
+    background: #e3f0eb;
+    color: #000;
+    height: 300px;
+    position: relative;
+    box-shadow: 0px 1px 3px 1px #999;
+    transition: box-shadow 0.3s;
+    margin: 5px 10px;
+    display: block;
+}
+
+.dash-container .dash-item:hover {
+    box-shadow: 0px 2px 6px 2px #999;
+}
+
+.dash-container .dash-item.four {width: 400px;}
+.dash-container .dash-item.six {width: 550px;}
+
+.dash-container .dash-item .graph {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.dash-container .dash-item .table {
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.dash-container .dash-item .table table {
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+.dash-container .dash-item .table th {
+    font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+}
+
+.dash-container .dash-item .table td {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+.dash-container .dash-item .table th, td {
+    border-left: 1px solid rgb(89, 100, 97);
+    border-right: 1px solid rgb(89, 100, 97);
+}
+
+.dash-container .dash-item .table th, td {
+    padding: 5px 10px;
+}
+
+.dash-container .dash-item .table td:last-child {
+    text-align: center;
+}
+
+.dash-container .dash-item .stat {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    text-align: center;
+}
+
+.dash-container .dash-item .no-data {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    text-align: center;
+}
+
+.dash-container .dash-item .no-data #goalValue {
+    outline: none;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #555;
+    background: transparent;
+    padding: 3px 5px;
+    margin: 15px 0px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    transition: border-color 0.3s;
+}
+
+.dash-container .dash-item .no-data #goalValue:focus {
+    border-color: #51c299;
+}
+
+.dash-container .dash-item .no-data #submitGoal {
+    background-color: #51c299;
+    color: #fff;
+    font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding: 12px 0px 8px 0px;
+    border: none;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.dash-container .dash-item .no-data #submitGoal:hover {
+    background-color: #56a78a;
+}
+
+.dash-container .dash-item .dash-description {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.dash-container .dash-item#blog {
+    background-image: url(../img/healthy.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.dash-container .dash-item#blog .dark-layer {
+    border-radius: inherit;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8));
+}

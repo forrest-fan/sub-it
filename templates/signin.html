@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block title %}Sign In{% endblock %}
+{% block links %}
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/signin.css') }}" />
+{% endblock %}
+{% block content %}
+    <div class="signin-page">
+        <h1>Welcome! Let's sign you in</h1>
+        <hr />
+        <div class="signin-container">
+            <form method="POST" id="signInForm">
+                <h5>New to Sub.It? <a href="{{ url_for('signup') }}">Sign up</a> for free today.</h5>
+                <input placeholder="Email Address" name="email" id="email"/>
+                <input placeholder="Password" name="password" id="password" type="password" />
+                <div class="center">
+                    <input type="Submit" value="SIGN IN" id="signinBtn"/>
+                </div>
+            </form>
+            <div class="center">
+                <p id="failMessage"></p>
+            </div>
+        </div>
+    </div>
+    
+{% endblock %}
+{% block scripts %}
+    <script> 
+        $('#signInForm').on('submit', function(e){
+            var email = $('#email').val();
+            var password = $('#password').val();
+            e.preventDefault();
+            $.ajax({ 
+                url: "{{ url_for('handlesignin')}}", 
+                data: {
+                    'email': email,
+                    'password': password
+                }, 
+                method: 'POST', 
+                success: function(user) {
+                    console.log(user.data)
+                    window.location.href="/dashboard";
+                },
+                error: function() {
+                    $('#failMessage').html("Email or password is invalid. Please try again.");
+                }
+            }); 
+        }); 
+    </script>
+{% endblock %}

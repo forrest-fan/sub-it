@@ -1,0 +1,197 @@
+* {
+    margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+h1{font-size: 32px}
+h2{font-size: 28px; margin-bottom: 0.2em;}
+h3{font-size: 24px}
+h4{font-size: 20px}
+h5{font-size: 18px}
+h6{font-size: 14px}
+
+hr {
+    margin: 2px 0px;
+}
+
+.center {
+    text-align: center;
+}
+
+.sidebar {
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    background: #51c299;
+}
+
+.sidebar .logo-container {
+    text-align: center;
+    padding: 20px;
+    background: #3d9474;
+    color: #fff;
+}
+
+.sidebar .logo-container img {
+    width: 40%;
+}
+
+.sidebar .links-container {
+    padding: 20px;
+}
+
+.sidebar .links-container ul {
+    padding-inline-start: 0px;
+}
+
+.sidebar .links-container li {
+    list-style: none;
+    padding: 15px 0px;
+    font-size: 23px;
+    font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+    color: #cafae6;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.sidebar .links-container a {
+    display: grid;
+    grid-template-columns: 60px auto;
+    text-decoration: none;
+    color: inherit;
+}
+
+.sidebar .links-container li:hover {
+    color: #fff;
+}
+
+.sidebar .links-container li.active {
+    color: #fff;
+}
+
+.sidebar .links-container i {
+    grid-column: 1 / 2;
+    justify-self: center;
+    align-self: center;
+    font-size: 18px;
+}
+
+.sidebar .links-container span {
+    grid-column: 2;
+    transform: translateY(3px);
+}
+
+.sidebar .footer {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.sidebar .footer p {
+    color: #fff;
+    font-size: 13px;
+}
+
+.sidebar .footer a {
+    color: inherit;
+    margin: 0px 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.sidebar .footer a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    margin-left: 300px;
+    padding: 40px 60px;
+}
+
+.container {
+    padding: 10px;
+}
+
+.toast {
+    position: fixed;
+    visibility: hidden;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 15px 25px;
+    z-index: 2;
+    font-size: 14px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px 1px #555;
+    background-color: #fff;
+}
+
+.toast.show {
+    visibility: visible;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+.toast i {
+    margin-right: 10px;
+}
+
+.toast i.fa-times {color: red;}
+.toast i.fa-check {color: #51c299}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 20px; opacity: 1;}
+}
+  
+@keyframes fadeout {
+    from {bottom: 20px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+.signin-prompt {
+    text-align: center;
+    margin-top: 64px;
+}
+
+.signin-prompt a {
+    color: #51c299;
+}
+
+.signin-prompt a:hover {
+    color: #3d9474;
+}
+
+.header {
+    position: relative;
+}
+
+.header .sub-it {
+    position: absolute;
+    right: 0px;
+    bottom: 5px;
+    outline: none;
+    border: none;
+    background-color: #51c299;
+    color: #fff;
+    font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 10px 16px 8px 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.header .sub-it:hover {
+    background-color: #56a78a;
+}

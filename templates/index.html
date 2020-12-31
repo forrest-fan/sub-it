@@ -1,0 +1,222 @@
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+{% block links %}
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/index.css') }}" />
+{% endblock %}
+{% block dashActive %}class="active"{% endblock %}
+{% block content %}
+    {% if auth %}
+        <div class="header">    
+            <h1>Hi {{ user.fname }}!</h1>
+            <a class='sub-it' href='/sub'>Sub It!</a>
+        </div>
+        <hr/>
+        <div class="container">
+            <h3>Dashboard</h3>
+            <div class="dash-container">
+                {% if not user.data.dailyGoal == 0 %}
+                    <a class="dash-item four">
+                        <div class="graph">
+                            <canvas id="dailyGoal" width="220" height="220"></canvas>
+                        </div>
+                        <div class="stat">
+                            <h2>{{ user.data.dailyGoalAchieved }}</h2>
+                            <p>/{{ user.data.dailyGoal}} kg CO<sub>2</sub> saved</p>
+                        </div>
+                        <h4 class="dash-description">Daily Goal</h4>
+                    </a>
+                {% else %}
+                    <a class="dash-item four">
+                        <div class="no-data">
+                            <p>Set up a goal to start tracking your daily progress.</p>
+                            <form id="goalSetupForm" method="POST">
+                                <input type="number" name="goal" id="goalValue" placeholder="kg CO2/day" autocomplete="off" min="0" step="1" required/>
+                                <input type="submit" id="submitGoal" value="Set Goal" />
+                            </form>
+                        </div>
+                        <h4 class="dash-description">Daily Goal</h4>
+                    </a>
+                {% endif %}
+                <a class="dash-item six">
+                    <div class="graph">
+                        <canvas id="weeklyMetrics" width="500" height="220"></canvas>
+                    </div>
+                    <h4 class="dash-description">Weekly Breakdown</h4>
+                </a>
+                <a class="dash-item four" href="/rewards">
+                    <div class="graph">
+                        <canvas id="level" width="220" height="220"></canvas>
+                    </div>
+                    <div class="stat">
+                        <h2 id='lvlH2'></h2>
+                        <p><span id='lvlRemaining'></span> kg CO<sub>2</sub> to next level</p>
+                    </div>
+                    <h4 class="dash-description">Sub.It Level</h4>
+                </a>
+                <a class="dash-item six" href="/history">
+                    <div class="table">
+                        <table>
+                            <colgroup>
+                                <col span="1" style="width: 35%" />
+                                <col span="1" style="width: 35%" />
+                                <col span="1" style="width: 30%" />
+                            </colgroup>
+                            <tr>
+                                <th>Subbed Food</th>
+                                <th>New Food</th>
+                                <th>Carbon Saved (kg CO<sub>2</sub>)</th>
+                            </tr>
+                            <tr>
+                                <td>Canned Tomatoes</td>
+                                <td>Roma Tomatoes</td>
+                                <td>2.03</td>
+                            </tr>
+                            <tr>
+                                <td>Pineapple</td>
+                                <td>Grapefruit</td>
+                                <td>5.12</td>
+                            </tr>
+                            <tr>
+                                <td>Bacon</td>
+                                <td>Ground Pork</td>
+                                <td>3.12</td>
+                            </tr>
+                            <tr>
+                                <td>Coconut Oil</td>
+                                <td>Vegetable Oil</td>
+                                <td>0.91</td>
+                            </tr>
+
+                        </table>
+                    </div>
+                    <h4 class="dash-description">Recent Subs</h4>
+                </a>
+                <a class="dash-item four" id="blog" href="/discover">
+                    <div class='dark-layer'></div>
+                    <h4 class="dash-description">New Foods for the New Year</h4>
+                </a>
+            </div>
+        </div>
+        <div class="modal">
+            <div class="modal-overlay"></div>
+            <div class="modal-content">
+
+            </div>
+        </div>
+    {% else %}
+        <div class="header">    
+            <h1>Welcome!</h1>
+            <a class='sub-it' href='/sub'>Sub It!</a>
+        </div>
+        <hr/>
+        <div class="container">
+            <h3>Dashboard</h3>
+            <p class="signin-prompt"><a href="{{ url_for('signin')}}">Sign in</a> to get started.</p>
+        </div>
+    {% endif %}
+{% endblock %}
+{% block scripts %}
+    {% if user %}
+        {% if not user.data.dailyGoal == 0 %}
+            <script>
+                let user = {{ user|tojson }};
+                var dailyGoal = new Chart(document.getElementById('dailyGoal'), {
+                    type: "doughnut",
+                    data: {
+                        labels: ['Achieved', 'Remaining'],
+                        datasets: [{
+                            label: 'Daily Goal Achieved',
+                            data: [user.data.dailyGoalAchieved, user.data.dailyGoal - user.data.dailyGoalAchieved],
+                            backgroundColor: ['#51c299', '#9fc1d1'],
+                            borderWidth: 0
+                        }]
+                    },
+                    options: {
+                        cutoutPercentage: 75,
+                        responsive: false,
+                        legend: {
+                            display: false
+                        }
+                    }
+                });
+            </script>
+        {% endif %}
+        <script>
+            $('#goalSetupForm').on('submit', function(e) {
+                let newGoal = $('#goalValue').val();
+                e.preventDefault();
+                $.ajax({
+                    url: "{{ url_for('setGoal') }}",
+                    data: {
+                        newGoal: newGoal
+                    },
+                    method: 'POST',
+                    success: function(newGoal) {
+                        console.log(newGoal);
+                        window.location.href = "{{ url_for('dash') }}";
+                    },
+                    error: function() {
+                        alert("error");
+                    }
+                });
+            });
+
+            $( document ).ready(function() {
+                let user = {{ user|tojson }};
+                var weeklyMetrics = new Chart(document.getElementById('weeklyMetrics'), {
+                    type: "bar",
+                    data: {
+                        labels: ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN'],
+                        datasets: [{
+                            label: 'Weekly Breakdown',
+                            data: user.data.weekly,
+                            backgroundColor: '#51c299',
+                            borderWidth: 0
+                        }]
+                    },
+                    options: {
+                        responsive: false,
+                        legend: {
+                            display: false
+                        },
+                        scales: {
+                            xAxes: [{
+                                gridLines: {
+                                    display: false,
+                                }
+                            }]
+                        },
+                    }
+                });
+                let levelSettings = [0, 15, 45, 90, 150, 250, 400, 600, 800, 1000, 1250, 1500];
+                let lvl = 0;
+                let remain = 0;
+                while (user.data.subbed >= levelSettings[lvl]) {
+                    lvl++;
+                }
+                $('#lvlH2').html('Lvl ' + lvl);
+                remain = levelSettings[lvl] - user.data.subbed;
+                $('#lvlRemaining').html(remain);
+                var level = new Chart(document.getElementById('level'), {
+                    type: "doughnut",
+                    data: {
+                        labels: ['Subbed', 'To Next Level'],
+                        datasets: [{
+                            label: 'Sub Progress',
+                            data: [user.data.subbed, remain],
+                            backgroundColor: ['#51c299', '#9fc1d1'],
+                            borderWidth: 0
+                        }]
+                    },
+                    options: {
+                        cutoutPercentage: 75,
+                        responsive: false,
+                        legend: {
+                            display: false
+                        }
+                    }
+                });
+            });
+        </script>
+    {% endif %}
+{% endblock %}

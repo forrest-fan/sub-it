@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>{% block title %}{% endblock %}</title>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
         {% block links %}{% endblock %}
         <link rel="icon" href="{{ url_for('static', filename='img/favicon.png') }}" />
         <link rel="stylesheet" href="{{ url_for('static',filename='styles/base.css') }}" />
@@ -11,7 +12,16 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     </head>
     <body>
-        <div class="sidebar">
+        <div class="bottom-nav mobile">
+            <ul>
+                <li><a><i class="fas fa-tachometer-alt"></a></i></li>
+                <li><a><i class="fas fa-hamburger"></a></i></li>
+                <li><a><i class="fas fa-clock"></a></i></li>
+                <li><a><i class="fas fa-eye"></a></i></li>
+                <li><a><i class="fas fa-user-alt"></a></i></li>
+            </ul>
+        </div>
+        <div class="sidebar desktop">
             <div class="logo-container">
                 <img src="{{ url_for('static',filename='img/logo.png') }}"/>
                 <h1>SUB.IT</h1>
@@ -20,10 +30,9 @@
                 <ul>
                     <li {% block dashActive %}{% endblock %}><a href="{{ url_for('dash') }}"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a></li>
                     <li {% block subActive %}{% endblock %}><a href="{{ url_for('sub') }}"><i class="fas fa-hamburger"></i><span>Sub It</span></a></li>
-                    <li {% block histActive %}{% endblock %}><a href="{{ url_for('history') }}"><i class="fas fa-clock"></i><span>History</a></span></li>
-                    <li {% block learnActive %}{% endblock %}><a href="{{ url_for('discover') }}"><i class="fas fa-eye"></i><span>Discover</a></span></li>
-                    <li {% block rewardsActive %}{% endblock %}><a href="{{ url_for('rewards') }}"><i class="fas fa-trophy"></i><span>Rewards</a></span></li>
-                    <li {% block profActive %}{% endblock %}><a href="{{ url_for('profile') }}"><i class="fas fa-user-alt"></i><span>Profile</a></span></li>
+                    <li {% block histActive %}{% endblock %}><a href="#"><i class="fas fa-clock"></i><span>History</a></span></li>
+                    <li {% block learnActive %}{% endblock %}><a href="#"><i class="fas fa-eye"></i><span>Discover</a></span></li>
+                    <li {% block profActive %}{% endblock %}><a href="#"><i class="fas fa-user-alt"></i><span>Profile</a></span></li>
                 </ul>
             </div>
             <div class="footer">

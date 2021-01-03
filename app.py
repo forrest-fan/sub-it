@@ -1,7 +1,14 @@
 from flask import Flask, redirect, url_for, render_template, request
 from werkzeug.utils import secure_filename
+from binascii import a2b_base64
 import pyrebase
 import json
+import model
+import swap
+import os
+import shutil
+import base64
+
 
 firebaseConfig = {
     "apiKey": "AIzaSyD-kuTNL1EcxwnCgM4_0x9oyO_k7IdzATI",
@@ -14,12 +21,15 @@ firebaseConfig = {
     "measurementId": "G-STLRB5PMY1"
 }
 
+# Firebase integration
 firebase = pyrebase.initialize_app(firebaseConfig)
 auth = firebase.auth()
 user = None
 userID = None
-
 db = firebase.database()
+
+# Build ML model
+modelVar = model.buildModel()
 
 app = Flask(__name__)
 
@@ -106,16 +116,21 @@ def setGoal():
 
 @app.route("/sub", methods=['GET', 'POST'])
 def sub():
-    if request.method == 'POST':
-        img = request.files['foodImg']
-        img.save('./files/' + secure_filename(img.filename))
-        return render_template("sub.html")
+    global modelVar, user
+    if user is not None:
+        if request.method == 'POST':
+            img = request.files['foodImg']
+            filename = './static/img/upload' + img.filename
+            img.save(filename)
+            recipe = model.predict_class(modelVar, [filename], False)
+            print(recipe)
+            alternatives = swap.findAlts(recipe['ingredients'])
+            print(alternatives)
+            return render_template("sub.html", user=user, auth=True, recipe=recipe, alts=alternatives)
+        else:
+            return render_template("sub.html", user=user, auth=True, recipe=None)
     else:
-        return render_template("sub.html")
-
-# @app.route("/uploadImg")
-# def uploadImg():
-    
+        return render_template("sub.html", user=user, auth=False)
 
 @app.route("/history")
 def history():

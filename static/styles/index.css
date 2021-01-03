@@ -25,6 +25,9 @@
 .dash-container .dash-item.four {width: 400px;}
 .dash-container .dash-item.six {width: 550px;}
 
+.dash-container .dash-item.four canvas {width: 220px!important; height: 220px!important;}
+.dash-container .dash-item.six canvas {width: 500px!important; height: 220px!important;}
+
 .dash-container .dash-item .graph {
     position: absolute;
     left: 50%;
@@ -142,4 +145,8 @@
     width: 100%;
     height: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8));
+}
+
+@media (max-width: 600px) {
+    .dash-container .dash-item.six canvas {width: 220px!important}
 }

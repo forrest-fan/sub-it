@@ -1,0 +1,5502 @@
+{
+    "-_up": [],
+    "<end>": [],
+    "<pad>": [],
+    "a_original_sauce": [],
+    "abalone": [],
+    "absinthe": [],
+    "achiote": [
+        [
+            "raspberry_sauce",
+            0.9468547316891629
+        ],
+        [
+            "pastry_for_a_double_-_crust__-_inch_pie",
+            0.04525353373768126
+        ]
+    ],
+    "acorn": [],
+    "active_starter": [
+        [
+            "gooseberries",
+            0.577841883434004
+        ],
+        [
+            "plastic_spoon",
+            0.0768644597049738
+        ]
+    ],
+    "adobo_sauce": [],
+    "advocaat": [],
+    "agar": [],
+    "agave": [],
+    "ahi": [],
+    "aioli": [],
+    "ajinomoto": [],
+    "ajwain": [],
+    "alcaparrado": [],
+    "alcohol": [],
+    "ale": [
+        [
+            "almond_essence",
+            0.2714669358211127
+        ]
+    ],
+    "alfalfa": [],
+    "alfredo_sauce": [
+        [
+            "low_-_fat_granola",
+            1.020676719516195
+        ]
+    ],
+    "all_beef_wiener": [
+        [
+            "verjus",
+            0.4689925250837059
+        ],
+        [
+            "milky_way_bar",
+            0.6208258521763099
+        ]
+    ],
+    "allspice": [],
+    "almond_bark": [],
+    "almond_essence": [],
+    "almond_filling": [
+        [
+            "psyllium",
+            0.2971458504721979
+        ],
+        [
+            "kielbasa",
+            1.3867230322607784
+        ],
+        [
+            "soy_chorizo",
+            0.615174514932584
+        ]
+    ],
+    "almond_halves": [],
+    "almond_paste": [],
+    "almond_powder": [
+        [
+            "cocoa",
+            1.133305134440461
+        ],
+        [
+            "mixed_salad_green",
+            0.5793825450262945
+        ]
+    ],
+    "almond_toffee_bits": [],
+    "almonds": [],
+    "aloe_vera_gel": [],
+    "alum": [],
+    "aluminum_foil": [],
+    "amaranth": [],
+    "amaretti": [],
+    "amaretto": [
+        [
+            "sopressata",
+            0.080170032575831
+        ],
+        [
+            "elderflower_cordial",
+            0.866325520809733
+        ]
+    ],
+    "amchoor_powder": [
+        [
+            "picante_sauce",
+            0.9250994130048471
+        ],
+        [
+            "masa_harina",
+            0.15895779998040815
+        ]
+    ],
+    "amchur": [],
+    "amish_starter": [],
+    "ammonia": [],
+    "anchovies": [
+        [
+            "asafoetida_powder",
+            0.835057949517175
+        ]
+    ],
+    "anchovy": [
+        [
+            "applesauce",
+            1.0033677266698728
+        ],
+        [
+            "okara",
+            0.2948827239659151
+        ]
+    ],
+    "angelica": [
+        [
+            "kombu",
+            0.7871887460838726
+        ],
+        [
+            "kefir",
+            1.4557928160123896
+        ],
+        [
+            "grand_marnier",
+            0.654281885755908
+        ]
+    ],
+    "anise": [
+        [
+            "tahini",
+            0.33230155404161943
+        ],
+        [
+            "xylitol_sweetener",
+            0.30125602210243807
+        ]
+    ],
+    "anisette": [],
+    "apple": [],
+    "applejack": [],
+    "applesauce": [],
+    "apricot": [],
+    "aquavit": [],
+    "arbol_chiles": [
+        [
+            "dove",
+            1.002204635928266
+        ],
+        [
+            "hidden_valley_original_ranch_dips_mix",
+            0.1832876184427803
+        ],
+        [
+            "weet_-_bix",
+            0.8569181348531548
+        ]
+    ],
+    "arctic_char": [],
+    "armagnac": [],
+    "arrowroot": [
+        [
+            "wrap",
+            1.1987115958800474
+        ]
+    ],
+    "artichoke": [
+        [
+            "breadfruit",
+            0.9480575581990485
+        ],
+        [
+            "raw_cacao_powder",
+            0.6903658315485801
+        ]
+    ],
+    "artificial_sweetener": [],
+    "arugula": [
+        [
+            "gold_leaf_foil",
+            0.5756074480568213
+        ]
+    ],
+    "asafoetida_powder": [],
+    "ascorbic_acid": [],
+    "asian_-_style_dressing": [
+        [
+            "apricot",
+            0.4439536209135434
+        ]
+    ],
+    "asparagus": [
+        [
+            "fines_herbes",
+            0.1044760666436435
+        ],
+        [
+            "kitchen_bouquet",
+            0.9132993354599216
+        ],
+        [
+            "rocket",
+            1.2296989350624776
+        ]
+    ],
+    "au_gratin_potato_mix": [],
+    "au_jus_mix": [],
+    "au_jus_sauce": [],
+    "aubergine": [],
+    "avocado": [
+        [
+            "bottarga",
+            0.5142299623238287
+        ]
+    ],
+    "baby_back_rib_rack": [],
+    "baby_food": [],
+    "bacardi_limon": [],
+    "bacon": [
+        [
+            "kitchen_twine",
+            1.183378475778892
+        ],
+        [
+            "gooseberries",
+            0.577841883434004
+        ]
+    ],
+    "bagel": [],
+    "baguette": [],
+    "baharat": [
+        [
+            "montrachet",
+            0.9096610639986333
+        ],
+        [
+            "amish_starter",
+            1.083437530510426
+        ],
+        [
+            "yuzu",
+            0.9294985146720673
+        ]
+    ],
+    "baking_hens": [
+        [
+            "berry_blue_gelatin_mix",
+            0.004471073000815062
+        ],
+        [
+            "manicotti",
+            0.515793982275576
+        ],
+        [
+            "thin_cucumber_slices",
+            1.1298311328388921
+        ]
+    ],
+    "baking_mix": [],
+    "baking_powder": [],
+    "baking_sheet": [
+        [
+            "aquavit",
+            0.5202338303486831
+        ]
+    ],
+    "baking_soda": [],
+    "balsamic_dressing": [],
+    "bamboo_shoot": [
+        [
+            "sorbet",
+            0.5925647788131845
+        ]
+    ],
+    "banana": [],
+    "barbecue_sauce": [
+        [
+            "alcaparrado",
+            0.5683060501391747
+        ],
+        [
+            "squid",
+            0.23777653470412896
+        ]
+    ],
+    "barberries": [],
+    "barley": [],
+    "basil": [],
+    "bass_fillet": [],
+    "bath_soap": [],
+    "batter": [],
+    "bay_leaf": [],
+    "bay_leaves": [],
+    "bean_curd": [
+        [
+            "bass_fillet",
+            0.1241910137853951
+        ],
+        [
+            "barberries",
+            0.36767577929861395
+        ],
+        [
+            "arctic_char",
+            0.3899611157658407
+        ]
+    ],
+    "bean_dip": [],
+    "bean_mix": [],
+    "bean_paste": [
+        [
+            "nopales",
+            0.48702128836896996
+        ]
+    ],
+    "bean_sauce": [],
+    "bean_threads": [],
+    "beans": [],
+    "bearnaise_sauce": [
+        [
+            "treacle",
+            0.6603390723605738
+        ],
+        [
+            "kasuri_methi",
+            1.1626194072104563
+        ],
+        [
+            "almond_essence",
+            0.2714669358211127
+        ]
+    ],
+    "beau_monde_spice": [],
+    "bechamel_sauce": [],
+    "bee_pollen": [],
+    "beef": [
+        [
+            "perciatelli",
+            0.04476891580512821
+        ],
+        [
+            "coleslaw",
+            1.2087964098748376
+        ],
+        [
+            "chestnuts",
+            0.7785404459053258
+        ]
+    ],
+    "beer": [],
+    "beeswax": [],
+    "beet": [],
+    "beetroot": [],
+    "benedictine": [],
+    "berbere": [],
+    "berries": [
+        [
+            "almonds",
+            0.9523846741202129
+        ]
+    ],
+    "berry_blue_gelatin_mix": [],
+    "besan": [
+        [
+            "bourbon",
+            0.16353740319388554
+        ],
+        [
+            "cheesecake",
+            0.7420980503939063
+        ]
+    ],
+    "better_and_peanut_butter_spread": [],
+    "bicarbonate_of_soda": [],
+    "bird_chiles": [
+        [
+            "medium_sharp_cheddar",
+            0.9444666194306808
+        ]
+    ],
+    "bird_seed": [
+        [
+            "almond_essence",
+            0.2714669358211127
+        ]
+    ],
+    "birds_eye_chiles": [
+        [
+            "queso_blanco",
+            0.9058675808891785
+        ],
+        [
+            "plum",
+            0.9125192190889828
+        ],
+        [
+            "mesquite_powder",
+            0.5250455166612111
+        ]
+    ],
+    "biscotti": [
+        [
+            "ginger",
+            0.48198516920026946
+        ],
+        [
+            "milky_way_bar",
+            0.6208258521763099
+        ],
+        [
+            "sumaq",
+            0.045104235574049856
+        ]
+    ],
+    "biscuit": [],
+    "bisquick": [
+        [
+            "satay_sauce",
+            1.4201105924606252
+        ],
+        [
+            "linguine",
+            0.4675736665856517
+        ]
+    ],
+    "bisto": [
+        [
+            "hershey_chocolate_kiss",
+            0.9488872781106306
+        ],
+        [
+            "xanthan_gum",
+            1.144347780055959
+        ],
+        [
+            "ground_aniseed",
+            0.7547909819879896
+        ]
+    ],
+    "bite_-_size_fresh_mozzarella_cheese_balls": [
+        [
+            "scotch",
+            0.127066310744954
+        ],
+        [
+            "gherkin",
+            0.18840148536914525
+        ]
+    ],
+    "bitter_melons": [],
+    "bitters": [],
+    "black_cherry_jell_-_o": [],
+    "black_gram": [],
+    "black_olive_paste": [],
+    "black_sesame_seed": [],
+    "blackberries": [
+        [
+            "round_rice_paper_sheets",
+            0.893361881918768
+        ],
+        [
+            "refrigerated_breadstick_dough",
+            0.6619771596997097
+        ],
+        [
+            "portuguese_chourico",
+            0.6694152339586106
+        ]
+    ],
+    "blackberry": [],
+    "blanched_almond": [
+        [
+            "fiber_supplement",
+            1.164805249659522
+        ],
+        [
+            "peppercorn",
+            1.4753522896318578
+        ]
+    ],
+    "bleach": [
+        [
+            "breadfruit",
+            0.9480575581990485
+        ]
+    ],
+    "blintzes": [
+        [
+            "pita_breads",
+            0.750821041396575
+        ],
+        [
+            "advocaat",
+            0.5800540336104841
+        ]
+    ],
+    "bloody_mary_mix": [
+        [
+            "file_powder",
+            0.18894471911265853
+        ]
+    ],
+    "blueberries": [
+        [
+            "water",
+            1.3914796337342632
+        ],
+        [
+            "low_-_fat_granola",
+            1.020676719516195
+        ]
+    ],
+    "blueberry_muffin_mix": [
+        [
+            "kool_-_aid",
+            0.08101884639325396
+        ]
+    ],
+    "blueberry_sauce": [],
+    "bluefish": [],
+    "boar": [],
+    "boca_meatless_ground_burger": [
+        [
+            "sweetbreads",
+            0.6844161237603696
+        ],
+        [
+            "m_and_m'",
+            1.1591636491415223
+        ]
+    ],
+    "bocconcini": [],
+    "bok_choy": [],
+    "bologna": [],
+    "bolognese_sauce": [],
+    "boneless_beef_cube": [
+        [
+            "golden_raisin",
+            1.279686858261944
+        ],
+        [
+            "zinfandel",
+            0.6178976084093191
+        ],
+        [
+            "good_seasonings_italian_salad_dressing_mix",
+            0.27348724653742185
+        ]
+    ],
+    "boneless_duck_breast_halves": [
+        [
+            "bechamel_sauce",
+            0.30018931704066576
+        ],
+        [
+            "brownie",
+            1.0835192213250142
+        ]
+    ],
+    "boneless_skinless_chicken_breast_half": [
+        [
+            "green_tomatillo_sauce",
+            0.29918355183212997
+        ],
+        [
+            "soy_sauce",
+            0.5694786566210792
+        ],
+        [
+            "dog_food",
+            0.7634304032874746
+        ]
+    ],
+    "boneless_skinless_chicken_breast_halves": [
+        [
+            "radiatore",
+            0.17778136262954702
+        ]
+    ],
+    "bonito_flakes": [],
+    "borage": [
+        [
+            "sansho",
+            1.3911410987293664
+        ],
+        [
+            "cooking_spray",
+            0.7578204159552067
+        ]
+    ],
+    "borax": [
+        [
+            "burdock_root",
+            0.028026281381392404
+        ],
+        [
+            "vinaigrette",
+            0.18680925180638708
+        ],
+        [
+            "aioli",
+            0.7919253474955805
+        ]
+    ],
+    "boston_butt": [],
+    "bottarga": [],
+    "bouillon": [
+        [
+            "copha",
+            0.3452337427247997
+        ],
+        [
+            "pastry_for_single_-_crust_pie",
+            0.877582500103929
+        ]
+    ],
+    "boule": [],
+    "bouquet_garni": [],
+    "bourbon": [],
+    "boysenberries": [
+        [
+            "puff_pastry",
+            0.014258562880777648
+        ],
+        [
+            "au_jus_mix",
+            0.6200215567209179
+        ]
+    ],
+    "braggs_amino_acids": [],
+    "braggs_liquid_aminos": [],
+    "bran": [
+        [
+            "crabapples",
+            0.4325023958135257
+        ]
+    ],
+    "brandy": [
+        [
+            "mache",
+            0.2641734849287003
+        ],
+        [
+            "gooseberries",
+            0.577841883434004
+        ]
+    ],
+    "bratwurst": [
+        [
+            "sierra_mist",
+            0.7603980266126241
+        ]
+    ],
+    "bread": [],
+    "breadcrumbs": [],
+    "breadfruit": [],
+    "breading": [
+        [
+            "beer",
+            0.05213633919285221
+        ]
+    ],
+    "breadstick": [
+        [
+            "robin_hood_nutri_flour_blend",
+            0.09122572139885388
+        ],
+        [
+            "frozen_pina_colada_mix",
+            0.38562520138397927
+        ]
+    ],
+    "bream": [
+        [
+            "hatch_chiles",
+            1.3136319321389252
+        ],
+        [
+            "queso_blanco",
+            0.9058675808891785
+        ]
+    ],
+    "bresaola": [
+        [
+            "soy_crumbles",
+            1.397015512106907
+        ],
+        [
+            "frosting",
+            0.30851712467002324
+        ],
+        [
+            "dried_banana_pieces",
+            0.4259641530504398
+        ]
+    ],
+    "brie_round": [],
+    "brine": [],
+    "brinjal": [],
+    "briskets": [],
+    "broccoli": [],
+    "broccolini": [],
+    "broiler": [],
+    "broth": [
+        [
+            "nestle_toll_house_butterscotch_flavored_morsels",
+            0.7683896442058371
+        ]
+    ],
+    "brown_and_wild_rice_mix": [],
+    "brown_paper_bag": [],
+    "brown_sauce": [
+        [
+            "lard",
+            0.6908868513774538
+        ]
+    ],
+    "brownie": [],
+    "browning_sauce": [],
+    "brussels_sprout": [],
+    "buckwheat_groats": [],
+    "buffalo": [
+        [
+            "vegemite",
+            0.7225459839139277
+        ],
+        [
+            "croissant",
+            0.8980079213873988
+        ],
+        [
+            "wood_chunks",
+            1.0999542022920292
+        ]
+    ],
+    "bugles_original_flavor_snacks": [],
+    "bulgur": [
+        [
+            "pawpaw",
+            1.0294910115710763
+        ],
+        [
+            "romanesco",
+            0.42305624939629904
+        ],
+        [
+            "fondant",
+            0.6011060573517171
+        ]
+    ],
+    "bun": [],
+    "burdock_root": [],
+    "burritos": [],
+    "butter": [],
+    "butterfinger_bar": [
+        [
+            "peeps",
+            0.8381297432105199
+        ],
+        [
+            "wrap",
+            1.1987115958800474
+        ]
+    ],
+    "butterfish": [],
+    "buttermilk": [],
+    "butterscotch_topping": [
+        [
+            "gelato",
+            0.4923791254302775
+        ]
+    ],
+    "cabbage": [],
+    "cacao": [],
+    "cachaca": [],
+    "caciocavallo": [],
+    "cactus_pieces": [],
+    "cake": [],
+    "calamari": [],
+    "calendula_flowers": [],
+    "callaloo": [
+        [
+            "macadamias",
+            0.4287619219437657
+        ]
+    ],
+    "calvados": [],
+    "campari": [],
+    "canadian_rye_whisky": [
+        [
+            "crushed_red_chile_flakes",
+            0.24079711438413365
+        ]
+    ],
+    "candied_citron_peel": [],
+    "candied_peel": [
+        [
+            "escargot",
+            0.5245978948804617
+        ],
+        [
+            "alcaparrado",
+            0.5683060501391747
+        ],
+        [
+            "kim_chee",
+            0.2848702081288921
+        ]
+    ],
+    "candies": [
+        [
+            "bok_choy",
+            0.18164021647798778
+        ],
+        [
+            "mixed_cheeses",
+            1.08171540237234
+        ],
+        [
+            "brine",
+            0.8649817885471703
+        ]
+    ],
+    "candlenuts": [
+        [
+            "tiger_sauce",
+            0.2021189711861502
+        ],
+        [
+            "whole_almond",
+            0.11238298241073363
+        ],
+        [
+            "mesquite_powder",
+            0.5250455166612111
+        ]
+    ],
+    "candy": [],
+    "canela": [
+        [
+            "lemonade",
+            1.4477318870786835
+        ],
+        [
+            "hyssop",
+            0.4957317128913674
+        ],
+        [
+            "miracle_whip",
+            0.5739520867405117
+        ]
+    ],
+    "canned_diced_green_chiles": [
+        [
+            "turnip",
+            0.30899951793866887
+        ],
+        [
+            "burdock_root",
+            0.028026281381392404
+        ]
+    ],
+    "canned_jalapeno_slices": [
+        [
+            "horseradish",
+            0.6458056962799099
+        ],
+        [
+            "gin",
+            0.7343196020601253
+        ],
+        [
+            "huitlacoche",
+            1.427308603222132
+        ]
+    ],
+    "canned_peach_halves": [],
+    "cannellini": [],
+    "cannelloni_tubes": [],
+    "cannoli_shells": [],
+    "cantaloupe": [
+        [
+            "kool_-_aid",
+            0.08101884639325396
+        ],
+        [
+            "verjus",
+            0.4689925250837059
+        ]
+    ],
+    "capellini": [],
+    "caperberries": [],
+    "capers": [],
+    "capicola": [],
+    "capon": [],
+    "caponata": [],
+    "capsicum": [],
+    "carambola": [
+        [
+            "raspberries",
+            1.0793695581639078
+        ],
+        [
+            "pepperidge_farm_stuffing",
+            1.2882232273543315
+        ]
+    ],
+    "caramel": [],
+    "caraway_seed": [],
+    "carbonated_beverage": [
+        [
+            "whiskey",
+            0.8094064052757931
+        ],
+        [
+            "xylitol_sweetener",
+            0.30125602210243807
+        ],
+        [
+            "yogurt",
+            1.4579975259015545
+        ]
+    ],
+    "carbonated_lemon_-_lime_beverage": [],
+    "cardamom": [],
+    "cardoon": [],
+    "caribou": [],
+    "carnitas": [
+        [
+            "spam",
+            0.4499653551842733
+        ]
+    ],
+    "carob_powder": [
+        [
+            "sparerib_rack",
+            0.05724972651880256
+        ],
+        [
+            "fettuccine",
+            0.22563138230926993
+        ]
+    ],
+    "carp": [],
+    "carrot": [],
+    "cashew_halves": [
+        [
+            "chipotle_chiles",
+            0.8146881750233452
+        ],
+        [
+            "lychee",
+            0.9083048054010054
+        ],
+        [
+            "fiber_supplement",
+            1.164805249659522
+        ]
+    ],
+    "cashew_pieces": [],
+    "cashews": [
+        [
+            "peppercorn",
+            1.4753522896318578
+        ]
+    ],
+    "casing": [],
+    "cassava": [
+        [
+            "berry_blue_gelatin_mix",
+            0.004471073000815062
+        ],
+        [
+            "caribou",
+            0.7991736906141826
+        ],
+        [
+            "sourdough_loaf",
+            1.1331474863156838
+        ]
+    ],
+    "cassia": [
+        [
+            "burritos",
+            1.0277406194758671
+        ]
+    ],
+    "caster": [],
+    "catalina_dressing": [],
+    "catfish": [],
+    "catsup": [],
+    "cauliflower": [],
+    "cavatelli": [],
+    "caviar": [],
+    "cavolo_nero": [],
+    "cayenne": [],
+    "cedar_plank": [
+        [
+            "morningstar_farms_meal_starters_grillers_recipe_crumbles",
+            0.28743283029161926
+        ],
+        [
+            "pastry_for_a_double_-_crust__-_inch_pie",
+            0.04525353373768126
+        ]
+    ],
+    "celeriac": [],
+    "celery": [
+        [
+            "dumplings",
+            0.5208312175402326
+        ]
+    ],
+    "center_-_cut_pork_loin_chop": [
+        [
+            "tart_shell",
+            0.019069851520414405
+        ]
+    ],
+    "cereal": [],
+    "certo": [],
+    "chablis": [],
+    "chai_concentrate": [
+        [
+            "cupcake",
+            1.1370525203416366
+        ]
+    ],
+    "challah": [
+        [
+            "crostini",
+            0.0815250059345638
+        ],
+        [
+            "english_toffee",
+            0.04313377514591399
+        ],
+        [
+            "kielbasa",
+            1.3867230322607784
+        ]
+    ],
+    "chamomile_flowers": [],
+    "champagne": [],
+    "chapati": [],
+    "char_siu_sauce": [],
+    "charcoal": [
+        [
+            "pickled_daikon",
+            0.6593637772462377
+        ],
+        [
+            "bath_soap",
+            0.7840328776596153
+        ],
+        [
+            "sundae_sauce",
+            1.1900374191321887
+        ]
+    ],
+    "chard_leaves": [],
+    "chayote": [],
+    "cheese": [],
+    "cheesecake": [],
+    "cheesecloth": [],
+    "cheez_whiz": [],
+    "cherries": [],
+    "cherry_drink_mix": [],
+    "cherry_heering": [],
+    "cherry_jell_-_o": [],
+    "cherry_kool_-_aid": [],
+    "cherry_soda": [],
+    "chervil": [],
+    "chestnuts": [],
+    "chicken": [],
+    "chickpeas": [
+        [
+            "edible_orchid",
+            0.004720778175110407
+        ],
+        [
+            "zatarain's",
+            0.21876438944868448
+        ],
+        [
+            "croissant",
+            0.8980079213873988
+        ]
+    ],
+    "chile": [],
+    "chiles_de_arbol": [],
+    "chili": [],
+    "chimichurri_sauce": [],
+    "chinese_duck_sauce": [
+        [
+            "marsala",
+            0.48257418495690807
+        ],
+        [
+            "kim_chee",
+            0.2848702081288921
+        ],
+        [
+            "-_up",
+            0.9073683287058102
+        ]
+    ],
+    "chinese_five_spice_powder": [
+        [
+            "miniature_party_rye_rounds",
+            0.26353057377660694
+        ],
+        [
+            "kelp",
+            1.4874191043102023
+        ]
+    ],
+    "chipotle_chiles": [],
+    "chipotle_paste": [
+        [
+            "bourbon",
+            0.16353740319388554
+        ]
+    ],
+    "chips": [],
+    "chive_blossoms": [],
+    "chives": [
+        [
+            "beans",
+            1.3483952272559747
+        ],
+        [
+            "veal",
+            0.4901662927688888
+        ]
+    ],
+    "chocolate": [
+        [
+            "oregano",
+            1.310498513662537
+        ],
+        [
+            "sumac",
+            0.7536907439211022
+        ],
+        [
+            "savory",
+            0.4905190094128542
+        ]
+    ],
+    "choy_sum": [
+        [
+            "chestnuts",
+            0.7785404459053258
+        ]
+    ],
+    "chuck": [],
+    "chutney": [],
+    "ciabatta": [],
+    "cider": [],
+    "cilantro": [],
+    "cinnamon": [],
+    "citric_acid": [],
+    "citron": [
+        [
+            "tamale",
+            0.3421407587648857
+        ]
+    ],
+    "citrus_fruits": [],
+    "citrus_peel": [
+        [
+            "syrup",
+            1.4519518948471821
+        ]
+    ],
+    "citrus_zest": [],
+    "clam": [
+        [
+            "spam",
+            0.4499653551842733
+        ]
+    ],
+    "clay": [],
+    "clear_jel": [
+        [
+            "beans",
+            1.3483952272559747
+        ]
+    ],
+    "clementine": [],
+    "cling_peach_halves": [],
+    "cloth": [
+        [
+            "weet_-_bix",
+            0.8569181348531548
+        ],
+        [
+            "green_sprinkles",
+            1.031327975008285
+        ]
+    ],
+    "clove": [],
+    "club_soda": [],
+    "coating_mix": [
+        [
+            "bourbon",
+            0.16353740319388554
+        ]
+    ],
+    "cockles": [
+        [
+            "cracklings",
+            0.5794934352195878
+        ]
+    ],
+    "coco_lopez": [],
+    "cocoa": [],
+    "coconut": [
+        [
+            "abalone",
+            1.3270469823260815
+        ]
+    ],
+    "cod": [],
+    "coffee": [],
+    "cognac": [],
+    "coke": [
+        [
+            "paprika",
+            1.1502809074446696
+        ]
+    ],
+    "cola": [
+        [
+            "vinegar",
+            0.08683144376677965
+        ]
+    ],
+    "colby": [
+        [
+            "nuts",
+            0.880872320618995
+        ],
+        [
+            "pie_pastry",
+            0.17166881328590855
+        ],
+        [
+            "mustard",
+            0.22036227475031134
+        ]
+    ],
+    "cold_cuts": [
+        [
+            "sourdough_loaf",
+            1.1331474863156838
+        ],
+        [
+            "strawberries",
+            1.4656773586970526
+        ],
+        [
+            "dried_funghi_porcini",
+            1.4207996907051506
+        ]
+    ],
+    "coleslaw": [],
+    "colored_sprinkles": [],
+    "colored_sugar_sprinkle": [],
+    "conch": [],
+    "conchiglie": [],
+    "condiments": [],
+    "consomme": [],
+    "cookie": [],
+    "cooking_sauce": [],
+    "cooking_sherry": [],
+    "cooking_spray": [],
+    "cool_whip": [
+        [
+            "cinnamon",
+            0.4976106123752504
+        ],
+        [
+            "sumac",
+            0.7536907439211022
+        ],
+        [
+            "jagermeister",
+            0.4612124112173769
+        ]
+    ],
+    "copha": [],
+    "coriander": [
+        [
+            "cherry_kool_-_aid",
+            0.13579627976503184
+        ],
+        [
+            "romanesco",
+            0.42305624939629904
+        ]
+    ],
+    "corn": [],
+    "cornbread": [
+        [
+            "blackberry",
+            0.4373113967010318
+        ],
+        [
+            "stir_-_fry_sauce",
+            0.4429456793479247
+        ],
+        [
+            "cactus_pieces",
+            0.6161751406855036
+        ]
+    ],
+    "cornflour": [
+        [
+            "parsley",
+            1.274009814323434
+        ],
+        [
+            "sour_mix",
+            0.7413338866708425
+        ]
+    ],
+    "cornichon": [],
+    "cornish_hens": [],
+    "cornmeal": [],
+    "cornstarch": [],
+    "courgette": [],
+    "couscous": [
+        [
+            "beer",
+            0.05213633919285221
+        ]
+    ],
+    "crab": [],
+    "crabapples": [],
+    "crabmeat": [
+        [
+            "rutabaga",
+            0.09131537846205151
+        ],
+        [
+            "pinecones",
+            0.21288290757329942
+        ],
+        [
+            "foie_gras",
+            0.11997043383929151
+        ]
+    ],
+    "crabstick": [
+        [
+            "yuzu",
+            0.9294985146720673
+        ],
+        [
+            "better_and_peanut_butter_spread",
+            1.2550700025259915
+        ],
+        [
+            "fresh_lime_leaves",
+            0.14300800511630918
+        ]
+    ],
+    "cracked_farro": [
+        [
+            "radiatore",
+            0.17778136262954702
+        ]
+    ],
+    "cracker": [],
+    "cracklings": [],
+    "craisins": [],
+    "cranberries": [],
+    "cranberry_sauce": [],
+    "crawfish": [
+        [
+            "kitchen_twine",
+            1.183378475778892
+        ]
+    ],
+    "crayfish": [],
+    "cream": [
+        [
+            "caraway_seed",
+            1.232273040341008
+        ],
+        [
+            "citrus_zest",
+            0.34443382757651997
+        ],
+        [
+            "tabasco_sauce",
+            1.2891592954013538
+        ]
+    ],
+    "crema": [],
+    "creme_anglaise": [],
+    "creme_de_banane": [
+        [
+            "nam_pla",
+            0.6864082390715347
+        ]
+    ],
+    "creme_de_cassis": [
+        [
+            "gooseberries",
+            0.577841883434004
+        ],
+        [
+            "potato",
+            0.48875867539263407
+        ]
+    ],
+    "creme_de_menthe": [],
+    "creme_de_noyaux": [
+        [
+            "maca",
+            0.049824013159156855
+        ],
+        [
+            "apple",
+            0.643185596731056
+        ],
+        [
+            "paraffin_wax",
+            0.6605223941930434
+        ]
+    ],
+    "creme_fraiche": [
+        [
+            "dumplings",
+            0.5208312175402326
+        ],
+        [
+            "ground_fenugreek",
+            0.9766732260882542
+        ],
+        [
+            "sansho",
+            1.3911410987293664
+        ]
+    ],
+    "crepe": [],
+    "crisco": [],
+    "crispbread": [],
+    "croissant": [],
+    "cross_-_rib_roasts": [
+        [
+            "gumdrop",
+            0.8996764846649574
+        ],
+        [
+            "caribou",
+            0.7991736906141826
+        ]
+    ],
+    "crostini": [],
+    "crouton": [],
+    "crumb_topping": [],
+    "crumpets": [],
+    "crushed_red_chile_flakes": [],
+    "cucumber": [],
+    "culantro": [
+        [
+            "chapati",
+            0.06257054175586307
+        ]
+    ],
+    "cumin": [],
+    "cupcake": [],
+    "curacao": [],
+    "curds": [],
+    "currants": [],
+    "curry": [
+        [
+            "sake",
+            1.4310831938973614
+        ]
+    ],
+    "custard": [],
+    "cuttlefish": [],
+    "dairy_creamer": [],
+    "dal": [],
+    "dandelion_flowers": [],
+    "dashi": [],
+    "dashida": [],
+    "dates": [
+        [
+            "cheesecloth",
+            1.0935846741618378
+        ],
+        [
+            "elderberries",
+            0.8919324204423444
+        ],
+        [
+            "sweetbreads",
+            0.6844161237603696
+        ]
+    ],
+    "decorating_gel": [],
+    "deer": [
+        [
+            "empanada_wrappers",
+            0.8219549753992579
+        ]
+    ],
+    "demi_-_glace": [],
+    "dessert_topping": [],
+    "dhaniya_powder": [],
+    "diced_green_chilis": [],
+    "diced_pimento": [],
+    "diet_soda": [],
+    "dill": [
+        [
+            "chapati",
+            0.06257054175586307
+        ],
+        [
+            "thyme",
+            0.6262326802270521
+        ],
+        [
+            "liquid",
+            0.2719583593947441
+        ]
+    ],
+    "dip_mix": [],
+    "dippers": [],
+    "dipping_sauce": [
+        [
+            "raw_cacao_powder",
+            0.6903658315485801
+        ],
+        [
+            "ladyfinger",
+            0.16087119289331653
+        ],
+        [
+            "medium_sherry",
+            0.11311775039958072
+        ]
+    ],
+    "dish_detergent": [],
+    "ditalini": [],
+    "dog_food": [],
+    "doritos": [],
+    "double_crust": [],
+    "dough_enhancer": [
+        [
+            "ciabatta",
+            0.6849686357125858
+        ]
+    ],
+    "doughnut": [
+        [
+            "pea_shoots",
+            0.7172645784611749
+        ]
+    ],
+    "dove": [],
+    "dragees": [
+        [
+            "wafers",
+            0.6048096880416411
+        ],
+        [
+            "calendula_flowers",
+            0.21431067266930448
+        ]
+    ],
+    "drambuie": [
+        [
+            "low_calorie_raspberry_drink_mix",
+            1.2984850390111458
+        ],
+        [
+            "sumaq",
+            0.045104235574049856
+        ],
+        [
+            "tamale",
+            0.3421407587648857
+        ]
+    ],
+    "dream_whip": [],
+    "dried_ancho_chiles": [],
+    "dried_banana_pieces": [],
+    "dried_black_fungus": [],
+    "dried_celery_flakes": [
+        [
+            "dulce_de_leche",
+            0.09088742177309217
+        ]
+    ],
+    "dried_chamomile": [
+        [
+            "long_grain_and_wild_rice_blend",
+            0.4804814932635022
+        ],
+        [
+            "scotch",
+            0.127066310744954
+        ]
+    ],
+    "dried_chipotle_powder": [],
+    "dried_fruits": [],
+    "dried_funghi_porcini": [],
+    "dried_hibiscus_flowers": [],
+    "dried_hot_red_chiles": [],
+    "dried_italian_salad_dressing_mix": [
+        [
+            "asafoetida_powder",
+            0.835057949517175
+        ],
+        [
+            "long_grain_and_wild_rice_blend",
+            0.4804814932635022
+        ],
+        [
+            "five_-_spice_powder",
+            0.32607381240040056
+        ]
+    ],
+    "dried_kasha": [],
+    "dried_lemon_grass": [
+        [
+            "tempeh",
+            0.4882756487541824
+        ],
+        [
+            "-_up",
+            0.9073683287058102
+        ],
+        [
+            "lotion",
+            0.5277176788166784
+        ]
+    ],
+    "dried_lily_buds": [],
+    "dried_new_mexico_chiles": [],
+    "dried_pasta_shapes": [],
+    "dried_tamarind": [],
+    "dried_vegetable_flakes": [
+        [
+            "guava",
+            0.18794031176184434
+        ]
+    ],
+    "dripping": [],
+    "dry_coconut_powder": [],
+    "dry_enchilada_mix": [
+        [
+            "amchur",
+            1.0732140186906531
+        ]
+    ],
+    "dry_ranch_dressing_mix": [],
+    "dry_rub_seasonings": [],
+    "dry_sherry": [],
+    "dry_sweetener": [
+        [
+            "pizza_sauce",
+            1.301095848523227
+        ],
+        [
+            "gherkin",
+            0.18840148536914525
+        ]
+    ],
+    "duck": [
+        [
+            "pompano",
+            0.09371307971388754
+        ],
+        [
+            "stir_-_fry_sauce",
+            0.4429456793479247
+        ],
+        [
+            "salt",
+            1.33878636011716
+        ]
+    ],
+    "duckling": [
+        [
+            "gumdrop",
+            0.8996764846649574
+        ],
+        [
+            "dried_chipotle_powder",
+            0.9931713926213007
+        ],
+        [
+            "asafoetida_powder",
+            0.835057949517175
+        ]
+    ],
+    "dukkah": [
+        [
+            "ginger",
+            0.48198516920026946
+        ],
+        [
+            "tart_shell",
+            0.019069851520414405
+        ],
+        [
+            "sierra_mist",
+            0.7603980266126241
+        ]
+    ],
+    "dulce_de_leche": [],
+    "dulse_flakes": [
+        [
+            "molasses",
+            0.22309064719316596
+        ],
+        [
+            "soybeans",
+            0.6833501575068999
+        ],
+        [
+            "turmeric",
+            0.8572554502830075
+        ]
+    ],
+    "dumpling_wrappers": [
+        [
+            "jamaican_jerk_spice",
+            0.8230182855531625
+        ],
+        [
+            "syrup",
+            1.4519518948471821
+        ]
+    ],
+    "dumplings": [],
+    "durkee's_sauce": [],
+    "earth_balance_natural_buttery_spread": [],
+    "eau_de_vie": [],
+    "edamame": [
+        [
+            "molasses",
+            0.22309064719316596
+        ]
+    ],
+    "edible_orchid": [],
+    "edible_silver_foil": [
+        [
+            "chestnuts",
+            0.7785404459053258
+        ],
+        [
+            "sherbet",
+            0.4056805886413122
+        ]
+    ],
+    "eel": [
+        [
+            "chablis",
+            0.13335392994397233
+        ]
+    ],
+    "egg": [
+        [
+            "foil_liners",
+            1.3952625635359295
+        ],
+        [
+            "chipotle_chiles",
+            0.8146881750233452
+        ]
+    ],
+    "eggnog": [],
+    "eggplant": [],
+    "elderberries": [],
+    "elderflower_cordial": [],
+    "emeril's_original_essence": [
+        [
+            "thyme",
+            0.6262326802270521
+        ],
+        [
+            "ground_fenugreek",
+            0.9766732260882542
+        ],
+        [
+            "robin_hood_nutri_flour_blend",
+            0.09122572139885388
+        ]
+    ],
+    "empanada_wrappers": [],
+    "enchilada_sauce": [],
+    "endive": [],
+    "energy_drink": [],
+    "english_pea": [
+        [
+            "lychee",
+            0.9083048054010054
+        ]
+    ],
+    "english_toffee": [],
+    "epazote": [],
+    "epsom_salts": [],
+    "erythritol": [
+        [
+            "pastry_for_a_double_-_crust__-_inch_pie",
+            0.04525353373768126
+        ],
+        [
+            "dried_banana_pieces",
+            0.4259641530504398
+        ]
+    ],
+    "escargot": [],
+    "escarole": [],
+    "espresso": [
+        [
+            "beer",
+            0.05213633919285221
+        ],
+        [
+            "pot_stickers",
+            0.5170610211441458
+        ]
+    ],
+    "essential_oils": [],
+    "extra_-_light_vegetable_oil_spread": [],
+    "extract": [],
+    "falafel": [],
+    "farfel": [],
+    "farina": [],
+    "fat": [],
+    "fennel": [],
+    "fenugreek_leaves": [],
+    "fernet_branca": [
+        [
+            "lemonade",
+            1.4477318870786835
+        ],
+        [
+            "tahini",
+            0.33230155404161943
+        ]
+    ],
+    "feta": [],
+    "fettuccine": [],
+    "fiber_supplement": [],
+    "fiddlehead": [],
+    "fideos": [],
+    "fig": [],
+    "filberts": [
+        [
+            "pinecones",
+            0.21288290757329942
+        ],
+        [
+            "edible_orchid",
+            0.004720778175110407
+        ]
+    ],
+    "file_powder": [],
+    "filet_mignon": [],
+    "fillets": [],
+    "fines_herbes": [],
+    "finnan_haddie": [],
+    "fish": [],
+    "five_-_spice_powder": [],
+    "flavor_enhancer": [
+        [
+            "candied_citron_peel",
+            0.4961023771169739
+        ],
+        [
+            "lychee",
+            0.9083048054010054
+        ],
+        [
+            "pudding",
+            0.41900078367914306
+        ]
+    ],
+    "flavoring": [],
+    "fleur_de_sel": [],
+    "flounder": [],
+    "flour": [],
+    "foam": [],
+    "foie_gras": [],
+    "foil_liners": [],
+    "fondant": [],
+    "fontina": [
+        [
+            "dish_detergent",
+            1.080583875275996
+        ],
+        [
+            "leek",
+            0.3043321372347014
+        ],
+        [
+            "frozen_non_-_dairy_topping",
+            1.3788632219285373
+        ]
+    ],
+    "food_coloring": [
+        [
+            "lotion",
+            0.5277176788166784
+        ]
+    ],
+    "fowl": [
+        [
+            "zatarain's",
+            0.21876438944868448
+        ],
+        [
+            "cornstarch",
+            0.9692589998405251
+        ]
+    ],
+    "frangelico": [
+        [
+            "picante_sauce",
+            0.9250994130048471
+        ]
+    ],
+    "frank": [],
+    "frankfurter": [],
+    "freekeh": [],
+    "french_dressing": [
+        [
+            "trail_mix",
+            0.293335972938337
+        ]
+    ],
+    "french_fries": [],
+    "french_haricots_vert": [
+        [
+            "tamale",
+            0.3421407587648857
+        ],
+        [
+            "your_favorite_sauce",
+            0.18853849009787504
+        ],
+        [
+            "apple",
+            0.643185596731056
+        ]
+    ],
+    "french_style_green_bean": [],
+    "fresca_soda": [],
+    "fresh_edible_flower": [
+        [
+            "extract",
+            1.273810054739818
+        ]
+    ],
+    "fresh_galangal_root": [],
+    "fresh_herb": [],
+    "fresh_lime_leaves": [],
+    "fresh_lotus_root": [],
+    "fresh_mozzarella_ball": [
+        [
+            "fiber_supplement",
+            1.164805249659522
+        ],
+        [
+            "fresh_lime_leaves",
+            0.14300800511630918
+        ],
+        [
+            "lingonberries",
+            1.3664633098869028
+        ]
+    ],
+    "fresh_raspberry": [],
+    "fresh_ricotta": [],
+    "fried_corn_tortilla_strips": [],
+    "frisee": [],
+    "frito_scoops": [
+        [
+            "cardoon",
+            0.883010375568122
+        ]
+    ],
+    "frog's_leg": [],
+    "fromage_blanc": [
+        [
+            "alcohol",
+            0.6989440576593058
+        ],
+        [
+            "kefir",
+            1.4557928160123896
+        ]
+    ],
+    "fromage_frais": [],
+    "frosted_flakes": [
+        [
+            "carp",
+            0.3412871445522987
+        ],
+        [
+            "epazote",
+            0.18925033105246636
+        ],
+        [
+            "fresh_lime_leaves",
+            0.14300800511630918
+        ]
+    ],
+    "frosting": [],
+    "frozen_limeade_concentrate": [
+        [
+            "recipe_cream_filling",
+            0.6298231446781624
+        ],
+        [
+            "green_grape",
+            1.4078193510162578
+        ]
+    ],
+    "frozen_mango_chunks": [],
+    "frozen_non_-_dairy_topping": [],
+    "frozen_petits_pois": [],
+    "frozen_pina_colada_mix": [],
+    "frozen_potato_slices": [
+        [
+            "alcohol",
+            0.6989440576593058
+        ]
+    ],
+    "frozen_strawberry_daiquiri_concentrate": [
+        [
+            "pastry_for_single_-_crust_pie",
+            0.877582500103929
+        ],
+        [
+            "venison",
+            1.243609474653307
+        ]
+    ],
+    "fructose": [
+        [
+            "ginger",
+            0.48198516920026946
+        ],
+        [
+            "pickled_daikon",
+            0.6593637772462377
+        ]
+    ],
+    "fruit": [],
+    "fruitcake": [],
+    "fryer": [],
+    "fudge": [
+        [
+            "wrap",
+            1.1987115958800474
+        ],
+        [
+            "sweet_red_pepper_strips",
+            0.32690134840725316
+        ]
+    ],
+    "fusilli": [],
+    "gai_lan": [],
+    "galangal": [
+        [
+            "puff_pastry",
+            0.014258562880777648
+        ]
+    ],
+    "galliano": [],
+    "ganache": [],
+    "garlic": [
+        [
+            "cranberries",
+            1.1793383605390122
+        ]
+    ],
+    "gelatin": [
+        [
+            "lemonade",
+            1.4477318870786835
+        ]
+    ],
+    "gelato": [],
+    "geranium_leaves": [
+        [
+            "sierra_mist",
+            0.7603980266126241
+        ],
+        [
+            "raspberries",
+            1.0793695581639078
+        ],
+        [
+            "texas_pete",
+            0.9337562971862535
+        ]
+    ],
+    "ghee": [],
+    "gherkin": [],
+    "giardiniera": [
+        [
+            "herring_in_wine_sauce",
+            0.017429020717821708
+        ]
+    ],
+    "gin": [],
+    "ginger": [],
+    "gingerbread": [
+        [
+            "guar_gum",
+            0.5914959058234801
+        ],
+        [
+            "kim_chee",
+            0.2848702081288921
+        ]
+    ],
+    "gingerroot": [],
+    "gingersnap_crumbs": [],
+    "gingersnaps": [
+        [
+            "dove",
+            1.002204635928266
+        ],
+        [
+            "tempeh",
+            0.4882756487541824
+        ],
+        [
+            "recaito",
+            1.2780272917843005
+        ]
+    ],
+    "glaze": [],
+    "glitter": [],
+    "glue": [
+        [
+            "dandelion_flowers",
+            0.17492623938808682
+        ]
+    ],
+    "gluten": [],
+    "glycerin": [
+        [
+            "kool_-_aid",
+            0.08101884639325396
+        ],
+        [
+            "maca",
+            0.049824013159156855
+        ]
+    ],
+    "glycerine": [],
+    "gnocchi": [],
+    "gochujang": [],
+    "gold_leaf_foil": [],
+    "golden_raisin": [],
+    "goldschlager": [
+        [
+            "tiger_sauce",
+            0.2021189711861502
+        ]
+    ],
+    "gomashio": [
+        [
+            "pastry_for_double_-_crust_pie",
+            0.5021906027130068
+        ],
+        [
+            "round_rice_paper_sheets",
+            0.893361881918768
+        ]
+    ],
+    "good_seasonings_italian_salad_dressing_mix": [],
+    "goose": [],
+    "gooseberries": [],
+    "gorgonzola": [],
+    "gourd": [
+        [
+            "soy_chorizo",
+            0.615174514932584
+        ],
+        [
+            "smart_balance_butter_spread",
+            0.7213489895105905
+        ],
+        [
+            "spirulina",
+            0.520157627440633
+        ]
+    ],
+    "graham_wafer_crumbs": [
+        [
+            "chipotle_chiles",
+            0.8146881750233452
+        ],
+        [
+            "kool_-_aid",
+            0.08101884639325396
+        ],
+        [
+            "texas_pete",
+            0.9337562971862535
+        ]
+    ],
+    "grain": [],
+    "grains_of_paradise": [],
+    "grana_padano": [
+        [
+            "okara",
+            0.2948827239659151
+        ],
+        [
+            "yoshida_gourmet_sauce",
+            0.14930501508479133
+        ],
+        [
+            "citric_acid",
+            0.7185707229221273
+        ]
+    ],
+    "grand_marnier": [],
+    "granola_bar": [],
+    "grape_jell_-_o": [],
+    "grape_leaves": [],
+    "grapefruit": [],
+    "grapes": [],
+    "grappa": [],
+    "gravlax": [],
+    "gravy": [
+        [
+            "ascorbic_acid",
+            1.3195482604707869
+        ]
+    ],
+    "great_northern_bean": [],
+    "greek_dressing": [
+        [
+            "nopales",
+            0.48702128836896996
+        ]
+    ],
+    "green_creme_de_menthe": [],
+    "green_gram": [
+        [
+            "brownie",
+            1.0835192213250142
+        ],
+        [
+            "mango",
+            1.0893231487680834
+        ]
+    ],
+    "green_grape": [],
+    "green_salad": [],
+    "green_sprinkles": [],
+    "green_tomatillo_sauce": [],
+    "greens": [],
+    "gremolata": [],
+    "grenadine": [],
+    "grey_poupon": [],
+    "grits": [],
+    "ground_aniseed": [],
+    "ground_annatto_seed": [],
+    "ground_caraway": [],
+    "ground_elk": [
+        [
+            "spices",
+            0.39425211784233216
+        ]
+    ],
+    "ground_fenugreek": [],
+    "ground_round": [],
+    "grouper": [],
+    "gruyere": [
+        [
+            "cacao",
+            1.0373795212854517
+        ],
+        [
+            "baby_food",
+            0.9036324937502005
+        ],
+        [
+            "caciocavallo",
+            0.1163844879179502
+        ]
+    ],
+    "guacamole": [],
+    "guar_gum": [],
+    "guava": [],
+    "guinness_draught": [],
+    "guinness_stout": [],
+    "gumbo_file": [
+        [
+            "grains_of_paradise",
+            0.29648187274908966
+        ],
+        [
+            "gin",
+            0.7343196020601253
+        ]
+    ],
+    "gumdrop": [],
+    "gummy_worms": [],
+    "gyoza_skins": [
+        [
+            "weetabix",
+            0.543888664075864
+        ],
+        [
+            "abalone",
+            1.3270469823260815
+        ],
+        [
+            "tang_orange_crystals",
+            0.6695353519600997
+        ]
+    ],
+    "habanero": [
+        [
+            "parsley",
+            1.274009814323434
+        ]
+    ],
+    "haddock": [],
+    "hake": [],
+    "half_-_and_-_half": [],
+    "halibut": [],
+    "ham": [
+        [
+            "cracklings",
+            0.5794934352195878
+        ],
+        [
+            "briskets",
+            0.3665207606534029
+        ],
+        [
+            "cactus_pieces",
+            0.6161751406855036
+        ]
+    ],
+    "hamburger": [],
+    "harissa": [],
+    "hash_brown": [],
+    "hass_avocadoes": [],
+    "hatch_chiles": [],
+    "hawaiian_punch_drink": [],
+    "hazelnuts": [
+        [
+            "crostini",
+            0.0815250059345638
+        ]
+    ],
+    "hearts_of_palm": [],
+    "hen": [
+        [
+            "pastry_for_double_-_crust_pie",
+            0.5021906027130068
+        ],
+        [
+            "amaranth",
+            0.09124352492984988
+        ],
+        [
+            "chard_leaves",
+            0.32742908521588165
+        ]
+    ],
+    "herbes_de_provence": [],
+    "herbs": [],
+    "herbsaint": [
+        [
+            "wattleseed",
+            0.49934560035641096
+        ],
+        [
+            "syrup",
+            1.4519518948471821
+        ],
+        [
+            "fettuccine",
+            0.22563138230926993
+        ]
+    ],
+    "herman_starter": [],
+    "herring_in_wine_sauce": [],
+    "hershey's_hugs_chocolates": [
+        [
+            "non_-_dairy_milk_substitute",
+            0.15994411234558736
+        ],
+        [
+            "sour_mix",
+            0.7413338866708425
+        ]
+    ],
+    "hershey_bar": [],
+    "hershey_chocolate_kiss": [],
+    "hidden_valley_original_ranch_dips_mix": [],
+    "hidden_valley_original_ranch_dressing_mix": [
+        [
+            "copha",
+            0.3452337427247997
+        ],
+        [
+            "cannellini",
+            0.9776679667588564
+        ],
+        [
+            "calvados",
+            1.212533667636876
+        ]
+    ],
+    "hidden_valley_ranch_dressing_mix": [],
+    "hing": [
+        [
+            "tiger_sauce",
+            0.2021189711861502
+        ]
+    ],
+    "hock": [
+        [
+            "fiber_supplement",
+            1.164805249659522
+        ],
+        [
+            "brinjal",
+            0.855550109609994
+        ],
+        [
+            "treacle",
+            0.6603390723605738
+        ]
+    ],
+    "hoisin_sauce": [
+        [
+            "amaranth",
+            0.09124352492984988
+        ],
+        [
+            "beer",
+            0.05213633919285221
+        ],
+        [
+            "cherry_soda",
+            0.267479891105328
+        ]
+    ],
+    "hollandaise_sauce": [],
+    "hominy": [
+        [
+            "quail",
+            0.834762515976162
+        ],
+        [
+            "blueberry_sauce",
+            1.1780250439632445
+        ]
+    ],
+    "honey": [
+        [
+            "barley",
+            0.8235465434229623
+        ]
+    ],
+    "honeydew": [],
+    "hop": [],
+    "horseradish": [],
+    "hostess_twinkie": [
+        [
+            "mars_bar",
+            0.3535834031601399
+        ],
+        [
+            "poblano_chiles",
+            1.108272039765395
+        ]
+    ],
+    "hot_chocolate_powder": [],
+    "hot_dog": [
+        [
+            "caster",
+            0.1315505231655525
+        ],
+        [
+            "yam",
+            0.6297265651653495
+        ]
+    ],
+    "hot_roll_mix": [
+        [
+            "robin_hood_nutri_flour_blend",
+            0.09122572139885388
+        ],
+        [
+            "candied_citron_peel",
+            0.4961023771169739
+        ]
+    ],
+    "hot_sauce": [],
+    "huckleberries": [],
+    "huitlacoche": [],
+    "hummus": [
+        [
+            "candy",
+            0.7173189168151397
+        ]
+    ],
+    "hydrogen_peroxide": [],
+    "hyssop": [],
+    "i_can't_believe_it's_not_butter_fat_free": [
+        [
+            "salami",
+            0.46792023295434215
+        ],
+        [
+            "sparerib_rack",
+            0.05724972651880256
+        ]
+    ],
+    "ice": [],
+    "icing": [],
+    "imitation_maple_flavor": [
+        [
+            "cornichon",
+            0.7053654926805095
+        ]
+    ],
+    "ink": [],
+    "instant_cappuccino_mix": [],
+    "instant_chocolate_drink_mix": [],
+    "instant_oxo": [],
+    "instant_tang_orange_drink": [
+        [
+            "blackberry",
+            0.4373113967010318
+        ],
+        [
+            "roma",
+            0.8552990260645121
+        ]
+    ],
+    "instant_white_chocolate_pudding_and_pie_filling_mix": [
+        [
+            "butterfish",
+            1.1157845287062447
+        ],
+        [
+            "nestle_toll_house_premier_white_morsels",
+            0.8376902244368791
+        ]
+    ],
+    "italian_dressing": [],
+    "italian_salad_dressing_mix": [
+        [
+            "soy_sauce",
+            0.5694786566210792
+        ]
+    ],
+    "italian_salad_mix": [],
+    "italian_sauce": [],
+    "jackfruit": [],
+    "jagermeister": [],
+    "jaggery": [
+        [
+            "lard",
+            0.6908868513774538
+        ],
+        [
+            "linguine",
+            0.4675736665856517
+        ]
+    ],
+    "jalapeno": [
+        [
+            "beer",
+            0.05213633919285221
+        ],
+        [
+            "soy_protein",
+            0.6281734691836898
+        ],
+        [
+            "pumpkin",
+            0.6654910875572317
+        ]
+    ],
+    "jam": [
+        [
+            "satay_sauce",
+            1.4201105924606252
+        ],
+        [
+            "pectin",
+            0.7879277879795397
+        ],
+        [
+            "tempeh",
+            0.4882756487541824
+        ]
+    ],
+    "jamaican_jerk_spice": [],
+    "jamon_serrano": [],
+    "jar": [
+        [
+            "green_tomatillo_sauce",
+            0.29918355183212997
+        ],
+        [
+            "hydrogen_peroxide",
+            0.17879360486428486
+        ],
+        [
+            "spices",
+            0.39425211784233216
+        ]
+    ],
+    "jeera_powder": [
+        [
+            "ganache",
+            1.015831460054755
+        ],
+        [
+            "dripping",
+            0.7757404306751504
+        ]
+    ],
+    "jelly": [],
+    "jerk_sauce": [
+        [
+            "baking_powder",
+            0.32652187684070855
+        ],
+        [
+            "horseradish",
+            0.6458056962799099
+        ],
+        [
+            "salsa",
+            1.1136723875160237
+        ]
+    ],
+    "jicama": [],
+    "jiffy_corn_muffin_mix": [
+        [
+            "ginger",
+            0.48198516920026946
+        ],
+        [
+            "raspberry_sauce",
+            0.9468547316891629
+        ],
+        [
+            "briskets",
+            0.3665207606534029
+        ]
+    ],
+    "juice": [],
+    "junior_mints": [],
+    "kahlua": [],
+    "kale": [
+        [
+            "cavolo_nero",
+            0.3010898113359246
+        ]
+    ],
+    "kamaboko": [
+        [
+            "epazote",
+            0.18925033105246636
+        ],
+        [
+            "tabasco_sauce",
+            1.2891592954013538
+        ],
+        [
+            "creme_anglaise",
+            0.3076562569780792
+        ]
+    ],
+    "kamut": [],
+    "kashi": [],
+    "kasuri_methi": [],
+    "katakuriko": [],
+    "kefalotiri": [],
+    "kefalotyri": [],
+    "kefir": [],
+    "kelp": [],
+    "ketchup": [],
+    "ketjap_manis": [],
+    "kewra_essence": [],
+    "khoya": [
+        [
+            "low_-_calorie_lemonade_drink_mix",
+            0.28614259303253586
+        ],
+        [
+            "cactus_pieces",
+            0.6161751406855036
+        ]
+    ],
+    "kidney_bean": [
+        [
+            "almonds",
+            0.9523846741202129
+        ],
+        [
+            "cherry_drink_mix",
+            0.7852140395451432
+        ]
+    ],
+    "kielbasa": [],
+    "kim_chee": [],
+    "kirsch": [],
+    "kirschwasser": [],
+    "kitchen_bouquet": [],
+    "kitchen_twine": [],
+    "kiwi": [],
+    "knockwurst": [
+        [
+            "clay",
+            0.2757722185972653
+        ],
+        [
+            "catsup",
+            0.374605400191655
+        ],
+        [
+            "chips",
+            0.972113122851516
+        ]
+    ],
+    "kohlrabi": [
+        [
+            "icing",
+            0.7279934703381231
+        ],
+        [
+            "ground_aniseed",
+            0.7547909819879896
+        ],
+        [
+            "reese's_pieces",
+            0.3779412330661732
+        ]
+    ],
+    "kombu": [],
+    "konbu": [],
+    "konnyaku": [],
+    "kool_-_aid": [],
+    "korean_red_pepper_paste": [
+        [
+            "paprika",
+            1.1502809074446696
+        ]
+    ],
+    "korean_red_pepper_powder": [],
+    "korma_paste": [],
+    "koshi_-_an": [
+        [
+            "long_grain_and_wild_rice_blend",
+            0.4804814932635022
+        ],
+        [
+            "raspberry_coulis",
+            0.7058116988571372
+        ],
+        [
+            "paprika",
+            1.1502809074446696
+        ]
+    ],
+    "kraft_natural_blue_cheese_crumbles": [],
+    "kudzu": [
+        [
+            "cornstarch",
+            0.9692589998405251
+        ],
+        [
+            "nam_pla",
+            0.6864082390715347
+        ]
+    ],
+    "kumara": [],
+    "kumquat": [],
+    "ladyfinger": [],
+    "lamb": [
+        [
+            "raita",
+            0.832604482216566
+        ],
+        [
+            "salad_leaves",
+            0.6175541150623166
+        ]
+    ],
+    "lambs_kidney": [
+        [
+            "sweet_and_sour_cocktail_mix",
+            1.473172720042589
+        ],
+        [
+            "sweet_and_sour_cocktail_mix",
+            1.473172720042589
+        ]
+    ],
+    "lard": [],
+    "lardons": [],
+    "lasagna_noodle": [
+        [
+            "vegeta",
+            0.9378077211543279
+        ],
+        [
+            "baguette",
+            0.7084510495862588
+        ],
+        [
+            "fromage_frais",
+            0.16679816530202607
+        ]
+    ],
+    "lasagna_sheet": [],
+    "laundry_detergent": [],
+    "laurel": [],
+    "lavender": [],
+    "lecithin_granules": [],
+    "leek": [],
+    "lemon": [
+        [
+            "pectin",
+            0.7879277879795397
+        ],
+        [
+            "kasuri_methi",
+            1.1626194072104563
+        ]
+    ],
+    "lemonade": [],
+    "lemongrass": [
+        [
+            "tart_shell",
+            0.019069851520414405
+        ],
+        [
+            "casing",
+            0.42160812344233234
+        ]
+    ],
+    "lentils": [
+        [
+            "relish",
+            1.143572288932881
+        ],
+        [
+            "sweetened_lemonade_drink_mix",
+            0.0626972068154854
+        ]
+    ],
+    "lettuce": [
+        [
+            "matzohs",
+            0.8163381437156394
+        ]
+    ],
+    "licor": [
+        [
+            "cupcake",
+            1.1370525203416366
+        ],
+        [
+            "chipotle_chiles",
+            0.8146881750233452
+        ],
+        [
+            "tabasco_sauce",
+            1.2891592954013538
+        ]
+    ],
+    "licorice": [],
+    "lillet_blanc": [],
+    "lime": [],
+    "limeade": [],
+    "limoncello": [],
+    "lingonberries": [],
+    "linguine": [],
+    "liqueur": [],
+    "liquid": [],
+    "liquor": [],
+    "liver": [
+        [
+            "treacle",
+            0.6603390723605738
+        ]
+    ],
+    "liverwurst": [
+        [
+            "ascorbic_acid",
+            1.3195482604707869
+        ]
+    ],
+    "lobster": [
+        [
+            "sake",
+            1.4310831938973614
+        ],
+        [
+            "baby_food",
+            0.9036324937502005
+        ],
+        [
+            "pastry_for_double_-_crust_pie",
+            0.5021906027130068
+        ]
+    ],
+    "loganberries": [],
+    "lollipops": [],
+    "long_grain_and_wild_rice_blend": [],
+    "lotion": [],
+    "lovage": [],
+    "low_-_calorie_lemonade_drink_mix": [],
+    "low_-_fat_granola": [],
+    "low_-_fat_ricotta": [],
+    "low_calorie_raspberry_drink_mix": [],
+    "low_calorie_sweetener": [
+        [
+            "gravlax",
+            0.0016896819568530397
+        ]
+    ],
+    "low_fat_mozzarella": [],
+    "lox": [],
+    "lsa": [
+        [
+            "kraft_natural_blue_cheese_crumbles",
+            1.4271491721284886
+        ],
+        [
+            "green_creme_de_menthe",
+            1.2566759216559245
+        ],
+        [
+            "plastic_spoon",
+            0.0768644597049738
+        ]
+    ],
+    "lumpia_skins": [],
+    "lychee": [],
+    "m_and_m'": [],
+    "maca": [],
+    "macadamias": [],
+    "macaroni": [],
+    "macaroons": [],
+    "mace": [],
+    "mache": [],
+    "mackerel": [
+        [
+            "almond_essence",
+            0.2714669358211127
+        ],
+        [
+            "wattleseed",
+            0.49934560035641096
+        ],
+        [
+            "bean_dip",
+            0.6182835712844177
+        ]
+    ],
+    "magic_shell_ice_cream_topping": [],
+    "mahi_mahi": [
+        [
+            "alcohol",
+            0.6989440576593058
+        ],
+        [
+            "popsicle",
+            1.1711858752552007
+        ],
+        [
+            "cachaca",
+            0.972901810467687
+        ]
+    ],
+    "malanga": [],
+    "malt_drink_powder": [
+        [
+            "frosting",
+            0.30851712467002324
+        ]
+    ],
+    "malted_milk_balls": [],
+    "maltesers": [],
+    "mandarin_segments": [
+        [
+            "tubetti",
+            0.7300141083876366
+        ],
+        [
+            "carbonated_lemon_-_lime_beverage",
+            0.6886450892756995
+        ]
+    ],
+    "mango": [],
+    "manicotti": [],
+    "manwich_sloppy_joe_mix": [],
+    "maraschino_cherry": [],
+    "margarine": [],
+    "margarita_mix": [],
+    "marinade": [],
+    "marinara_sauce": [],
+    "marjoram": [],
+    "marmalade": [],
+    "marmite": [],
+    "marrow": [],
+    "mars_bar": [],
+    "marsala": [],
+    "marshmallow": [],
+    "marzipan": [],
+    "masa_harina": [],
+    "masala": [],
+    "mascarpone": [],
+    "matcha_green_tea_powder": [],
+    "matzohs": [],
+    "matzos": [],
+    "mayonnaise": [],
+    "mccormick's_season_all": [
+        [
+            "satay_sauce",
+            1.4201105924606252
+        ],
+        [
+            "gremolata",
+            0.9938933598564004
+        ],
+        [
+            "essential_oils",
+            0.02053517693126472
+        ]
+    ],
+    "meal": [],
+    "meat": [
+        [
+            "barberries",
+            0.36767577929861395
+        ],
+        [
+            "fiddlehead",
+            0.19466462119262706
+        ]
+    ],
+    "meatballs": [
+        [
+            "bolognese_sauce",
+            0.6913662015538315
+        ],
+        [
+            "almond_bark",
+            1.1210472098936375
+        ]
+    ],
+    "meatless_sauce": [
+        [
+            "walleyed_pike_fillet",
+            1.4372958155632853
+        ],
+        [
+            "psyllium",
+            0.2971458504721979
+        ]
+    ],
+    "meatloaf": [
+        [
+            "mango",
+            1.0893231487680834
+        ],
+        [
+            "earth_balance_natural_buttery_spread",
+            0.5865507504627773
+        ],
+        [
+            "velveeta_reduced_fat_cheese_product",
+            1.1824525572874984
+        ]
+    ],
+    "medium_cheddar": [],
+    "medium_sharp_cheddar": [],
+    "medium_sherry": [],
+    "melon": [],
+    "meringue": [
+        [
+            "smelt",
+            0.4174630705995346
+        ]
+    ],
+    "merlot": [
+        [
+            "almond_toffee_bits",
+            0.7859110357501401
+        ]
+    ],
+    "mesclun": [],
+    "mesquite_powder": [],
+    "methi_leaves": [
+        [
+            "okra",
+            0.20753728546223638
+        ],
+        [
+            "jelly",
+            0.3261306847421577
+        ]
+    ],
+    "mexicorn": [
+        [
+            "schnapps",
+            0.8626738081433265
+        ],
+        [
+            "pea_shoots",
+            0.7172645784611749
+        ]
+    ],
+    "mezcal": [],
+    "mild_chiles": [],
+    "milk": [
+        [
+            "dandelion_flowers",
+            0.17492623938808682
+        ],
+        [
+            "nutmeg",
+            0.6521055005363849
+        ]
+    ],
+    "milky_way_bar": [],
+    "millet": [],
+    "milo": [],
+    "mincemeat": [
+        [
+            "kim_chee",
+            0.2848702081288921
+        ]
+    ],
+    "mini_chocolate_chip": [
+        [
+            "peeps",
+            0.8381297432105199
+        ],
+        [
+            "stir_-_fry_sauce",
+            0.4429456793479247
+        ]
+    ],
+    "miniature_m_and_m_baking_bits": [
+        [
+            "gremolata",
+            0.9938933598564004
+        ],
+        [
+            "sherbet",
+            0.4056805886413122
+        ]
+    ],
+    "miniature_party_rye_rounds": [],
+    "miniature_peanut_butter_cup": [
+        [
+            "bourbon",
+            0.16353740319388554
+        ],
+        [
+            "poblano_chiles",
+            1.108272039765395
+        ]
+    ],
+    "miniature_phyllo_cup": [],
+    "mint": [],
+    "miracle_whip": [],
+    "mirepoix": [],
+    "mirin": [],
+    "mirliton": [
+        [
+            "tahini",
+            0.33230155404161943
+        ]
+    ],
+    "miso": [
+        [
+            "zatarain's",
+            0.21876438944868448
+        ]
+    ],
+    "mitsuba": [],
+    "mixed_cheeses": [],
+    "mixed_peel": [
+        [
+            "stock",
+            0.3106343063684025
+        ],
+        [
+            "dry_coconut_powder",
+            0.5821108435172543
+        ],
+        [
+            "medium_sherry",
+            0.11311775039958072
+        ]
+    ],
+    "mixed_salad_green": [],
+    "mixed_spice": [],
+    "mizuna": [],
+    "mojo_criollo": [],
+    "molasses": [],
+    "mole": [],
+    "molly_mcbutter": [],
+    "montrachet": [],
+    "moose": [
+        [
+            "nestle_toll_house_butterscotch_flavored_morsels",
+            0.7683896442058371
+        ],
+        [
+            "ladyfinger",
+            0.16087119289331653
+        ],
+        [
+            "crema",
+            0.4362991236034022
+        ]
+    ],
+    "morel": [
+        [
+            "tiger_sauce",
+            0.2021189711861502
+        ]
+    ],
+    "morningstar_farms_meal_starters_grillers_recipe_crumbles": [],
+    "mortadella": [],
+    "morton_nature_seasons_seasoning_blend": [],
+    "mountain_dew_soda": [
+        [
+            "barley",
+            0.8235465434229623
+        ],
+        [
+            "vermicelli",
+            0.14112446809076462
+        ]
+    ],
+    "msg": [],
+    "muesli": [
+        [
+            "grapefruit",
+            1.45025437124016
+        ],
+        [
+            "cuttlefish",
+            0.3135421659087718
+        ],
+        [
+            "tripe",
+            1.1211458895661779
+        ]
+    ],
+    "muffin": [],
+    "mulberries": [],
+    "mushroom": [],
+    "muslin": [
+        [
+            "advocaat",
+            0.5800540336104841
+        ],
+        [
+            "marjoram",
+            0.49999015936866353
+        ]
+    ],
+    "mussels": [
+        [
+            "oven_cooking_bag",
+            0.8546157182545628
+        ]
+    ],
+    "mustard": [],
+    "mutton": [
+        [
+            "sparerib_rack",
+            0.05724972651880256
+        ],
+        [
+            "pizza_toppings",
+            0.21929117497272343
+        ]
+    ],
+    "nabisco_triscuits": [],
+    "nam_pla": [],
+    "nasturtium_leaves": [],
+    "nasturtium_petals": [],
+    "nectarine": [],
+    "nestle_milk_chocolate_and_peanut_butter_swirled_morsels": [],
+    "nestle_toll_house_butterscotch_flavored_morsels": [],
+    "nestle_toll_house_premier_white_morsels": [],
+    "nestles_quik": [],
+    "nettles": [],
+    "no_yolks_egg_noodle_substitute": [
+        [
+            "cactus_pieces",
+            0.6161751406855036
+        ],
+        [
+            "cocoa",
+            1.133305134440461
+        ],
+        [
+            "cachaca",
+            0.972901810467687
+        ]
+    ],
+    "non_-_dairy_milk_substitute": [],
+    "nonpareils": [],
+    "nonstick_spray_coating": [
+        [
+            "ginger",
+            0.48198516920026946
+        ],
+        [
+            "grappa",
+            0.7169879434815143
+        ],
+        [
+            "sourdough_loaf",
+            1.1331474863156838
+        ]
+    ],
+    "noodles": [
+        [
+            "pimento_strips",
+            1.3325104586728644
+        ],
+        [
+            "crab",
+            0.9442045718534874
+        ],
+        [
+            "xanthan_gum",
+            1.144347780055959
+        ]
+    ],
+    "nopales": [],
+    "nopalitos": [],
+    "nori": [],
+    "nuoc_nam": [],
+    "nutella": [
+        [
+            "baguette",
+            0.7084510495862588
+        ],
+        [
+            "cannellini",
+            0.9776679667588564
+        ],
+        [
+            "pudding",
+            0.41900078367914306
+        ]
+    ],
+    "nutmeats": [
+        [
+            "pizza_sauce",
+            1.301095848523227
+        ],
+        [
+            "fleur_de_sel",
+            1.0719365363640567
+        ],
+        [
+            "broccoli",
+            0.13183202243018355
+        ]
+    ],
+    "nutmeg": [],
+    "nuts": [],
+    "oatmeal": [
+        [
+            "gravlax",
+            0.0016896819568530397
+        ]
+    ],
+    "oats": [],
+    "octopus": [],
+    "ogo": [],
+    "oil": [
+        [
+            "baking_powder",
+            0.32652187684070855
+        ]
+    ],
+    "okara": [],
+    "okonomiyaki_sauce": [
+        [
+            "foie_gras",
+            0.11997043383929151
+        ],
+        [
+            "dulce_de_leche",
+            0.09088742177309217
+        ]
+    ],
+    "okra": [],
+    "oleo": [
+        [
+            "citrus_fruits",
+            1.4232736350945598
+        ],
+        [
+            "raita",
+            0.832604482216566
+        ]
+    ],
+    "olivada": [],
+    "olive": [
+        [
+            "parmigiano",
+            1.2032319783980756
+        ],
+        [
+            "mixed_salad_green",
+            0.5793825450262945
+        ],
+        [
+            "alum",
+            0.20856722359570423
+        ]
+    ],
+    "onion": [
+        [
+            "vinaigrette",
+            0.18680925180638708
+        ],
+        [
+            "foie_gras",
+            0.11997043383929151
+        ],
+        [
+            "fenugreek_leaves",
+            0.13978662362683025
+        ]
+    ],
+    "orange": [],
+    "orecchiette": [],
+    "oregano": [],
+    "original_ranch_dressing_mix": [],
+    "other_pastas": [],
+    "ouzo": [],
+    "ovaltine": [],
+    "oven_cooking_bag": [],
+    "oxo_beef_cube": [
+        [
+            "vegemite",
+            0.7225459839139277
+        ],
+        [
+            "konnyaku",
+            0.5754240069017419
+        ],
+        [
+            "macaroons",
+            0.9443701584203205
+        ]
+    ],
+    "oxtail": [
+        [
+            "korma_paste",
+            0.770753625544726
+        ],
+        [
+            "squid",
+            0.23777653470412896
+        ]
+    ],
+    "oyster": [],
+    "pak_choi": [],
+    "pan_juices": [
+        [
+            "guinness_stout",
+            0.9958382380486689
+        ]
+    ],
+    "pancake": [],
+    "pancetta": [],
+    "pandan_leaves": [],
+    "panettone": [],
+    "panir": [
+        [
+            "crepe",
+            0.41108942455284825
+        ]
+    ],
+    "papaya": [],
+    "paper": [
+        [
+            "epazote",
+            0.18925033105246636
+        ]
+    ],
+    "pappadams": [],
+    "paprika": [],
+    "paraffin_wax": [],
+    "parmesan_-_romano_cheese_mix": [],
+    "parmesan_rind": [],
+    "parmigiano": [],
+    "parsley": [],
+    "parsnip": [],
+    "pasilla_chiles": [
+        [
+            "bass_fillet",
+            0.1241910137853951
+        ]
+    ],
+    "passata": [],
+    "pasta": [],
+    "pasteurized_liquid_egg_-_whites": [
+        [
+            "baking_powder",
+            0.32652187684070855
+        ],
+        [
+            "fat",
+            1.4417726182877408
+        ],
+        [
+            "nam_pla",
+            0.6864082390715347
+        ]
+    ],
+    "pastina": [],
+    "pastis": [],
+    "pastrami": [
+        [
+            "cinnamon",
+            0.4976106123752504
+        ]
+    ],
+    "pastry_crust": [
+        [
+            "cheesecloth",
+            1.0935846741618378
+        ],
+        [
+            "copha",
+            0.3452337427247997
+        ],
+        [
+            "grand_marnier",
+            0.654281885755908
+        ]
+    ],
+    "pastry_dough": [],
+    "pastry_for_a_double_-_crust__-_inch_pie": [],
+    "pastry_for_double_-_crust_pie": [],
+    "pastry_for_single_-_crust_pie": [],
+    "pastry_shells": [],
+    "pate": [],
+    "patis": [],
+    "patty_shell": [],
+    "pawpaw": [],
+    "pea_pods": [],
+    "pea_shoots": [],
+    "pea_tendrils": [],
+    "peach": [],
+    "peanut_brittle": [
+        [
+            "relish",
+            1.143572288932881
+        ]
+    ],
+    "peanut_sauce": [
+        [
+            "citrus_fruits",
+            1.4232736350945598
+        ],
+        [
+            "grains_of_paradise",
+            0.29648187274908966
+        ]
+    ],
+    "peanuts": [],
+    "pear": [],
+    "peas": [
+        [
+            "tamale",
+            0.3421407587648857
+        ],
+        [
+            "arctic_char",
+            0.3899611157658407
+        ]
+    ],
+    "pecan_halves": [
+        [
+            "guar_gum",
+            0.5914959058234801
+        ],
+        [
+            "ravioli",
+            0.23793516815328786
+        ]
+    ],
+    "pecan_pieces": [
+        [
+            "sopressata",
+            0.080170032575831
+        ],
+        [
+            "wood_chunks",
+            1.0999542022920292
+        ]
+    ],
+    "pecans": [
+        [
+            "club_soda",
+            0.23956811531379307
+        ],
+        [
+            "gold_leaf_foil",
+            0.5756074480568213
+        ]
+    ],
+    "pectin": [],
+    "peeps": [],
+    "pen": [],
+    "penne": [],
+    "pepitas": [],
+    "pepper": [],
+    "peppercorn": [],
+    "pepperidge_farm_herb_stuffing": [],
+    "pepperidge_farm_stuffing": [],
+    "peppermint": [],
+    "pepperoni": [
+        [
+            "szechuan_sauce",
+            0.1466844092260483
+        ],
+        [
+            "leek",
+            0.3043321372347014
+        ],
+        [
+            "alcaparrado",
+            0.5683060501391747
+        ]
+    ],
+    "pepsi": [],
+    "perch": [
+        [
+            "kelp",
+            1.4874191043102023
+        ]
+    ],
+    "perciatelli": [],
+    "peri_-_peri": [],
+    "pernod": [],
+    "persimmon": [],
+    "pesto_sauce": [
+        [
+            "pandan_leaves",
+            0.5917214726030947
+        ],
+        [
+            "semolina",
+            0.574784266941896
+        ],
+        [
+            "striped_bass",
+            1.0790120174819275
+        ]
+    ],
+    "pheasant": [],
+    "philadelphia": [],
+    "phyllo_dough": [],
+    "phyllo_pastry": [],
+    "picante_sauce": [],
+    "pickapeppa_sauce": [],
+    "pickle": [],
+    "pickled_daikon": [],
+    "pickled_herring": [],
+    "pico_de_gallo": [
+        [
+            "sazon_goya",
+            0.13533322655686053
+        ],
+        [
+            "filet_mignon",
+            0.6824858321201552
+        ]
+    ],
+    "pie_crust": [],
+    "pie_dough": [
+        [
+            "oregano",
+            1.310498513662537
+        ],
+        [
+            "hearts_of_palm",
+            0.8178914465401153
+        ]
+    ],
+    "pie_filling": [],
+    "pie_pastry": [],
+    "pie_plate": [
+        [
+            "mayonnaise",
+            0.11940346625080478
+        ],
+        [
+            "tiger_sauce",
+            0.2021189711861502
+        ],
+        [
+            "sumac",
+            0.7536907439211022
+        ]
+    ],
+    "pie_shell": [],
+    "pierogi": [
+        [
+            "soybeans",
+            0.6833501575068999
+        ]
+    ],
+    "pig": [
+        [
+            "sumaq",
+            0.045104235574049856
+        ]
+    ],
+    "pig's_feet": [
+        [
+            "goose",
+            0.4842988009921836
+        ]
+    ],
+    "pigeon": [
+        [
+            "dry_coconut_powder",
+            0.5821108435172543
+        ]
+    ],
+    "pignolis": [
+        [
+            "au_gratin_potato_mix",
+            0.20477547696187637
+        ],
+        [
+            "catfish",
+            1.2940766197163565
+        ],
+        [
+            "veal",
+            0.4901662927688888
+        ]
+    ],
+    "pigs_tail": [
+        [
+            "baguette",
+            0.7084510495862588
+        ]
+    ],
+    "pillsbury_refrigerated_crusty_french_loaf": [
+        [
+            "almond_toffee_bits",
+            0.7859110357501401
+        ],
+        [
+            "frisee",
+            0.9453755187604806
+        ],
+        [
+            "grains_of_paradise",
+            0.29648187274908966
+        ]
+    ],
+    "piloncillo": [
+        [
+            "dried_hot_red_chiles",
+            0.16118012770318468
+        ]
+    ],
+    "pimento_strips": [],
+    "pimentos": [
+        [
+            "cider",
+            0.9199999646884343
+        ],
+        [
+            "juice",
+            0.7906221025946447
+        ],
+        [
+            "wonton",
+            0.05773075630920954
+        ]
+    ],
+    "pimiento": [],
+    "pimms": [],
+    "pina_colada_nonalcoholic_drink_mix": [
+        [
+            "dried_banana_pieces",
+            0.4259641530504398
+        ],
+        [
+            "walleyed_pike_fillet",
+            1.4372958155632853
+        ],
+        [
+            "herbes_de_provence",
+            1.4432650768139828
+        ]
+    ],
+    "pineapple": [],
+    "pinecones": [],
+    "piri_-_piri": [],
+    "pisco": [],
+    "pistachio": [],
+    "pita_breads": [],
+    "pita_pocket": [],
+    "pizza_crust": [],
+    "pizza_dough": [],
+    "pizza_sauce": [],
+    "pizza_toppings": [],
+    "plain_sweet_biscuit_crumbs": [],
+    "plantain": [
+        [
+            "lecithin_granules",
+            0.19338387543978452
+        ],
+        [
+            "crepe",
+            0.41108942455284825
+        ]
+    ],
+    "plastic_cups": [
+        [
+            "buckwheat_groats",
+            0.680794750053279
+        ],
+        [
+            "maca",
+            0.049824013159156855
+        ]
+    ],
+    "plastic_spoon": [],
+    "plum": [],
+    "pluots": [],
+    "poblano_chiles": [],
+    "pocketless_pita": [
+        [
+            "satay_sauce",
+            1.4201105924606252
+        ],
+        [
+            "limeade",
+            0.5018811189082519
+        ],
+        [
+            "sweet_and_sour_sauce",
+            0.8897040155156366
+        ]
+    ],
+    "polenta": [
+        [
+            "pickapeppa_sauce",
+            1.2923334731504474
+        ],
+        [
+            "bolognese_sauce",
+            0.6913662015538315
+        ]
+    ],
+    "pollock": [],
+    "pomegranate": [
+        [
+            "stevia",
+            0.28853502445263746
+        ],
+        [
+            "zatarain's",
+            0.21876438944868448
+        ]
+    ],
+    "pompano": [],
+    "ponzu_sauce": [
+        [
+            "green_sprinkles",
+            1.031327975008285
+        ]
+    ],
+    "popcorn": [
+        [
+            "edible_orchid",
+            0.004720778175110407
+        ],
+        [
+            "absinthe",
+            0.8849028959511942
+        ],
+        [
+            "sambuca_romana",
+            0.7607709251874066
+        ]
+    ],
+    "poppy_seed": [],
+    "popsicle": [],
+    "pork": [
+        [
+            "crushed_red_chile_flakes",
+            0.24079711438413365
+        ],
+        [
+            "peri_-_peri",
+            0.054301711452678036
+        ],
+        [
+            "escarole",
+            0.03672560166771588
+        ]
+    ],
+    "porter": [],
+    "portuguese_chourico": [],
+    "posole": [
+        [
+            "raspberry_coulis",
+            0.7058116988571372
+        ],
+        [
+            "reduced_-_fat_thousand_island_dressing",
+            1.3328835023130619
+        ],
+        [
+            "pepperidge_farm_stuffing",
+            1.2882232273543315
+        ]
+    ],
+    "pot_stickers": [],
+    "potato": [],
+    "poultry": [
+        [
+            "extract",
+            1.273810054739818
+        ],
+        [
+            "bottarga",
+            0.5142299623238287
+        ],
+        [
+            "celeriac",
+            1.40029246797936
+        ]
+    ],
+    "poundcake": [
+        [
+            "zatarain's",
+            0.21876438944868448
+        ],
+        [
+            "candied_citron_peel",
+            0.4961023771169739
+        ]
+    ],
+    "powdered_chocolate_milk_mix": [],
+    "powdered_cocoa_mix": [],
+    "powdered_drink_mix": [],
+    "powdered_soy_protein_concentrate": [],
+    "praline": [],
+    "prawns": [],
+    "prepared_graham_cracker_crusts": [],
+    "prepared_stuffing": [],
+    "preserves": [],
+    "pretzel": [
+        [
+            "elderberries",
+            0.8919324204423444
+        ],
+        [
+            "queso_blanco",
+            0.9058675808891785
+        ]
+    ],
+    "prosciutto": [
+        [
+            "gnocchi",
+            1.4992795723814623
+        ]
+    ],
+    "prosecco": [
+        [
+            "fresh_herb",
+            0.8165278563545103
+        ],
+        [
+            "reese's_pieces",
+            0.3779412330661732
+        ],
+        [
+            "konnyaku",
+            0.5754240069017419
+        ]
+    ],
+    "protein_powder": [],
+    "prune": [],
+    "psyllium": [],
+    "pudding": [],
+    "puff_pastry": [],
+    "pumpernickel_rounds": [
+        [
+            "ammonia",
+            0.053315573537869865
+        ],
+        [
+            "dove",
+            1.002204635928266
+        ]
+    ],
+    "pumpkin": [],
+    "puree": [
+        [
+            "mango",
+            1.0893231487680834
+        ],
+        [
+            "your_favorite_barbecue_rub",
+            0.5046312807542956
+        ],
+        [
+            "gluten",
+            0.6293299859505094
+        ]
+    ],
+    "purslane": [
+        [
+            "maraschino_cherry",
+            0.16024328667871224
+        ]
+    ],
+    "quahogs": [],
+    "quail": [],
+    "quark": [],
+    "quatre_-_epices": [
+        [
+            "shark",
+            1.0088250775953465
+        ],
+        [
+            "green_creme_de_menthe",
+            1.2566759216559245
+        ],
+        [
+            "instant_cappuccino_mix",
+            1.2932908463493664
+        ]
+    ],
+    "queso_anejo": [
+        [
+            "kraft_natural_blue_cheese_crumbles",
+            1.4271491721284886
+        ],
+        [
+            "herbs",
+            0.5779540256622253
+        ],
+        [
+            "ginger",
+            0.48198516920026946
+        ]
+    ],
+    "queso_blanco": [],
+    "queso_fresco": [],
+    "quick_-_cooking_long_grain_and_wild_rice_mix": [
+        [
+            "cheesecake",
+            0.7420980503939063
+        ],
+        [
+            "xanthan_gum",
+            1.144347780055959
+        ]
+    ],
+    "quik_chocolate_milk_mix": [],
+    "quince_paste": [],
+    "quinces": [],
+    "quinoa": [],
+    "quorn_pieces": [],
+    "rabbit": [
+        [
+            "dried_hibiscus_flowers",
+            1.2738201871254837
+        ],
+        [
+            "pea_shoots",
+            0.7172645784611749
+        ]
+    ],
+    "radiatore": [],
+    "radicchio": [],
+    "radish": [
+        [
+            "salsa",
+            1.1136723875160237
+        ],
+        [
+            "pita_pocket",
+            0.6488855055769015
+        ],
+        [
+            "chapati",
+            0.06257054175586307
+        ]
+    ],
+    "raisins": [],
+    "raita": [],
+    "ramps": [],
+    "ranch_dip": [],
+    "ranch_dressing": [],
+    "ranch_style_bean": [],
+    "rapini": [
+        [
+            "pita_breads",
+            0.750821041396575
+        ],
+        [
+            "gumdrop",
+            0.8996764846649574
+        ]
+    ],
+    "ras_el_hanout_spice_mix": [
+        [
+            "pickapeppa_sauce",
+            1.2923334731504474
+        ],
+        [
+            "ladyfinger",
+            0.16087119289331653
+        ]
+    ],
+    "raspberries": [],
+    "raspberry_chipotle_sauce": [
+        [
+            "crepe",
+            0.41108942455284825
+        ],
+        [
+            "endive",
+            0.2612947801739528
+        ],
+        [
+            "oyster",
+            0.03988365260534921
+        ]
+    ],
+    "raspberry_coulis": [],
+    "raspberry_sauce": [],
+    "ravioli": [],
+    "raw_cacao_powder": [],
+    "recaito": [],
+    "recipe_cream_filling": [],
+    "red_jell_-_o": [],
+    "red_snapper": [],
+    "reddi_-_wip_topping": [
+        [
+            "limeade",
+            0.5018811189082519
+        ],
+        [
+            "foie_gras",
+            0.11997043383929151
+        ],
+        [
+            "strawberries",
+            1.4656773586970526
+        ]
+    ],
+    "reduced_-_calorie_cranberry_juice_cocktail": [],
+    "reduced_-_fat_thousand_island_dressing": [],
+    "reese's_peanut_butter_cups": [],
+    "reese's_pieces": [],
+    "refrigerated_breadstick_dough": [],
+    "refrigerated_cornbread_twists_dough": [],
+    "relish": [],
+    "remoulade_sauce": [
+        [
+            "kefir",
+            1.4557928160123896
+        ],
+        [
+            "paprika",
+            1.1502809074446696
+        ],
+        [
+            "pizza_toppings",
+            0.21929117497272343
+        ]
+    ],
+    "rennet": [
+        [
+            "ziploc_bag",
+            0.7178804517836928
+        ],
+        [
+            "walleye",
+            0.8135586809841934
+        ]
+    ],
+    "reserved_juices": [
+        [
+            "sure_-_jell",
+            1.2843259342126516
+        ]
+    ],
+    "reynolds_wrap_foil": [],
+    "rhubarb": [],
+    "rib": [
+        [
+            "mayonnaise",
+            0.11940346625080478
+        ],
+        [
+            "spinach",
+            1.3993665360826442
+        ],
+        [
+            "molasses",
+            0.22309064719316596
+        ]
+    ],
+    "ribbon": [],
+    "rice": [],
+    "ricotta_salata": [],
+    "risoni": [],
+    "roast": [],
+    "roasting_bag": [
+        [
+            "semolina",
+            0.574784266941896
+        ],
+        [
+            "texas_pete",
+            0.9337562971862535
+        ],
+        [
+            "prepared_stuffing",
+            0.30198098018636976
+        ]
+    ],
+    "robin_hood_nutri_flour_blend": [],
+    "rock_cornish_game_hens": [],
+    "rocket": [],
+    "rockfish": [
+        [
+            "mixed_cheeses",
+            1.08171540237234
+        ],
+        [
+            "rocket",
+            1.2296989350624776
+        ]
+    ],
+    "roll": [
+        [
+            "frozen_pina_colada_mix",
+            0.38562520138397927
+        ]
+    ],
+    "rolling_pin": [
+        [
+            "mixed_salad_green",
+            0.5793825450262945
+        ],
+        [
+            "romanesco",
+            0.42305624939629904
+        ],
+        [
+            "gherkin",
+            0.18840148536914525
+        ]
+    ],
+    "rolo_chocolates": [],
+    "roma": [],
+    "romaine_leaves": [],
+    "romanesco": [],
+    "romesco_sauce": [],
+    "rose_essence": [
+        [
+            "dish_detergent",
+            1.080583875275996
+        ]
+    ],
+    "rose_hips": [],
+    "rose_petal": [],
+    "rosemary": [
+        [
+            "absinthe",
+            0.8849028959511942
+        ],
+        [
+            "cherry_kool_-_aid",
+            0.13579627976503184
+        ]
+    ],
+    "roses": [
+        [
+            "bean_dip",
+            0.6182835712844177
+        ],
+        [
+            "tarama",
+            0.27187750624039353
+        ],
+        [
+            "robin_hood_nutri_flour_blend",
+            0.09122572139885388
+        ]
+    ],
+    "rotel": [],
+    "round_rice_paper_sheets": [],
+    "roux": [
+        [
+            "crepe",
+            0.41108942455284825
+        ],
+        [
+            "capicola",
+            0.41211630436598856
+        ],
+        [
+            "kamut",
+            1.343554797205186
+        ]
+    ],
+    "ruby_port": [],
+    "rucola": [
+        [
+            "beau_monde_spice",
+            0.7262467040042786
+        ],
+        [
+            "szechuan_sauce",
+            0.1466844092260483
+        ]
+    ],
+    "rum": [],
+    "rusks": [],
+    "rutabaga": [],
+    "rye_flakes": [],
+    "saba": [],
+    "saffron": [
+        [
+            "prune",
+            1.2306688209701906
+        ],
+        [
+            "vermicelli",
+            0.14112446809076462
+        ]
+    ],
+    "sage": [],
+    "sago": [
+        [
+            "pumpkin",
+            0.6654910875572317
+        ],
+        [
+            "psyllium",
+            0.2971458504721979
+        ]
+    ],
+    "sake": [],
+    "salad_dressing": [
+        [
+            "m_and_m'",
+            1.1591636491415223
+        ],
+        [
+            "frosting",
+            0.30851712467002324
+        ],
+        [
+            "almond_bark",
+            1.1210472098936375
+        ]
+    ],
+    "salad_leaves": [],
+    "salami": [],
+    "salmon": [],
+    "salsa": [],
+    "salsify": [
+        [
+            "mezcal",
+            0.2606449201085359
+        ]
+    ],
+    "salt": [],
+    "salted_herring": [],
+    "saltine": [],
+    "saltpeter": [],
+    "sambal_oelek": [],
+    "sambhar_powder": [],
+    "sambuca_romana": [],
+    "sansho": [],
+    "sardines": [
+        [
+            "salted_herring",
+            1.2573597218281345
+        ],
+        [
+            "sumaq",
+            0.045104235574049856
+        ],
+        [
+            "nopales",
+            0.48702128836896996
+        ]
+    ],
+    "satay_sauce": [],
+    "sauerkraut": [],
+    "saunf": [],
+    "sausage": [
+        [
+            "alcaparrado",
+            0.5683060501391747
+        ],
+        [
+            "greens",
+            0.18454431829482587
+        ]
+    ],
+    "sauterne": [],
+    "savory": [],
+    "sazon_goya": [],
+    "scallion": [],
+    "scalloped_potatoes_mix": [],
+    "scallops": [],
+    "scampi": [],
+    "schmaltz": [],
+    "schnapps": [],
+    "scones": [
+        [
+            "verjus",
+            0.4689925250837059
+        ],
+        [
+            "round_rice_paper_sheets",
+            0.893361881918768
+        ]
+    ],
+    "scotch": [],
+    "sea_bass": [
+        [
+            "bonito_flakes",
+            0.47488052795574875
+        ]
+    ],
+    "seafood": [],
+    "seasoning": [
+        [
+            "chard_leaves",
+            0.32742908521588165
+        ],
+        [
+            "hake",
+            0.7675617218579003
+        ]
+    ],
+    "seaweed": [],
+    "seeds": [],
+    "seitan": [],
+    "semi_-_sweet_chocolate_baking_square": [],
+    "semi_-_sweet_chocolate_bit": [
+        [
+            "ciabatta",
+            0.6849686357125858
+        ],
+        [
+            "catsup",
+            0.374605400191655
+        ]
+    ],
+    "semolina": [],
+    "serranos": [],
+    "sesame": [],
+    "shad": [
+        [
+            "sumac",
+            0.7536907439211022
+        ],
+        [
+            "patis",
+            0.24179872071636777
+        ],
+        [
+            "-_up",
+            0.9073683287058102
+        ]
+    ],
+    "shallot": [],
+    "shampoo": [],
+    "shark": [],
+    "sherbet": [],
+    "shichimi_togarashi": [],
+    "shiso": [],
+    "shortbread": [],
+    "shortcake": [
+        [
+            "pheasant",
+            0.4939174350877422
+        ],
+        [
+            "ranch_dip",
+            0.549833219005929
+        ]
+    ],
+    "shortcrust_pastry": [],
+    "shortening": [],
+    "shoyu": [
+        [
+            "okra",
+            0.20753728546223638
+        ],
+        [
+            "serranos",
+            0.39098147548548545
+        ],
+        [
+            "pappadams",
+            0.744532059292276
+        ]
+    ],
+    "shrimp": [],
+    "sierra_mist": [],
+    "sirloin": [],
+    "skate": [],
+    "skewer": [
+        [
+            "vin_santo",
+            0.9230825696302727
+        ],
+        [
+            "fusilli",
+            0.03325109994017783
+        ],
+        [
+            "sweetened_lemonade_drink_mix",
+            0.0626972068154854
+        ]
+    ],
+    "skinless_boneless_turkey_breasts": [
+        [
+            "hershey_bar",
+            0.7164481111807983
+        ]
+    ],
+    "skor_english_toffee_bit": [],
+    "sloppy_joe_sandwich_sauce": [],
+    "smart_balance_butter_spread": [],
+    "smart_balance_light_butter_spread": [],
+    "smelt": [],
+    "smoked_whitefish": [
+        [
+            "sherbet",
+            0.4056805886413122
+        ],
+        [
+            "kitchen_twine",
+            1.183378475778892
+        ]
+    ],
+    "smokies": [
+        [
+            "brine",
+            0.8649817885471703
+        ],
+        [
+            "powdered_chocolate_milk_mix",
+            0.6961617656911512
+        ],
+        [
+            "dove",
+            1.002204635928266
+        ]
+    ],
+    "snail": [],
+    "snow": [
+        [
+            "foie_gras",
+            0.11997043383929151
+        ],
+        [
+            "tarama",
+            0.27187750624039353
+        ],
+        [
+            "gold_leaf_foil",
+            0.5756074480568213
+        ]
+    ],
+    "soap_bar": [
+        [
+            "gorgonzola",
+            1.3861038912878605
+        ],
+        [
+            "better_and_peanut_butter_spread",
+            1.2550700025259915
+        ]
+    ],
+    "soda_pop": [
+        [
+            "oyster",
+            0.03988365260534921
+        ]
+    ],
+    "sofrito_sauce": [
+        [
+            "finnan_haddie",
+            1.2320441462965852
+        ],
+        [
+            "cod",
+            1.453592849166034
+        ],
+        [
+            "recaito",
+            1.2780272917843005
+        ]
+    ],
+    "sole": [],
+    "soppressata": [
+        [
+            "paraffin_wax",
+            0.6605223941930434
+        ],
+        [
+            "wafers",
+            0.6048096880416411
+        ]
+    ],
+    "sopressata": [],
+    "sorbet": [],
+    "sorghum": [],
+    "sorrel": [],
+    "soup": [],
+    "sour_mix": [],
+    "sourdough_loaf": [],
+    "sourdough_starter": [],
+    "southern_comfort": [
+        [
+            "morningstar_farms_meal_starters_grillers_recipe_crumbles",
+            0.28743283029161926
+        ],
+        [
+            "medium_cheddar",
+            1.358219668210179
+        ],
+        [
+            "lollipops",
+            0.8740038767807823
+        ]
+    ],
+    "soy_chorizo": [],
+    "soy_crumbles": [],
+    "soy_lecithin": [],
+    "soy_protein": [],
+    "soy_sauce": [],
+    "soya_sauce": [],
+    "soybean_paste": [],
+    "soybeans": [],
+    "soymilk": [],
+    "spaghetti": [
+        [
+            "advocaat",
+            0.5800540336104841
+        ],
+        [
+            "bourbon",
+            0.16353740319388554
+        ]
+    ],
+    "spaghettini": [
+        [
+            "brinjal",
+            0.855550109609994
+        ]
+    ],
+    "spam": [],
+    "spanish_chorizo": [],
+    "sparerib_rack": [],
+    "spareribs": [
+        [
+            "zinfandel",
+            0.6178976084093191
+        ]
+    ],
+    "spearmint": [
+        [
+            "peeps",
+            0.8381297432105199
+        ],
+        [
+            "kelp",
+            1.4874191043102023
+        ],
+        [
+            "reduced_-_fat_thousand_island_dressing",
+            1.3328835023130619
+        ]
+    ],
+    "speck": [
+        [
+            "citrus_fruits",
+            1.4232736350945598
+        ],
+        [
+            "your_favorite_barbecue_rub",
+            0.5046312807542956
+        ],
+        [
+            "sundae_sauce",
+            1.1900374191321887
+        ]
+    ],
+    "spelt": [
+        [
+            "green_tomatillo_sauce",
+            0.29918355183212997
+        ],
+        [
+            "cachaca",
+            0.972901810467687
+        ],
+        [
+            "pie_pastry",
+            0.17166881328590855
+        ]
+    ],
+    "spice_essence": [
+        [
+            "cardoon",
+            0.883010375568122
+        ]
+    ],
+    "spices": [],
+    "spicy_bbq_sauce": [
+        [
+            "liquor",
+            0.4082123352696674
+        ],
+        [
+            "-_up",
+            0.9073683287058102
+        ]
+    ],
+    "spicy_hot_v": [],
+    "spinach": [],
+    "spirulina": [],
+    "splenda_brown_sugar_blend": [
+        [
+            "psyllium",
+            0.2971458504721979
+        ],
+        [
+            "dry_coconut_powder",
+            0.5821108435172543
+        ]
+    ],
+    "splenda_granular": [
+        [
+            "burdock_root",
+            0.028026281381392404
+        ],
+        [
+            "pepitas",
+            1.0604477853132623
+        ],
+        [
+            "cavolo_nero",
+            0.3010898113359246
+        ]
+    ],
+    "splenda_quick_pack": [
+        [
+            "granola_bar",
+            0.9758620149232701
+        ],
+        [
+            "sparerib_rack",
+            0.05724972651880256
+        ]
+    ],
+    "splenda_sugar_blend_for_baking": [],
+    "sponge_cakes": [],
+    "spray_bottle": [],
+    "spring_roll_wrappers": [
+        [
+            "fenugreek_leaves",
+            0.13978662362683025
+        ],
+        [
+            "chicken",
+            1.3116483367940073
+        ]
+    ],
+    "sprite": [],
+    "sprouts": [],
+    "squab": [
+        [
+            "romanesco",
+            0.42305624939629904
+        ],
+        [
+            "cooking_sauce",
+            0.9446212956883407
+        ]
+    ],
+    "squash": [
+        [
+            "black_sesame_seed",
+            0.34680632382738685
+        ],
+        [
+            "a_original_sauce",
+            0.23848118194547074
+        ],
+        [
+            "chapati",
+            0.06257054175586307
+        ]
+    ],
+    "squid": [],
+    "squirrel": [],
+    "sriracha_sauce": [
+        [
+            "kelp",
+            1.4874191043102023
+        ]
+    ],
+    "starch": [
+        [
+            "grenadine",
+            0.9136710818201359
+        ]
+    ],
+    "steak": [],
+    "stevia": [],
+    "stew_beef_chunk": [
+        [
+            "guava",
+            0.18794031176184434
+        ]
+    ],
+    "stick": [
+        [
+            "guacamole",
+            0.5951377226079403
+        ]
+    ],
+    "stir_-_fry_sauce": [],
+    "stock": [],
+    "strawberries": [],
+    "strawberry": [],
+    "strega": [],
+    "string": [],
+    "striped_bass": [],
+    "stuffing_cubes": [],
+    "stuffing_mix": [
+        [
+            "gnocchi",
+            1.4992795723814623
+        ],
+        [
+            "cooking_spray",
+            0.7578204159552067
+        ]
+    ],
+    "sucanat": [
+        [
+            "fresh_lime_leaves",
+            0.14300800511630918
+        ],
+        [
+            "molly_mcbutter",
+            0.21404637848242847
+        ]
+    ],
+    "suet": [
+        [
+            "milky_way_bar",
+            0.6208258521763099
+        ],
+        [
+            "peeps",
+            0.8381297432105199
+        ]
+    ],
+    "sugar": [],
+    "sultana": [
+        [
+            "cranberries",
+            1.1793383605390122
+        ],
+        [
+            "fusilli",
+            0.03325109994017783
+        ]
+    ],
+    "sumac": [],
+    "sumaq": [],
+    "sun_-_dried_tomato_dressing": [],
+    "sun_-_dried_tomato_pesto": [
+        [
+            "steak",
+            0.21972157184562402
+        ]
+    ],
+    "sundae_sauce": [],
+    "sure_-_jell": [],
+    "surimi": [],
+    "swede": [
+        [
+            "capellini",
+            0.696083527610895
+        ]
+    ],
+    "sweet_and_low": [],
+    "sweet_and_sour_cocktail_mix": [],
+    "sweet_and_sour_sauce": [],
+    "sweet_red_pepper_strips": [],
+    "sweet_sherry": [
+        [
+            "cooking_sauce",
+            0.9446212956883407
+        ]
+    ],
+    "sweetbreads": [],
+    "sweetcorn": [],
+    "sweetened_kool_-_aid_drink_mix": [],
+    "sweetened_lemonade_drink_mix": [],
+    "swiss_chard": [],
+    "swordfish": [],
+    "syrup": [],
+    "szechuan_sauce": [],
+    "tabasco_sauce": [],
+    "taco_sauce": [
+        [
+            "guinness_stout",
+            0.9958382380486689
+        ]
+    ],
+    "taco_shell": [],
+    "tahini": [],
+    "taleggio": [
+        [
+            "stevia",
+            0.28853502445263746
+        ],
+        [
+            "m_and_m'",
+            1.1591636491415223
+        ]
+    ],
+    "tamale": [],
+    "tamari": [],
+    "tamarillos": [],
+    "tamarind_paste": [],
+    "tamarind_pods": [],
+    "tamarind_pulp": [],
+    "tandoori_paste": [],
+    "tandoori_spice_mix": [],
+    "tang_orange_crystals": [],
+    "tangelo": [
+        [
+            "batter",
+            1.0023367782241532
+        ]
+    ],
+    "tangerine": [
+        [
+            "instant_cappuccino_mix",
+            1.2932908463493664
+        ]
+    ],
+    "tape": [],
+    "tapenade": [
+        [
+            "enchilada_sauce",
+            0.472234482092585
+        ],
+        [
+            "rutabaga",
+            0.09131537846205151
+        ],
+        [
+            "dried_hot_red_chiles",
+            0.16118012770318468
+        ]
+    ],
+    "tapioca": [],
+    "tarama": [],
+    "taro_root": [
+        [
+            "bottarga",
+            0.5142299623238287
+        ],
+        [
+            "fresh_raspberry",
+            0.4069053072006735
+        ]
+    ],
+    "tarragon": [
+        [
+            "bourbon",
+            0.16353740319388554
+        ],
+        [
+            "turmeric",
+            0.8572554502830075
+        ]
+    ],
+    "tart_crust": [
+        [
+            "chablis",
+            0.13335392994397233
+        ],
+        [
+            "raita",
+            0.832604482216566
+        ]
+    ],
+    "tart_shell": [],
+    "tartar_sauce": [],
+    "tartaric": [],
+    "tasso": [],
+    "tater_tots": [],
+    "tatsoi": [
+        [
+            "french_style_green_bean",
+            0.507894220411433
+        ],
+        [
+            "club_soda",
+            0.23956811531379307
+        ],
+        [
+            "laundry_detergent",
+            0.5424698669748886
+        ]
+    ],
+    "tawny_port": [],
+    "tea": [],
+    "teff": [],
+    "tempeh": [],
+    "tender_quick": [],
+    "tenderloin": [],
+    "tequila": [],
+    "teriyaki_sauce": [],
+    "texas_pete": [],
+    "textured_vegetable_protein": [
+        [
+            "butterfish",
+            1.1157845287062447
+        ],
+        [
+            "sumac",
+            0.7536907439211022
+        ]
+    ],
+    "thai_chiles": [],
+    "thin_cucumber_slices": [],
+    "thousand_island_dressing": [
+        [
+            "kool_-_aid",
+            0.08101884639325396
+        ]
+    ],
+    "thyme": [],
+    "ti_leaves": [
+        [
+            "coleslaw",
+            1.2087964098748376
+        ],
+        [
+            "pepitas",
+            1.0604477853132623
+        ],
+        [
+            "kamut",
+            1.343554797205186
+        ]
+    ],
+    "tia_maria": [],
+    "tiger_sauce": [],
+    "tilapia_fillet": [],
+    "toast": [],
+    "tobiko": [],
+    "toffee_pieces": [],
+    "tofu": [
+        [
+            "grapefruit",
+            1.45025437124016
+        ]
+    ],
+    "tom_yum_paste": [],
+    "tomatillo": [
+        [
+            "worcestershire_sauce",
+            0.572110884301412
+        ],
+        [
+            "soybeans",
+            0.6833501575068999
+        ],
+        [
+            "earth_balance_natural_buttery_spread",
+            0.5865507504627773
+        ]
+    ],
+    "tomato": [],
+    "tonkatsu_sauce": [],
+    "toothpick": [],
+    "topping_mix": [],
+    "tortellini": [
+        [
+            "cornichon",
+            0.7053654926805095
+        ],
+        [
+            "kraft_natural_blue_cheese_crumbles",
+            1.4271491721284886
+        ],
+        [
+            "patty_shell",
+            0.6177351851671049
+        ]
+    ],
+    "tortilla": [],
+    "tostadas": [
+        [
+            "velveeta_reduced_fat_cheese_product",
+            1.1824525572874984
+        ],
+        [
+            "rutabaga",
+            0.09131537846205151
+        ]
+    ],
+    "tostados": [],
+    "tostitos_scoops": [],
+    "trail_mix": [],
+    "treacle": [],
+    "tripe": [],
+    "triple_sec": [],
+    "trout": [],
+    "truffle": [
+        [
+            "english_toffee",
+            0.04313377514591399
+        ],
+        [
+            "pimento_strips",
+            1.3325104586728644
+        ],
+        [
+            "barley",
+            0.8235465434229623
+        ]
+    ],
+    "truvia": [
+        [
+            "linguine",
+            0.4675736665856517
+        ],
+        [
+            "piri_-_piri",
+            1.1315110066979122
+        ],
+        [
+            "pinecones",
+            0.21288290757329942
+        ]
+    ],
+    "tubetti": [],
+    "tuna": [],
+    "turkey": [],
+    "turkish_delight": [
+        [
+            "marshmallow",
+            0.8768086932029943
+        ],
+        [
+            "sesame",
+            0.9709253246769842
+        ]
+    ],
+    "turmeric": [],
+    "turnip": [],
+    "tzatziki": [
+        [
+            "vegemite",
+            0.7225459839139277
+        ],
+        [
+            "canned_peach_halves",
+            0.5190297006211498
+        ]
+    ],
+    "umeboshi": [],
+    "unbaked_pastry_shell": [
+        [
+            "crab",
+            0.9442045718534874
+        ],
+        [
+            "tiger_sauce",
+            0.2021189711861502
+        ],
+        [
+            "ginger",
+            0.48198516920026946
+        ]
+    ],
+    "unsalted_sunflower_seed_kernels": [
+        [
+            "bechamel_sauce",
+            0.30018931704066576
+        ]
+    ],
+    "unsweetened_flavored_drink_mix": [],
+    "unsweetened_kool_-_aid_powdered_drink_mix": [],
+    "unsweetened_vanilla_almond_breeze": [],
+    "vanilla": [
+        [
+            "butter",
+            1.0529568999091923
+        ]
+    ],
+    "veal": [],
+    "veg_-_all": [
+        [
+            "wafers",
+            0.6048096880416411
+        ],
+        [
+            "grand_marnier",
+            0.654281885755908
+        ]
+    ],
+    "vegan_burger": [
+        [
+            "long_grain_and_wild_rice_blend",
+            0.4804814932635022
+        ],
+        [
+            "medium_sherry",
+            0.11311775039958072
+        ]
+    ],
+    "vegemite": [],
+    "vegeta": [],
+    "vegetable_cocktail": [],
+    "vegetables": [],
+    "veggie_burger": [],
+    "veggie_crumbles": [
+        [
+            "kelp",
+            1.4874191043102023
+        ],
+        [
+            "hyssop",
+            0.4957317128913674
+        ]
+    ],
+    "velveeta_reduced_fat_cheese_product": [],
+    "velveeta_shells_and_cheese_dinner": [],
+    "venison": [],
+    "verjuice": [],
+    "verjus": [],
+    "vermicelli": [],
+    "vermouth": [],
+    "vin_santo": [],
+    "vinaigrette": [],
+    "vinegar": [],
+    "violets": [],
+    "vitamin": [],
+    "vodka": [],
+    "vol_-_au_-_vent_cases": [
+        [
+            "piri_-_piri",
+            1.1315110066979122
+        ],
+        [
+            "sparerib_rack",
+            0.05724972651880256
+        ]
+    ],
+    "wafers": [],
+    "waffle": [],
+    "walleye": [],
+    "walleyed_pike_fillet": [],
+    "walnut_halves": [],
+    "walnut_meats": [],
+    "walnut_pieces": [],
+    "walnuts": [],
+    "wasabi": [
+        [
+            "apple",
+            0.643185596731056
+        ]
+    ],
+    "washing_soda": [
+        [
+            "cactus_pieces",
+            0.6161751406855036
+        ]
+    ],
+    "water": [],
+    "watercress": [
+        [
+            "marsala",
+            0.48257418495690807
+        ],
+        [
+            "lardons",
+            0.9117531262167204
+        ],
+        [
+            "nestle_toll_house_premier_white_morsels",
+            0.8376902244368791
+        ]
+    ],
+    "watermelon": [],
+    "wattleseed": [],
+    "wax_bean": [],
+    "weet_-_bix": [],
+    "weetabix": [],
+    "wheat": [],
+    "wheatberries": [
+        [
+            "baguette",
+            0.7084510495862588
+        ],
+        [
+            "fenugreek_leaves",
+            0.13978662362683025
+        ],
+        [
+            "pea_shoots",
+            0.7172645784611749
+        ]
+    ],
+    "whey": [],
+    "whipped_topping": [],
+    "whiskey": [],
+    "white_baking_bar": [],
+    "white_creme_de_menthe": [
+        [
+            "chutney",
+            0.6304427423003531
+        ],
+        [
+            "kraft_natural_blue_cheese_crumbles",
+            1.4271491721284886
+        ],
+        [
+            "mango",
+            1.0893231487680834
+        ]
+    ],
+    "white_karo": [],
+    "white_port": [
+        [
+            "cherry_heering",
+            0.891675341757194
+        ]
+    ],
+    "white_sauce": [
+        [
+            "sesame",
+            0.9709253246769842
+        ]
+    ],
+    "whitebait": [],
+    "whole_almond": [],
+    "whole_black_bass": [
+        [
+            "gremolata",
+            0.9938933598564004
+        ],
+        [
+            "dandelion_flowers",
+            0.17492623938808682
+        ],
+        [
+            "pollock",
+            0.8269235032790627
+        ]
+    ],
+    "whole_nutmegs": [],
+    "whole_wheat_orzo": [
+        [
+            "caster",
+            0.1315505231655525
+        ],
+        [
+            "picante_sauce",
+            0.9250994130048471
+        ],
+        [
+            "molasses",
+            0.22309064719316596
+        ]
+    ],
+    "whole_wheat_rigatoni": [],
+    "whole_wheat_rotini": [],
+    "wine": [],
+    "witch_hazel": [
+        [
+            "spam",
+            0.4499653551842733
+        ]
+    ],
+    "wonton": [],
+    "wood_chunks": [],
+    "worcestershire_sauce": [],
+    "wrap": [],
+    "xanthan_gum": [],
+    "xylitol_sweetener": [],
+    "yam": [],
+    "yamaimo": [],
+    "yeast": [],
+    "yoghurt": [],
+    "yogurt": [],
+    "yoshida_gourmet_sauce": [],
+    "your_favorite_barbecue_rub": [],
+    "your_favorite_dressing": [],
+    "your_favorite_sauce": [],
+    "yucca_root": [],
+    "yuzu": [],
+    "za'atar_spice_mix": [
+        [
+            "marjoram",
+            0.49999015936866353
+        ],
+        [
+            "splenda_sugar_blend_for_baking",
+            0.5049910162597608
+        ],
+        [
+            "green_grape",
+            1.4078193510162578
+        ]
+    ],
+    "zatarain's": [],
+    "zinfandel": [],
+    "ziploc_bag": [],
+    "zucchini": []
+}

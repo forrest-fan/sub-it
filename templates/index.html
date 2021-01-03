@@ -17,7 +17,7 @@
                 {% if not user.data.dailyGoal == 0 %}
                     <a class="dash-item four">
                         <div class="graph">
-                            <canvas id="dailyGoal" width="220" height="220"></canvas>
+                            <canvas id="dailyGoal"></canvas>
                         </div>
                         <div class="stat">
                             <h2>{{ user.data.dailyGoalAchieved }}</h2>
@@ -39,13 +39,13 @@
                 {% endif %}
                 <a class="dash-item six">
                     <div class="graph">
-                        <canvas id="weeklyMetrics" width="500" height="220"></canvas>
+                        <canvas id="weeklyMetrics"></canvas>
                     </div>
                     <h4 class="dash-description">Weekly Breakdown</h4>
                 </a>
                 <a class="dash-item four" href="/rewards">
                     <div class="graph">
-                        <canvas id="level" width="220" height="220"></canvas>
+                        <canvas id="level"></canvas>
                     </div>
                     <div class="stat">
                         <h2 id='lvlH2'></h2>
@@ -210,7 +210,7 @@
                     },
                     options: {
                         cutoutPercentage: 75,
-                        responsive: false,
+                        responsive: true,
                         legend: {
                             display: false
                         }

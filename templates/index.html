@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="{{ url_for('static',filename='styles/index.css') }}" />
 {% endblock %}
 {% block dashActive %}class="active"{% endblock %}
+{% block dashActiveM %}class="active"{% endblock %}
 {% block content %}
     {% if auth %}
         <div class="header">    
@@ -15,7 +16,7 @@
             <h3>Dashboard</h3>
             <div class="dash-container">
                 {% if not user.data.dailyGoal == 0 %}
-                    <a class="dash-item four">
+                    <div class="dash-item four">
                         <div class="graph">
                             <canvas id="dailyGoal"></canvas>
                         </div>
@@ -24,9 +25,9 @@
                             <p>/{{ user.data.dailyGoal}} kg CO<sub>2</sub> saved</p>
                         </div>
                         <h4 class="dash-description">Daily Goal</h4>
-                    </a>
+                    </div>
                 {% else %}
-                    <a class="dash-item four">
+                    <div class="dash-item four">
                         <div class="no-data">
                             <p>Set up a goal to start tracking your daily progress.</p>
                             <form id="goalSetupForm" method="POST">
@@ -35,15 +36,15 @@
                             </form>
                         </div>
                         <h4 class="dash-description">Daily Goal</h4>
-                    </a>
+                    </div>
                 {% endif %}
-                <a class="dash-item six">
+                <div class="dash-item six">
                     <div class="graph">
                         <canvas id="weeklyMetrics"></canvas>
                     </div>
                     <h4 class="dash-description">Weekly Breakdown</h4>
-                </a>
-                <a class="dash-item four" href="/rewards">
+                </div>
+                <div class="dash-item four">
                     <div class="graph">
                         <canvas id="level"></canvas>
                     </div>
@@ -52,8 +53,8 @@
                         <p><span id='lvlRemaining'></span> kg CO<sub>2</sub> to next level</p>
                     </div>
                     <h4 class="dash-description">Sub.It Level</h4>
-                </a>
-                <a class="dash-item six" href="/history">
+                </div>
+                <a class="dash-item six" href="{{ url_for('history') }}">
                     <div class="table">
                         <table>
                             <colgroup>
@@ -64,29 +65,25 @@
                             <tr>
                                 <th>Subbed Food</th>
                                 <th>New Food</th>
-                                <th>Carbon Saved (kg CO<sub>2</sub>)</th>
+                                <th>Carbon Saved</th>
                             </tr>
-                            <tr>
-                                <td>Canned Tomatoes</td>
-                                <td>Roma Tomatoes</td>
-                                <td>2.03</td>
-                            </tr>
-                            <tr>
-                                <td>Pineapple</td>
-                                <td>Grapefruit</td>
-                                <td>5.12</td>
-                            </tr>
-                            <tr>
-                                <td>Bacon</td>
-                                <td>Ground Pork</td>
-                                <td>3.12</td>
-                            </tr>
-                            <tr>
-                                <td>Coconut Oil</td>
-                                <td>Vegetable Oil</td>
-                                <td>0.91</td>
-                            </tr>
-
+                            {% if user.data.history|length > 3 %}
+                                {% for i in range(user.data.history|length - 1, user.data.history|length - 4, -1) %}
+                                    <tr>
+                                        <td>{{ user.data.history[i].food.replace("_", " ").capitalize() }}</td>
+                                        <td>{{ user.data.history[i].alternative.replace("_", " ").capitalize() }}</td>
+                                        <td>{{ user.data.history[i].savings }} kg CO<sub>2</sub></td>
+                                    </tr>
+                                {% endfor %}
+                            {% else %}
+                                {% for i in range(user.data.history|length - 1, 0, -1) %}
+                                    <tr>
+                                        <td>{{ user.data.history[i].food.replace("_", " ").capitalize() }}</td>
+                                        <td>{{ user.data.history[i].alternative.replace("_", " ").capitalize() }}</td>
+                                        <td>{{ user.data.history[i].savings }} kg CO<sub>2</sub></td>
+                                    </tr>
+                                {% endfor %}
+                            {% endif %}
                         </table>
                     </div>
                     <h4 class="dash-description">Recent Subs</h4>
@@ -95,17 +92,19 @@
                     <div class='dark-layer'></div>
                     <h4 class="dash-description">New Foods for the New Year</h4>
                 </a>
-            </div>
-        </div>
-        <div class="modal">
-            <div class="modal-overlay"></div>
-            <div class="modal-content">
-
+                <div class="dash-item four" id="profile" >
+                    <div class='stat wide'>
+                        <img src='{{ url_for("static", filename="img/favicon.png") }}' width='70%' />
+                        <h2>{{ user.data.subbed }}</h2>
+                        <p>kg CO<sub>2</sub> saved in total</p>
+                    </div>
+                    <h4 class="dash-description">Subber since {{ user.data.joined | monthyr }}</h4>
+                </div>
             </div>
         </div>
     {% else %}
         <div class="header">    
-            <h1>Welcome!</h1>
+            <h1>Welcome to Sub.It!</h1>
             <a class='sub-it' href='/sub'>Sub It!</a>
         </div>
         <hr/>
@@ -120,13 +119,15 @@
         {% if not user.data.dailyGoal == 0 %}
             <script>
                 let user = {{ user|tojson }};
+                let achieved = user.data.dailyGoalAchieved;
+                let remaining = user.data.dailyGoalAchieved < user.data.dailyGoal ?  user.data.dailyGoal - user.data.dailyGoalAchieved : 0;
                 var dailyGoal = new Chart(document.getElementById('dailyGoal'), {
                     type: "doughnut",
                     data: {
                         labels: ['Achieved', 'Remaining'],
                         datasets: [{
                             label: 'Daily Goal Achieved',
-                            data: [user.data.dailyGoalAchieved, user.data.dailyGoal - user.data.dailyGoalAchieved],
+                            data: [achieved, remaining],
                             backgroundColor: ['#51c299', '#9fc1d1'],
                             borderWidth: 0
                         }]
@@ -185,7 +186,12 @@
                         scales: {
                             xAxes: [{
                                 gridLines: {
-                                    display: false,
+                                    display: false
+                                }
+                            }],
+                            yAxes: [{
+                                ticks: {
+                                    beginAtZero: true
                                 }
                             }]
                         },

@@ -1,17 +1,27 @@
 {% extends "base.html" %}
 {% block title %}Sub History{% endblock %}
+{% block links %}
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/history.css') }}" />
+{% endblock %}
 {% block histActive %}class="active"{% endblock %}
+{% block histActiveM %}class="active"{% endblock %}
 {% block content %}
-    <div class="header">    
-        <h1>Hi {{ user.fname }}!</h1>
-        <a class='sub-it' href='/sub'>Sub It!</a>
-    </div>
-    <hr/>
-    <div class="container">
-        <h3>History</h3>
-        {% if auth %}
-            <div class="container">
-                <table>
+    {% if auth %}
+        <div class="header">    
+            <h1>Hi {{ user.fname }}!</h1>
+            <a class='sub-it' href='/sub'>Sub It!</a>
+        </div>
+        <hr/>
+        <div class="container">
+            <h3>History</h3>
+            <div class="container subHistory-container">
+                <table class='sub-history'>
+                    <colgroup>
+                        <col span="1" style="width: 25%" />
+                        <col span="1" style="width: 25%" />
+                        <col span="1" style="width: 25%" />
+                        <col span="1" style="width: 25%" />
+                    </colgroup>
                     <tr>
                         <th>Ingredient</th>
                         <th>Substitution</th>
@@ -20,18 +30,26 @@
                     </tr>
                     {% for i in range(history|length - 1, 0, -1) %}
                         <tr>
-                            <td>{{ history[i].food }}</td>
-                            <td>{{ history[i].alternative }}</td>
-                            <td>{{ history[i].savings }}</td>
-                            <td>{{ history[i].time }}</td>
+                            <td>{{ history[i].food.replace("_", " ").capitalize() }}</td>
+                            <td>{{ history[i].alternative.replace("_", " ").capitalize() }}</td>
+                            <td>{{ history[i].savings }} kg CO<sub>2</sub></td>
+                            <td>{{ history[i].time | ctime }}</td>
                         </tr>
                     {% endfor %}
                 </table>
             </div>
-        {% else %}
+        </div>
+    {% else %}
+        <div class="header">    
+            <h1>Welcome to Sub.It!</h1>
+            <a class='sub-it' href='/sub'>Sub It!</a>
+        </div>
+        <hr/>
+        <div class="container">
+            <h3>History</h3>
             <p class="signin-prompt"><a href="{{ url_for('signin')}}">Sign in</a> to get started.</p>
-        {% endif %}
-    </div>
+        </div>
+    {% endif %}
 {% endblock %}
 {% block scripts %}
 

@@ -13,13 +13,8 @@
     height: 300px;
     position: relative;
     box-shadow: 0px 1px 3px 1px #999;
-    transition: box-shadow 0.3s;
     margin: 5px 10px;
     display: block;
-}
-
-.dash-container .dash-item:hover {
-    box-shadow: 0px 2px 6px 2px #999;
 }
 
 .dash-container .dash-item.four {width: 400px;}
@@ -46,6 +41,8 @@
 .dash-container .dash-item .table table {
     border-collapse: collapse;
     border-style: hidden;
+    width: 100%;
+    text-align: Center;
 }
 
 .dash-container .dash-item .table th {
@@ -76,6 +73,10 @@
     transform: translate(-50%, -50%);
     width: 100px;
     text-align: center;
+}
+
+.dash-container .dash-item .stat.wide {
+    width: 60%;
 }
 
 .dash-container .dash-item .no-data {
@@ -148,5 +149,6 @@
 }
 
 @media (max-width: 600px) {
-    .dash-container .dash-item.six canvas {width: 300px!important}
+    .dash-container .dash-item.six .graph {width: 100%}
+    .dash-container .dash-item.six canvas {width: 100%!important}
 }

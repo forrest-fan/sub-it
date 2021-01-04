@@ -1,5 +1,6 @@
 * {
     margin: 0px;
+    box-sizing:border-box;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -218,15 +219,20 @@ hr {
 
 .bottom-nav li {
     display: inline-block;
-    width: 19%;
+    width: 24%;
     text-align: center;
     padding: 16px 0px;
     font-size: 20px;
+    color: #777;
 }
 
 .bottom-nav a {
     text-decoration: none;
-    color: #000;
+    color: inherit;
+}
+
+.bottom-nav li.active {
+    color: #51c299;
 }
 
 @media (max-width: 600px) {
@@ -240,6 +246,10 @@ hr {
 
     .main-content {
         margin: 0px;
-        padding: 40px 20px;
+        padding: 40px 10px;
+    }
+
+    .container {
+        padding: 5px;
     }
 }

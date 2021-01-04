@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="{{ url_for('static',filename='styles/sub.css') }}" />
 {% endblock %}
 {% block subActive %}class="active"{% endblock %}
+{% block subActiveM %}class="active"{% endblock %}
 {% block content %}
     {% if auth %}
         <div class="header">    
@@ -17,7 +18,7 @@
                 <div class='subResults-container container'>
                     <div class='center'> 
                         <h3>{{ recipe.name.capitalize().replace("_", " ") }}</h3>
-                        <img id='uploadedPic' width='400px' src="{{ url_for('static',filename='img/' + recipe.image) }}"/>
+                        <img id='uploadedPic' src="{{ url_for('static',filename='img/' + recipe.image) }}"/>
                     </div>
                     <h4>Ingredients</h4>
                     <br/>
@@ -26,6 +27,7 @@
                     <h4>Alternative Ingredients</h4>
                     <form id='subResultsChecklist' method='post'>
                         <p>Here are some alternative ingredients you can use to reduce your carbon foodprint. Check off the ones you use to record these subs in your Sub.It account.</p>
+                        <br/>
                         {% for alt in alts %}
                             <input type='checkbox' id={{alt.food}} name={{alt.food}} value={{alt.food}} />
                             <label>Substitute <span class='alt food'>{{alt.food}}</span> with <span class='alt alternative'>{{alt.alternative.replace('_', ' ')}}</span> to save <span class='alt savings'>{{alt.savings}}</span> kg CO<sub>2</sub></label>
@@ -55,7 +57,7 @@
         </div>
     {% else %}
         <div class="header">    
-            <h1>Welcome!</h1>
+            <h1>Welcome to Sub.It!</h1>
             <a class='sub-it' href='/sub'>Sub It!</a>
         </div>
         <hr/>
@@ -71,7 +73,7 @@
         $('#foodImg').on('change', function(e) {
             if (e.target.files[0]) {
                 imgUrl = URL.createObjectURL(e.target.files[0]);
-                $('#previewUpload').html(`<img src="` + imgUrl + `" width="400px" />`);
+                $('#previewUpload').html(`<img src="` + imgUrl + `" />`);
             }
         });
     </script>

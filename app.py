@@ -107,7 +107,7 @@ def handlesignup():
             },
             'dailyGoal': 0,
             'dailyGoalAchieved': 0,
-            'joined': request.form['date'],
+            'joined': datetime.datetime.now.timestamp(),
             'subbed': 0
         },
         'email': email,
@@ -151,7 +151,7 @@ def sub():
 
 @app.route("/handlesub", methods=['GET', 'POST'])
 def handlesub():
-    global userID, db, alt_ingr, ingr_co2
+    global user, userID, db, alt_ingr, ingr_co2
     userData = db.child('users').child(userID).child('data').get().val()
     totalSave = float(0)
     for key in request.form:
@@ -167,6 +167,8 @@ def handlesub():
         totalSave += round(initCO2 - altCO2, 2)
     userData['weekly'][datetime.datetime.today().weekday()] += totalSave
     userData['dailyGoalAchieved'] += totalSave
+    userData['subbed'] += totalSave
+    user.data = userData
     db.child('users').child(userID).update({'data': userData})
     return str(totalSave)
 
@@ -179,21 +181,23 @@ def history():
     else:
         return render_template("history.html", auth=False, history=None, user=None)
 
+@app.template_filter('ctime')
+def timectime(s):
+    theTime = datetime.datetime.fromtimestamp(s)
+    return theTime.strftime("%I:%M %p - %b %d %Y")
+
+@app.template_filter('monthyr')
+def monthyr(s):
+    theTime = datetime.datetime.fromtimestamp(s)
+    return theTime.strftime("%B %Y")
+
 @app.route("/discover")
 def discover():
     return render_template("discover.html")
 
-@app.route("/rewards")
-def rewards():
-    return render_template("rewards.html")
-
-@app.route("/profile")
-def profile():
-    global user
-    if user is not None:
-        return render_template("profile.html", user=user, auth=True)
-    else:
-        return render_template("profile.html", user="", auth=False)
+@app.route("/about")
+def about():
+    return render_template("about.html")
 
 if __name__ == "__main__":
     app.run(debug=True)

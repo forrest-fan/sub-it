@@ -14,11 +14,10 @@
     <body>
         <div class="bottom-nav mobile">
             <ul>
-                <li><a><i class="fas fa-tachometer-alt"></a></i></li>
-                <li><a><i class="fas fa-hamburger"></a></i></li>
-                <li><a><i class="fas fa-clock"></a></i></li>
-                <li><a><i class="fas fa-eye"></a></i></li>
-                <li><a><i class="fas fa-user-alt"></a></i></li>
+                <li {% block dashActiveM %}{% endblock %}><a href="{{ url_for('dash') }}"><i class="fas fa-tachometer-alt"></a></i></li>
+                <li {% block subActiveM %}{% endblock %}><a href="{{ url_for('sub') }}"><i class="fas fa-hamburger"></a></i></li>
+                <li {% block histActiveM %}{% endblock %}><a href="{{ url_for('history') }}"><i class="fas fa-clock"></a></i></li>
+                <li {% block learnActiveM %}{% endblock %}><a href="{{ url_for('discover') }}"><i class="fas fa-eye"></a></i></li>
             </ul>
         </div>
         <div class="sidebar desktop">
@@ -30,9 +29,8 @@
                 <ul>
                     <li {% block dashActive %}{% endblock %}><a href="{{ url_for('dash') }}"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a></li>
                     <li {% block subActive %}{% endblock %}><a href="{{ url_for('sub') }}"><i class="fas fa-hamburger"></i><span>Sub It</span></a></li>
-                    <li {% block histActive %}{% endblock %}><a href="#"><i class="fas fa-clock"></i><span>History</a></span></li>
-                    <li {% block learnActive %}{% endblock %}><a href="#"><i class="fas fa-eye"></i><span>Discover</a></span></li>
-                    <li {% block profActive %}{% endblock %}><a href="#"><i class="fas fa-user-alt"></i><span>Profile</a></span></li>
+                    <li {% block histActive %}{% endblock %}><a href="{{ url_for('history') }}"><i class="fas fa-clock"></i><span>History</a></span></li>
+                    <li {% block learnActive %}{% endblock %}><a href="{{ url_for('discover') }}"><i class="fas fa-eye"></i><span>Discover</a></span></li>
                 </ul>
             </div>
             <div class="footer">
@@ -42,7 +40,7 @@
                 {% else %}
                     <a href="{{ url_for('signin')}}">Sign In</a>
                 {% endif %}
-                •<a>About</a>•<a>Terms & Conditions</a></p>
+                •<a href="{{ url_for('about') }}">About</a>•<a>Terms & Conditions</a></p>
             </div>
         </div>
         <div class="main-content">

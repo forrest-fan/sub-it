@@ -1,0 +1,37 @@
+.sub-history {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.sub-history th {
+    font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff;
+    background-color: #51c299;
+    padding: 8px 4px;
+    border: 2px solid #fff;
+}
+
+.sub-history td {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #000;
+    padding: 4px;
+    border: 2px solid #fff;
+}
+
+.sub-history tr:nth-child(even) {
+    background-color: #d3e0dc;
+}
+
+@media (max-width: 600px) {
+    .subHistory-container {
+        width: 100%;
+        overflow-x: auto;
+    }
+    .sub-history {
+        min-width: 600px;
+    }
+}

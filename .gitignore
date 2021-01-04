@@ -1,1 +1,7 @@
 *.hdf5
+*.jpg
+*.png
+
+!favicon.png
+!healthy.jpg
+!logo.png

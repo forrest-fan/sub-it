@@ -24,9 +24,18 @@
                     <p>{{ ', '.join(recipe.ingredients) }}</p>
                     <br/>
                     <h4>Alternative Ingredients</h4>
-                    {% for alt in alts %}
-                        <p>Instead of {{alt.food}}, use {{alt.alternative.replace('_', ' ')}} to save {{alt.savings}} kg CO<sub>2</sub></p>
-                    {% endfor %}
+                    <form id='subResultsChecklist' method='post'>
+                        <p>Here are some alternative ingredients you can use to reduce your carbon foodprint. Check off the ones you use to record these subs in your Sub.It account.</p>
+                        {% for alt in alts %}
+                            <input type='checkbox' id={{alt.food}} name={{alt.food}} value={{alt.food}} />
+                            <label>Substitute <span class='alt food'>{{alt.food}}</span> with <span class='alt alternative'>{{alt.alternative.replace('_', ' ')}}</span> to save <span class='alt savings'>{{alt.savings}}</span> kg CO<sub>2</sub></label>
+                            <br/>
+                        {% endfor %}
+                        <input type='submit' id='submitSubs' value='Sub It!' />
+                    </form>
+                    <div class='container' id='subResultContainer'>
+
+                    </div>
                 </div>
             {% else %}
                 <div class='subForm-container container'>
@@ -41,6 +50,9 @@
                 </div>
             {% endif %}
         </div>
+        <div class="toast" id="subSuccessful">
+            <p><i class="fas fa-check"></i> Sub is successful.</p>
+        </div>
     {% else %}
         <div class="header">    
             <h1>Welcome!</h1>
@@ -54,7 +66,6 @@
     {% endif %}
 {% endblock %}
 {% block scripts %}
-    <script type="text/javascript" src="https://unpkg.com/webcam-easy/dist/webcam-easy.min.js"></script>
     <script>
         var imgUrl = '';
         $('#foodImg').on('change', function(e) {
@@ -63,7 +74,40 @@
                 $('#previewUpload').html(`<img src="` + imgUrl + `" width="400px" />`);
             }
         });
-
-
     </script>
+    {% if alts %}
+        <script>
+            $('#subResultsChecklist').on('submit', function(e) {
+                e.preventDefault();
+                var checked = [];
+                $('#subResultsChecklist :input[type=checkbox]:checked').each(function() {
+                    checked.push($(this).val());
+                })
+                var alts = {{ alts|tojson }};
+                var subs = {};
+                for (let i = 0; i < alts.length; i++) {
+                    if (checked.includes(alts[i]['food'])) {
+                        subs[alts[i]['food']] = alts[i]['alternative']
+                    }
+                }
+                console.log(subs);
+                $.ajax({
+                    url: '{{ url_for("handlesub") }}',
+                    data: subs,
+                    method: 'POST',
+                    success: function(savings) {
+                        $('#subSuccessful').html(`<p><i class="fas fa-check"></i> Succesfully saved ` + savings + `kg CO<sub>2</sub></p>`);
+                        $('#subSuccessful').addClass('show');
+                        setTimeout(function() {
+                            $('#subSuccessful').removeClass('show');
+                            window.location.href = "{{ url_for('history') }}";
+                        }, 3000);
+                    },
+                    error: function(e) {
+
+                    }
+                });
+            });
+        </script>
+    {% endif %}
 {% endblock %}

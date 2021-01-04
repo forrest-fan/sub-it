@@ -6,14 +6,15 @@ import json
 with open("./alt_ingr.json", 'r') as fp:
     alt_ingr = json.load(fp)
 
+with open("./ingr_co2.json", 'r') as fp:
+    ingr_co2 = json.load(fp)
+
 def findAlts(ingredients):
     alts = []
+    altsFound = []
     for ing in ingredients:
-        print(ing)
         for word in ing.split():
-            print(word)
-            if alt_ingr.get(word) is not None and len(alt_ingr[word]) is not 0:
-                print('found')
+            if (alt_ingr.get(word) is not None) and (len(alt_ingr[word]) is not 0) and (word not in altsFound):
                 min = float('inf')
                 min_food = ""
                 for ingr, co2 in alt_ingr[word]:
@@ -23,6 +24,7 @@ def findAlts(ingredients):
                 alts.append({
                     "food": word,
                     "alternative": min_food,
-                    "savings": min
+                    "savings": round(ingr_co2[word] - min, 2)
                 })
+                altsFound.append(word)
     return alts

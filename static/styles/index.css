@@ -148,5 +148,5 @@
 }
 
 @media (max-width: 600px) {
-    .dash-container .dash-item.six canvas {width: 220px!important}
+    .dash-container .dash-item.six canvas {width: 300px!important}
 }

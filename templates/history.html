@@ -1,6 +1,38 @@
 {% extends "base.html" %}
-{% block title %}Home Page{% endblock %}
+{% block title %}Sub History{% endblock %}
 {% block histActive %}class="active"{% endblock %}
 {% block content %}
-<h1>History</h1>
+    <div class="header">    
+        <h1>Hi {{ user.fname }}!</h1>
+        <a class='sub-it' href='/sub'>Sub It!</a>
+    </div>
+    <hr/>
+    <div class="container">
+        <h3>History</h3>
+        {% if auth %}
+            <div class="container">
+                <table>
+                    <tr>
+                        <th>Ingredient</th>
+                        <th>Substitution</th>
+                        <th>Carbon Footprint Saved</th>
+                        <th>Date</th>
+                    </tr>
+                    {% for i in range(history|length - 1, 0, -1) %}
+                        <tr>
+                            <td>{{ history[i].food }}</td>
+                            <td>{{ history[i].alternative }}</td>
+                            <td>{{ history[i].savings }}</td>
+                            <td>{{ history[i].time }}</td>
+                        </tr>
+                    {% endfor %}
+                </table>
+            </div>
+        {% else %}
+            <p class="signin-prompt"><a href="{{ url_for('signin')}}">Sign in</a> to get started.</p>
+        {% endif %}
+    </div>
+{% endblock %}
+{% block scripts %}
+
 {% endblock %}

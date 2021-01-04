@@ -25,8 +25,6 @@
 }
 
 .subForm-container #foodImgLabel,
-.subForm-container #openWebcam,
-.subForm-container #snapPic,
 .subForm-container #uploadImg {
     color: #fff;
     background-color: #51c299;
@@ -42,8 +40,6 @@
 }
 
 .subForm-container #foodImgLabel:hover,
-.subForm-container #openWebcam:hover,
-.subForm-container #snapPic:hover,
 .subForm-container #uploadImg:hover {
     background-color: #56a78a;
 }
@@ -85,4 +81,48 @@
 
 .subResults-container #uploadedPic {
     margin: 12px 0px;
+}
+
+.subResults-container #subResultsChecklist {
+    margin: 12px 0px;
+}
+
+.subResults-container #subResultsChecklist input {
+    margin: 10px 3px;
+}
+
+.subResults-container #subResultsChecklist label {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 10px 0px;
+}
+
+.subResults-container #subResultsChecklist .alt {
+    color: #fff;
+    padding: 3px 6px;
+    border-radius: 4px;;
+}
+
+.subResults-container #subResultsChecklist .alt.food {background-color: #e33b3b;}
+
+.subResults-container #subResultsChecklist .alt.alternative {background-color: #51c299;}
+
+.subResults-container #subResultsChecklist .alt.savings {background-color: #51c299;}
+
+.subResults-container #subResultsChecklist #submitSubs {
+    color: #fff;
+    background-color: #51c299;
+    font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding: 12px 16px 10px 16px;
+    margin: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    outline: none;
+    border: none;
+}
+
+.subResults-container #subResultsChecklist #submitSubs:hover {
+    background-color: #56a78a;
 }

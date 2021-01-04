@@ -1,13 +1,13 @@
 from flask import Flask, redirect, url_for, render_template, request
 from werkzeug.utils import secure_filename
-from binascii import a2b_base64
 import pyrebase
 import json
 import model
 import swap
 import os
 import shutil
-import base64
+import time
+import datetime
 
 
 firebaseConfig = {
@@ -31,6 +31,13 @@ db = firebase.database()
 # Build ML model
 modelVar = model.buildModel()
 
+# Open ingredients JSON
+with open("./alt_ingr.json", 'r') as fp:
+    alt_ingr = json.load(fp)
+
+with open("./ingr_co2.json", 'r') as fp:
+    ingr_co2 = json.load(fp)
+
 app = Flask(__name__)
 
 @app.route("/")
@@ -48,6 +55,18 @@ def handlesignin():
     password = request.form['password']
     userID = auth.sign_in_with_email_and_password(email, password)['localId']
     user = db.child("users").child(userID).get().val()
+    # reset daily/weekly data
+    data = user['data']
+    history = data['history']
+    now = datetime.datetime.now()
+    midnight =  now.replace(hour=0, minute=0, second=0, microsecond=0).timestamp()
+    if len(history) > 1 and history[len(history) - 1]['time'] < midnight:
+        # If most recent sub was yesterday, reset daily goal achieved to 0
+        data['dailyGoalAchieved'] = 0
+        if datetime.datetime.today().weekday() == 0:
+            # if today is monday, then reset weekly data to all 0s
+            data['weekly'] = [0, 0, 0, 0, 0, 0, 0]
+        db.child('users').child(userID).update({'data': data})
     return user
 
 @app.route("/handlesignout", methods=['GET', 'POST'])
@@ -123,18 +142,42 @@ def sub():
             filename = './static/img/upload' + img.filename
             img.save(filename)
             recipe = model.predict_class(modelVar, [filename], False)
-            print(recipe)
             alternatives = swap.findAlts(recipe['ingredients'])
-            print(alternatives)
             return render_template("sub.html", user=user, auth=True, recipe=recipe, alts=alternatives)
         else:
-            return render_template("sub.html", user=user, auth=True, recipe=None)
+            return render_template("sub.html", user=user, auth=True, recipe=None, alts=None)
     else:
-        return render_template("sub.html", user=user, auth=False)
+        return render_template("sub.html", user=user, auth=False, recipe=None, alts=None)
+
+@app.route("/handlesub", methods=['GET', 'POST'])
+def handlesub():
+    global userID, db, alt_ingr, ingr_co2
+    userData = db.child('users').child(userID).child('data').get().val()
+    totalSave = float(0)
+    for key in request.form:
+        initCO2 = ingr_co2[key]
+        altCO2 = ingr_co2[request.form[key]]
+        sub = {
+            'food': key,
+            'alternative': request.form[key],
+            'savings': round(initCO2 - altCO2, 2),
+            'time': int(time.time())
+        }
+        userData['history'].append(sub)
+        totalSave += round(initCO2 - altCO2, 2)
+    userData['weekly'][datetime.datetime.today().weekday()] += totalSave
+    userData['dailyGoalAchieved'] += totalSave
+    db.child('users').child(userID).update({'data': userData})
+    return str(totalSave)
 
 @app.route("/history")
 def history():
-    return render_template("history.html")
+    global user, userID, db
+    if user is not None:
+        history = db.child('users').child(userID).child('data').child('history').get().val()
+        return render_template("history.html", auth=True, history=history, user=user)
+    else:
+        return render_template("history.html", auth=False, history=None, user=None)
 
 @app.route("/discover")
 def discover():

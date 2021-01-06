@@ -119,8 +119,8 @@
         {% if not user.data.dailyGoal == 0 %}
             <script>
                 let user = {{ user|tojson }};
-                let achieved = user.data.dailyGoalAchieved;
-                let remaining = user.data.dailyGoalAchieved < user.data.dailyGoal ?  user.data.dailyGoal - user.data.dailyGoalAchieved : 0;
+                let achieved = Math.round(user.data.dailyGoalAchieved * 100) / 100;
+                let remaining = user.data.dailyGoalAchieved < user.data.dailyGoal ?  Math.round((user.data.dailyGoal - user.data.dailyGoalAchieved) * 100) / 100 : 0;
                 var dailyGoal = new Chart(document.getElementById('dailyGoal'), {
                     type: "doughnut",
                     data: {
@@ -204,7 +204,7 @@
                     lvl++;
                 }
                 $('#lvlH2').html('Lvl ' + lvl);
-                remain = levelSettings[lvl] - user.data.subbed;
+                remain = Math.round((levelSettings[lvl] - user.data.subbed) * 100) / 100;
                 $('#lvlRemaining').html(remain);
                 var level = new Chart(document.getElementById('level'), {
                     type: "doughnut",

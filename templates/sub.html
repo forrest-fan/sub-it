@@ -6,7 +6,7 @@
 {% block subActive %}class="active"{% endblock %}
 {% block subActiveM %}class="active"{% endblock %}
 {% block content %}
-    {% if auth %}
+    {% if user %}
         <div class="header">    
             <h1>Hi {{ user.fname }}!</h1>
             <a class='sub-it' href='/sub'>Sub It!</a>
@@ -35,9 +35,8 @@
                         {% endfor %}
                         <input type='submit' id='submitSubs' value='Sub It!' />
                     </form>
-                    <div class='container' id='subResultContainer'>
-
-                    </div>
+                    <br/>
+                    <p>*All savings are per kilogram of substituted food</p>
                 </div>
             {% else %}
                 <div class='subForm-container container'>

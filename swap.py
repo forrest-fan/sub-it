@@ -2,6 +2,8 @@ import pickle
 import os
 import json
 
+# JSON data scraped from https://healabel.com/carbon-footprint-of-foods
+
 # opens the .json folder that stores the alternate ingredients
 with open("./alt_ingr.json", 'r') as fp:
     alt_ingr = json.load(fp)

@@ -6,7 +6,7 @@
 {% block histActive %}class="active"{% endblock %}
 {% block histActiveM %}class="active"{% endblock %}
 {% block content %}
-    {% if auth %}
+    {% if user %}
         <div class="header">    
             <h1>Hi {{ user.fname }}!</h1>
             <a class='sub-it' href='/sub'>Sub It!</a>

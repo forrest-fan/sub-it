@@ -235,7 +235,11 @@ hr {
     color: #51c299;
 }
 
-@media (max-width: 600px) {
+.green {
+    color: #51c299;
+}
+
+@media (max-width: 700px) {
     .mobile {
         display: block;
     }

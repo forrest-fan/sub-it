@@ -1,0 +1,29 @@
+.impactStat-container {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.impactStat {
+    text-align: center;
+    padding: 10px;
+    width: 16%;
+}
+
+.impactStat h2 {
+    color: #51c299;
+}
+
+@media (max-width: 1100px) and (min-width: 801px) {
+    .impactStat {
+        width: 33%;
+    }
+}
+
+@media (max-width: 800px) {
+    .impactStat {
+        width: 49%;
+    }
+}

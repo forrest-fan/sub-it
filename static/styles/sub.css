@@ -57,7 +57,7 @@
 }
 
 .subForm-container #previewUpload img {
-    width: 400px;
+    width: 100%;
 }
 
 .subResults-container #uploadedPic {
@@ -109,14 +109,10 @@
     background-color: #56a78a;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .subForm-container form {
         width: 100%;
         padding: 20px 10px;
-    }
-
-    .subForm-container #previewUpload img {
-        width: 100%;
     }
 
     .subResults-container #uploadedPic {

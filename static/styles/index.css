@@ -148,7 +148,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8));
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .dash-container .dash-item.six .graph {width: 100%}
     .dash-container .dash-item.six canvas {width: 100%!important}
 }

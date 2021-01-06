@@ -17,7 +17,7 @@
                 <li {% block dashActiveM %}{% endblock %}><a href="{{ url_for('dash') }}"><i class="fas fa-tachometer-alt"></a></i></li>
                 <li {% block subActiveM %}{% endblock %}><a href="{{ url_for('sub') }}"><i class="fas fa-hamburger"></a></i></li>
                 <li {% block histActiveM %}{% endblock %}><a href="{{ url_for('history') }}"><i class="fas fa-clock"></a></i></li>
-                <li {% block learnActiveM %}{% endblock %}><a href="{{ url_for('discover') }}"><i class="fas fa-eye"></a></i></li>
+                <li {% block impactActiveM %}{% endblock %}><a href="{{ url_for('impact') }}"><i class="fas fa-eye"></a></i></li>
             </ul>
         </div>
         <div class="sidebar desktop">
@@ -30,12 +30,12 @@
                     <li {% block dashActive %}{% endblock %}><a href="{{ url_for('dash') }}"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a></li>
                     <li {% block subActive %}{% endblock %}><a href="{{ url_for('sub') }}"><i class="fas fa-hamburger"></i><span>Sub It</span></a></li>
                     <li {% block histActive %}{% endblock %}><a href="{{ url_for('history') }}"><i class="fas fa-clock"></i><span>History</a></span></li>
-                    <li {% block learnActive %}{% endblock %}><a href="{{ url_for('discover') }}"><i class="fas fa-eye"></i><span>Discover</a></span></li>
+                    <li {% block impactActive %}{% endblock %}><a href="{{ url_for('impact') }}"><i class="fas fa-eye"></i><span>Impact</a></span></li>
                 </ul>
             </div>
             <div class="footer">
                 <p>
-                {% if auth %}
+                {% if user %}
                     <a id='signOutLink'>Sign Out</a>
                 {% else %}
                     <a href="{{ url_for('signin')}}">Sign In</a>

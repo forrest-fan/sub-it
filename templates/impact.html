@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}Impact{% endblock %}
+{% block links %}
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/impact.css') }}" />
+{% endblock %}
+{% block impactActive %}class="active"{% endblock %}
+{% block impactActiveM %}class="active"{% endblock %}
+{% block content %}
+    {% if user %}
+        <div class="header">    
+            <h1>Hi {{ user.fname }}!</h1>
+            <a class='sub-it' href='/sub'>Sub It!</a>
+        </div>
+        <hr />
+        <div class='container'>
+            <h3>Impact</h3>
+            <br/>
+            <h4 class='center'>Through <span class='green'>{{ user.data.history|length - 1}}</span> ingredients subbed, you've saved <span class='green'>{{ user.data.subbed }} kg CO<sub>2</sub></span></h4>
+            <br/>
+            <h5>This is equal to the carbon emissions produced by</h5>
+            <div class='impactStat-container'>
+                {% for comp in comps %}
+                    <div class='impactStat'>
+                        <h2>{{comp.co2}}</h2>
+                        <p>{{comp.msg}}</p>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    {% else %}
+        <div class="header">    
+            <h1>Welcome to Sub.It!</h1>
+            <a class='sub-it' href='/sub'>Sub It!</a>
+        </div>
+        <hr/>
+        <div class="container">
+            <h3>Impact</h3>
+            <p class="signin-prompt"><a href="{{ url_for('signin')}}">Sign in</a> to get started.</p>
+        </div>
+    {% endif %}
+{% endblock %}

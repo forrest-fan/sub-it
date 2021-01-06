@@ -6,7 +6,7 @@
 {% block dashActive %}class="active"{% endblock %}
 {% block dashActiveM %}class="active"{% endblock %}
 {% block content %}
-    {% if auth %}
+    {% if user %}
         <div class="header">    
             <h1>Hi {{ user.fname }}!</h1>
             <a class='sub-it' href='/sub'>Sub It!</a>
@@ -88,18 +88,18 @@
                     </div>
                     <h4 class="dash-description">Recent Subs</h4>
                 </a>
-                <a class="dash-item four" id="blog" href="/discover">
+                <a class="dash-item four" id="blog">
                     <div class='dark-layer'></div>
                     <h4 class="dash-description">New Foods for the New Year</h4>
                 </a>
-                <div class="dash-item four" id="profile" >
+                <a class="dash-item four" href="{{ url_for('impact') }}">
                     <div class='stat wide'>
                         <img src='{{ url_for("static", filename="img/favicon.png") }}' width='70%' />
                         <h2>{{ user.data.subbed }}</h2>
                         <p>kg CO<sub>2</sub> saved in total</p>
                     </div>
                     <h4 class="dash-description">Subber since {{ user.data.joined | monthyr }}</h4>
-                </div>
+                </a>
             </div>
         </div>
     {% else %}

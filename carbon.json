@@ -1,0 +1,26 @@
+{
+    "car": {
+        "co2": 0.404,
+        "msg": "miles driven"
+    },
+    "cigarette": {
+        "co2": 0.03475,
+        "msg": "packs of cigarettes smoked"
+    },
+    "kwh": {
+        "co2": 0.70706,
+        "msg": "kWh of electricity used"
+    },
+    "barrel": {
+        "co2": 430,
+        "msg": "barrels of oil produced"
+    },
+    "propane": {
+        "co2": 24,
+        "msg": "propane tanks used"
+    },
+    "phone": {
+        "co2": 0.007778,
+        "msg": "fully charged phones"
+    }
+}

@@ -91,7 +91,7 @@
                         subs[alts[i]['food']] = alts[i]['alternative']
                     }
                 }
-                console.log(subs);
+                
                 $.ajax({
                     url: '{{ url_for("handlesub") }}',
                     data: subs,

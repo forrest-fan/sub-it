@@ -8,7 +8,6 @@ with open('./carbon.json', 'r') as fp:
 
 def calculateImpact(savings):
     comps = []
-    print('redoing comps')
     for comp in carbon:
         amount = round((float(savings) / float(carbon[comp]['co2'])), 2)
         comps.append({

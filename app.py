@@ -167,16 +167,27 @@ def sub():
     if user is not None:
         # If method is POST, then user is submitting image for processing
         if request.method == 'POST':
-            # Extract the image from HTML form
-            img = request.files['foodImg']
-            # Set filename and path for new image
-            filename = './static/img/upload' + img.filename
-            # Save the image
-            img.save(filename)
-            # Call prediction function using model.py
-            recipe = model.predict_class(modelVar, [filename], False)
-            # Find alternatives using swap.py
-            alternatives = swap.findAlts(recipe['ingredients'])
+            recipe = {}
+            alternatives = []
+            if request.form['recipeText'] == '':
+                # Extract the image from HTML form
+                img = request.files['foodImg']
+                # Set filename and path for new image
+                filename = './static/img/upload' + img.filename
+                # Save the image
+                img.save(filename)
+                # Call prediction function using model.py
+                recipe = model.predict_class(modelVar, [filename], False)
+                # Find alternatives using swap.py
+                alternatives = swap.findAlts(recipe['ingredients'])
+            else:
+                # Extract recipe from textbox
+                recipe = {
+                    'name': 'From Pasted Recipe',
+                    'ingredients': request.form['recipeText'].splitlines(),
+                    'image': 'favicon.png'
+                }
+                alternatives = swap.findAlts(recipe['ingredients'])
             return render_template("sub.html", user=user, recipe=recipe, alts=alternatives)
         else:
             return render_template("sub.html", user=user, recipe=None, alts=None)

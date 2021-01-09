@@ -51,12 +51,8 @@
     ],
     "all_beef_wiener": [
         [
-            "verjus",
-            0.4689925250837059
-        ],
-        [
-            "milky_way_bar",
-            0.6208258521763099
+            "tempen",
+             0.4882756487541824
         ]
     ],
     "allspice": [],
@@ -198,10 +194,7 @@
     ],
     "artificial_sweetener": [],
     "arugula": [
-        [
-            "gold_leaf_foil",
-            0.5756074480568213
-        ]
+
     ],
     "asafoetida_powder": [],
     "ascorbic_acid": [],
@@ -215,14 +208,6 @@
         [
             "fines_herbes",
             0.1044760666436435
-        ],
-        [
-            "kitchen_bouquet",
-            0.9132993354599216
-        ],
-        [
-            "rocket",
-            1.2296989350624776
         ]
     ],
     "au_gratin_potato_mix": [],
@@ -244,8 +229,8 @@
             1.183378475778892
         ],
         [
-            "gooseberries",
-            0.577841883434004
+            "tofu",
+            0.631124801605942
         ]
     ],
     "bagel": [],
@@ -357,16 +342,8 @@
     "bee_pollen": [],
     "beef": [
         [
-            "perciatelli",
-            0.04476891580512821
-        ],
-        [
-            "coleslaw",
-            1.2087964098748376
-        ],
-        [
-            "chestnuts",
-            0.7785404459053258
+            "tempen",
+             0.4882756487541824
         ]
     ],
     "beer": [],
@@ -533,10 +510,7 @@
         ]
     ],
     "blueberry_muffin_mix": [
-        [
-            "kool_-_aid",
-            0.08101884639325396
-        ]
+
     ],
     "blueberry_sauce": [],
     "bluefish": [],
@@ -557,16 +531,8 @@
     "bolognese_sauce": [],
     "boneless_beef_cube": [
         [
-            "golden_raisin",
-            1.279686858261944
-        ],
-        [
-            "zinfandel",
-            0.6178976084093191
-        ],
-        [
-            "good_seasonings_italian_salad_dressing_mix",
-            0.27348724653742185
+            "tempen",
+             0.4882756487541824
         ]
     ],
     "boneless_duck_breast_halves": [
@@ -580,23 +546,16 @@
         ]
     ],
     "boneless_skinless_chicken_breast_half": [
-        [
-            "green_tomatillo_sauce",
-            0.29918355183212997
-        ],
-        [
-            "soy_sauce",
-            0.5694786566210792
-        ],
-        [
-            "dog_food",
-            0.7634304032874746
-        ]
+
+           [
+               "tofu",
+                0.631124801605942
+           ]
     ],
     "boneless_skinless_chicken_breast_halves": [
         [
-            "radiatore",
-            0.17778136262954702
+            "tofu",
+            0.631124801605942
         ]
     ],
     "bonito_flakes": [],
@@ -604,11 +563,8 @@
         [
             "sansho",
             1.3911410987293664
-        ],
-        [
-            "cooking_spray",
-            0.7578204159552067
         ]
+
     ],
     "borax": [
         [
@@ -749,10 +705,6 @@
         [
             "croissant",
             0.8980079213873988
-        ],
-        [
-            "wood_chunks",
-            1.0999542022920292
         ]
     ],
     "bugles_original_flavor_snacks": [],
@@ -901,10 +853,7 @@
     "cannelloni_tubes": [],
     "cannoli_shells": [],
     "cantaloupe": [
-        [
-            "kool_-_aid",
-            0.08101884639325396
-        ],
+
         [
             "verjus",
             0.4689925250837059
@@ -1029,8 +978,7 @@
     "celeriac": [],
     "celery": [
         [
-            "dumplings",
-            0.5208312175402326
+
         ]
     ],
     "center_-_cut_pork_loin_chop": [
@@ -1072,10 +1020,6 @@
             0.6593637772462377
         ],
         [
-            "bath_soap",
-            0.7840328776596153
-        ],
-        [
             "sundae_sauce",
             1.1900374191321887
         ]
@@ -1094,7 +1038,10 @@
     "cherry_soda": [],
     "chervil": [],
     "chestnuts": [],
-    "chicken": [],
+    "chicken": [
+            "tofu",
+            0.631124801605942
+        ],
     "chickpeas": [
         [
             "edible_orchid",
@@ -1359,20 +1306,20 @@
             0.05213633919285221
         ]
     ],
-    "crab": [],
-    "crabapples": [],
+    "crab": [
+            [
+                "chickpeas",
+                0.273946525160685
+            ]
+        ],
+    "crabapples": [
+            "chickpeas",
+            0.273946525160685
+        ],
     "crabmeat": [
         [
-            "rutabaga",
-            0.09131537846205151
-        ],
-        [
-            "pinecones",
-            0.21288290757329942
-        ],
-        [
-            "foie_gras",
-            0.11997043383929151
+            "chickpeas",
+            0.273946525160685
         ]
     ],
     "crabstick": [
@@ -1401,10 +1348,7 @@
     "cranberries": [],
     "cranberry_sauce": [],
     "crawfish": [
-        [
-            "kitchen_twine",
-            1.183378475778892
-        ]
+
     ],
     "crayfish": [],
     "cream": [
@@ -1506,17 +1450,19 @@
         ]
     ],
     "custard": [],
-    "cuttlefish": [],
+    "cuttlefish": [
+            [
+                "tofu",
+                0.631124801605942
+            ]
+        ],
     "dairy_creamer": [],
     "dal": [],
     "dandelion_flowers": [],
     "dashi": [],
     "dashida": [],
     "dates": [
-        [
-            "cheesecloth",
-            1.0935846741618378
-        ],
+
         [
             "elderberries",
             0.8919324204423444
@@ -1528,10 +1474,7 @@
     ],
     "decorating_gel": [],
     "deer": [
-        [
-            "empanada_wrappers",
-            0.8219549753992579
-        ]
+
     ],
     "demi_-_glace": [],
     "dessert_topping": [],
@@ -1655,10 +1598,6 @@
         [
             "tempeh",
             0.4882756487541824
-        ],
-        [
-            "-_up",
-            0.9073683287058102
         ],
         [
             "lotion",
@@ -1792,12 +1731,8 @@
     ],
     "egg": [
         [
-            "foil_liners",
-            1.3952625635359295
-        ],
-        [
-            "chipotle_chiles",
-            0.8146881750233452
+            "applesauce",
+            1.0033677266698728
         ]
     ],
     "eggnog": [],
@@ -1893,7 +1828,12 @@
     "fillets": [],
     "fines_herbes": [],
     "finnan_haddie": [],
-    "fish": [],
+    "fish": [
+                [
+                    "tofu",
+                    0.631124801605942
+                ]
+            ],
     "five_-_spice_powder": [],
     "flavor_enhancer": [
         [
@@ -2055,10 +1995,7 @@
     "frozen_petits_pois": [],
     "frozen_pina_colada_mix": [],
     "frozen_potato_slices": [
-        [
-            "alcohol",
-            0.6989440576593058
-        ]
+
     ],
     "frozen_strawberry_daiquiri_concentrate": [
         [
@@ -2103,12 +2040,7 @@
     ],
     "galliano": [],
     "ganache": [],
-    "garlic": [
-        [
-            "cranberries",
-            1.1793383605390122
-        ]
-    ],
+    "garlic": [],
     "gelatin": [
         [
             "lemonade",
@@ -2169,10 +2101,7 @@
     "glaze": [],
     "glitter": [],
     "glue": [
-        [
-            "dandelion_flowers",
-            0.17492623938808682
-        ]
+
     ],
     "gluten": [],
     "glycerin": [
@@ -2229,10 +2158,7 @@
             "chipotle_chiles",
             0.8146881750233452
         ],
-        [
-            "kool_-_aid",
-            0.08101884639325396
-        ],
+
         [
             "texas_pete",
             0.9337562971862535
@@ -2263,10 +2189,7 @@
     "grappa": [],
     "gravlax": [],
     "gravy": [
-        [
-            "ascorbic_acid",
-            1.3195482604707869
-        ]
+
     ],
     "great_northern_bean": [],
     "greek_dressing": [
@@ -2496,11 +2419,16 @@
     ],
     "honey": [
         [
-            "barley",
-            0.8235465434229623
+            "agave",
+            0.5996562987586473
         ]
     ],
-    "honeydew": [],
+    "honeydew": [
+                [
+                    "agave",
+                    0.5996562987586473
+                ]
+            ],
     "hop": [],
     "horseradish": [],
     "hostess_twinkie": [
@@ -2644,10 +2572,6 @@
             0.29918355183212997
         ],
         [
-            "hydrogen_peroxide",
-            0.17879360486428486
-        ],
-        [
             "spices",
             0.39425211784233216
         ]
@@ -2664,10 +2588,6 @@
     ],
     "jelly": [],
     "jerk_sauce": [
-        [
-            "baking_powder",
-            0.32652187684070855
-        ],
         [
             "horseradish",
             0.6458056962799099
@@ -2740,10 +2660,6 @@
         [
             "almonds",
             0.9523846741202129
-        ],
-        [
-            "cherry_drink_mix",
-            0.7852140395451432
         ]
     ],
     "kielbasa": [],
@@ -2775,10 +2691,6 @@
         [
             "ground_aniseed",
             0.7547909819879896
-        ],
-        [
-            "reese's_pieces",
-            0.3779412330661732
         ]
     ],
     "kombu": [],
@@ -2823,22 +2735,12 @@
     "ladyfinger": [],
     "lamb": [
         [
-            "raita",
-            0.832604482216566
-        ],
-        [
-            "salad_leaves",
-            0.6175541150623166
+            "tofu", 0.631124801605942
         ]
     ],
     "lambs_kidney": [
         [
-            "sweet_and_sour_cocktail_mix",
-            1.473172720042589
-        ],
-        [
-            "sweet_and_sour_cocktail_mix",
-            1.473172720042589
+            "tofu", 0.631124801605942
         ]
     ],
     "lard": [],
@@ -2865,12 +2767,8 @@
     "leek": [],
     "lemon": [
         [
-            "pectin",
-            0.7879277879795397
-        ],
-        [
-            "kasuri_methi",
-            1.1626194072104563
+            "vinegar",
+            0.08683144376677965
         ]
     ],
     "lemonade": [],
@@ -2932,19 +2830,11 @@
     ],
     "liverwurst": [
         [
-            "ascorbic_acid",
-            1.3195482604707869
+            "mushroom",
+            1.2597233827854303
         ]
     ],
     "lobster": [
-        [
-            "sake",
-            1.4310831938973614
-        ],
-        [
-            "baby_food",
-            0.9036324937502005
-        ],
         [
             "pastry_for_double_-_crust_pie",
             0.5021906027130068
@@ -2975,10 +2865,6 @@
         [
             "green_creme_de_menthe",
             1.2566759216559245
-        ],
-        [
-            "plastic_spoon",
-            0.0768644597049738
         ]
     ],
     "lumpia_skins": [],
@@ -3060,7 +2946,10 @@
     "matcha_green_tea_powder": [],
     "matzohs": [],
     "matzos": [],
-    "mayonnaise": [],
+    "mayonnaise": [
+        "yogurt",
+         1.4579975259015545
+    ],
     "mccormick's_season_all": [
         [
             "satay_sauce",
@@ -3069,10 +2958,6 @@
         [
             "gremolata",
             0.9938933598564004
-        ],
-        [
-            "essential_oils",
-            0.02053517693126472
         ]
     ],
     "meal": [],
@@ -3162,12 +3047,8 @@
     "mild_chiles": [],
     "milk": [
         [
-            "dandelion_flowers",
-            0.17492623938808682
-        ],
-        [
-            "nutmeg",
-            0.6521055005363849
+            "soymilk",
+            2.4378091604224954
         ]
     ],
     "milky_way_bar": [],
@@ -3228,7 +3109,12 @@
         ]
     ],
     "mitsuba": [],
-    "mixed_cheeses": [],
+    "mixed_cheeses": [
+                [
+                    "tofu",
+            0.631124801605942
+                ]
+            ],
     "mixed_peel": [
         [
             "stock",
@@ -3313,10 +3199,7 @@
         ]
     ],
     "mussels": [
-        [
-            "oven_cooking_bag",
-            0.8546157182545628
-        ]
+
     ],
     "mustard": [],
     "mutton": [
@@ -3370,18 +3253,8 @@
         ]
     ],
     "noodles": [
-        [
-            "pimento_strips",
-            1.3325104586728644
-        ],
-        [
-            "crab",
-            0.9442045718534874
-        ],
-        [
-            "xanthan_gum",
-            1.144347780055959
-        ]
+
+
     ],
     "nopales": [],
     "nopalitos": [],
@@ -3428,8 +3301,8 @@
     "ogo": [],
     "oil": [
         [
-            "baking_powder",
-            0.32652187684070855
+            "applesauce",
+            1.0033677266698728
         ]
     ],
     "okara": [],
@@ -3475,10 +3348,6 @@
             0.18680925180638708
         ],
         [
-            "foie_gras",
-            0.11997043383929151
-        ],
-        [
             "fenugreek_leaves",
             0.13978662362683025
         ]
@@ -3493,16 +3362,8 @@
     "oven_cooking_bag": [],
     "oxo_beef_cube": [
         [
-            "vegemite",
-            0.7225459839139277
-        ],
-        [
-            "konnyaku",
-            0.5754240069017419
-        ],
-        [
-            "macaroons",
-            0.9443701584203205
+            "tempen",
+            0.4882756487541824
         ]
     ],
     "oxtail": [
@@ -3647,21 +3508,10 @@
         [
             "sopressata",
             0.080170032575831
-        ],
-        [
-            "wood_chunks",
-            1.0999542022920292
         ]
     ],
     "pecans": [
-        [
-            "club_soda",
-            0.23956811531379307
-        ],
-        [
-            "gold_leaf_foil",
-            0.5756074480568213
-        ]
+
     ],
     "pectin": [],
     "peeps": [],
@@ -3927,10 +3777,7 @@
     ],
     "pompano": [],
     "ponzu_sauce": [
-        [
-            "green_sprinkles",
-            1.031327975008285
-        ]
+
     ],
     "popcorn": [
         [
@@ -3950,16 +3797,8 @@
     "popsicle": [],
     "pork": [
         [
-            "crushed_red_chile_flakes",
-            0.24079711438413365
-        ],
-        [
-            "peri_-_peri",
-            0.054301711452678036
-        ],
-        [
-            "escarole",
-            0.03672560166771588
+            "tofu",
+            0.631124801605942
         ]
     ],
     "porter": [],
@@ -4063,14 +3902,6 @@
         [
             "mango",
             1.0893231487680834
-        ],
-        [
-            "your_favorite_barbecue_rub",
-            0.5046312807542956
-        ],
-        [
-            "gluten",
-            0.6293299859505094
         ]
     ],
     "purslane": [
@@ -4083,10 +3914,7 @@
     "quail": [],
     "quark": [],
     "quatre_-_epices": [
-        [
-            "shark",
-            1.0088250775953465
-        ],
+
         [
             "green_creme_de_menthe",
             1.2566759216559245
@@ -4238,10 +4066,7 @@
         ]
     ],
     "rennet": [
-        [
-            "ziploc_bag",
-            0.7178804517836928
-        ],
+
         [
             "walleye",
             0.8135586809841934
@@ -4293,19 +4118,12 @@
     "rocket": [],
     "rockfish": [
         [
-            "mixed_cheeses",
-            1.08171540237234
-        ],
-        [
-            "rocket",
-            1.2296989350624776
+            "tofu",
+            0.631124801605942
         ]
     ],
     "roll": [
-        [
-            "frozen_pina_colada_mix",
-            0.38562520138397927
-        ]
+
     ],
     "rolling_pin": [
         [
@@ -4327,10 +4145,7 @@
     "romanesco": [],
     "romesco_sauce": [],
     "rose_essence": [
-        [
-            "dish_detergent",
-            1.080583875275996
-        ]
+
     ],
     "rose_hips": [],
     "rose_petal": [],
@@ -4338,10 +4153,6 @@
         [
             "absinthe",
             0.8849028959511942
-        ],
-        [
-            "cherry_kool_-_aid",
-            0.13579627976503184
         ]
     ],
     "roses": [
@@ -4352,10 +4163,6 @@
         [
             "tarama",
             0.27187750624039353
-        ],
-        [
-            "robin_hood_nutri_flour_blend",
-            0.09122572139885388
         ]
     ],
     "rotel": [],
@@ -4463,12 +4270,8 @@
     "saunf": [],
     "sausage": [
         [
-            "alcaparrado",
-            0.5683060501391747
-        ],
-        [
-            "greens",
-            0.18454431829482587
+            "soybeans",
+            0.6833501575068999
         ]
     ],
     "sauterne": [],
@@ -4481,14 +4284,6 @@
     "schmaltz": [],
     "schnapps": [],
     "scones": [
-        [
-            "verjus",
-            0.4689925250837059
-        ],
-        [
-            "round_rice_paper_sheets",
-            0.893361881918768
-        ]
     ],
     "scotch": [],
     "sea_bass": [
@@ -4533,11 +4328,8 @@
         [
             "patis",
             0.24179872071636777
-        ],
-        [
-            "-_up",
-            0.9073683287058102
         ]
+
     ],
     "shallot": [],
     "shampoo": [],
@@ -4572,28 +4364,26 @@
             0.744532059292276
         ]
     ],
-    "shrimp": [],
+    "shrimp": [
+        ["tofu",
+        0.631124801605942]
+    ],
     "sierra_mist": [],
-    "sirloin": [],
+    "sirloin": [
+        "mushroom",
+        1.4597233827854303
+    ],
     "skate": [],
     "skewer": [
         [
-            "vin_santo",
-            0.9230825696302727
-        ],
-        [
-            "fusilli",
-            0.03325109994017783
-        ],
-        [
-            "sweetened_lemonade_drink_mix",
-            0.0626972068154854
+            "tofu",
+            0.631124801605942
         ]
     ],
     "skinless_boneless_turkey_breasts": [
         [
-            "hershey_bar",
-            0.7164481111807983
+            "tofu",
+            0.631124801605942
         ]
     ],
     "skor_english_toffee_bit": [],
@@ -4605,11 +4395,8 @@
         [
             "sherbet",
             0.4056805886413122
-        ],
-        [
-            "kitchen_twine",
-            1.183378475778892
         ]
+
     ],
     "smokies": [
         [
@@ -4713,14 +4500,7 @@
     "soybeans": [],
     "soymilk": [],
     "spaghetti": [
-        [
-            "advocaat",
-            0.5800540336104841
-        ],
-        [
-            "bourbon",
-            0.16353740319388554
-        ]
+
     ],
     "spaghettini": [
         [
@@ -4757,10 +4537,6 @@
             1.4232736350945598
         ],
         [
-            "your_favorite_barbecue_rub",
-            0.5046312807542956
-        ],
-        [
             "sundae_sauce",
             1.1900374191321887
         ]
@@ -4790,10 +4566,6 @@
         [
             "liquor",
             0.4082123352696674
-        ],
-        [
-            "-_up",
-            0.9073683287058102
         ]
     ],
     "spicy_hot_v": [],
@@ -4840,10 +4612,6 @@
         [
             "fenugreek_leaves",
             0.13978662362683025
-        ],
-        [
-            "chicken",
-            1.3116483367940073
         ]
     ],
     "sprite": [],
@@ -4886,12 +4654,15 @@
             0.9136710818201359
         ]
     ],
-    "steak": [],
+    "steak": [
+        "tofu",
+        0.631124801605942
+    ],
     "stevia": [],
     "stew_beef_chunk": [
         [
-            "guava",
-            0.18794031176184434
+            "tempen",
+             0.4882756487541824
         ]
     ],
     "stick": [
@@ -4912,10 +4683,6 @@
         [
             "gnocchi",
             1.4992795723814623
-        ],
-        [
-            "cooking_spray",
-            0.7578204159552067
         ]
     ],
     "sucanat": [
@@ -4930,33 +4697,19 @@
     ],
     "suet": [
         [
-            "milky_way_bar",
-            0.6208258521763099
-        ],
-        [
-            "peeps",
-            0.8381297432105199
+            "tofu",
+            0.631124801605942
         ]
     ],
     "sugar": [],
     "sultana": [
-        [
-            "cranberries",
-            1.1793383605390122
-        ],
-        [
-            "fusilli",
-            0.03325109994017783
-        ]
+
     ],
     "sumac": [],
     "sumaq": [],
     "sun_-_dried_tomato_dressing": [],
     "sun_-_dried_tomato_pesto": [
-        [
-            "steak",
-            0.21972157184562402
-        ]
+
     ],
     "sundae_sauce": [],
     "sure_-_jell": [],
@@ -4972,25 +4725,23 @@
     "sweet_and_sour_sauce": [],
     "sweet_red_pepper_strips": [],
     "sweet_sherry": [
-        [
-            "cooking_sauce",
-            0.9446212956883407
-        ]
+
     ],
     "sweetbreads": [],
     "sweetcorn": [],
     "sweetened_kool_-_aid_drink_mix": [],
     "sweetened_lemonade_drink_mix": [],
     "swiss_chard": [],
-    "swordfish": [],
+    "swordfish": [
+                    [
+                        "tofu",
+                        0.631124801605942
+                    ]
+                ],
     "syrup": [],
     "szechuan_sauce": [],
     "tabasco_sauce": [],
     "taco_sauce": [
-        [
-            "guinness_stout",
-            0.9958382380486689
-        ]
     ],
     "taco_shell": [],
     "tahini": [],
@@ -5081,14 +4832,6 @@
         [
             "french_style_green_bean",
             0.507894220411433
-        ],
-        [
-            "club_soda",
-            0.23956811531379307
-        ],
-        [
-            "laundry_detergent",
-            0.5424698669748886
         ]
     ],
     "tawny_port": [],
@@ -5113,10 +4856,6 @@
     "thai_chiles": [],
     "thin_cucumber_slices": [],
     "thousand_island_dressing": [
-        [
-            "kool_-_aid",
-            0.08101884639325396
-        ]
     ],
     "thyme": [],
     "ti_leaves": [
@@ -5140,10 +4879,7 @@
     "tobiko": [],
     "toffee_pieces": [],
     "tofu": [
-        [
-            "grapefruit",
-            1.45025437124016
-        ]
+
     ],
     "tom_yum_paste": [],
     "tomatillo": [
@@ -5218,14 +4954,15 @@
         [
             "piri_-_piri",
             1.1315110066979122
-        ],
-        [
-            "pinecones",
-            0.21288290757329942
         ]
     ],
     "tubetti": [],
-    "tuna": [],
+    "tuna": [
+                    [
+                        "tofu",
+                        0.631124801605942
+                    ]
+                ],
     "turkey": [],
     "turkish_delight": [
         [
@@ -5430,10 +5167,6 @@
         [
             "gremolata",
             0.9938933598564004
-        ],
-        [
-            "dandelion_flowers",
-            0.17492623938808682
         ],
         [
             "pollock",

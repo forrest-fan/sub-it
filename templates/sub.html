@@ -33,6 +33,8 @@
                             <label>Substitute <span class='alt food'>{{alt.food}}</span> with <span class='alt alternative'>{{alt.alternative.replace('_', ' ')}}</span> to save <span class='alt savings'>{{alt.savings}}</span> kg CO<sub>2</sub></label>
                             <br/>
                         {% endfor %}
+                        <br/>
+                        <p id='liveImpact'>Check off subs to see your impact.</p>
                         <input type='submit' id='submitSubs' value='Sub It!' />
                     </form>
                     <br/>
@@ -46,6 +48,9 @@
                         <label for='foodImg' id='foodImgLabel'>Upload an Image</label>
                         <input type='file' id='foodImg' name='foodImg' accept='image/png, image/jpg, image/jpeg' />
                         <div id='previewUpload'></div>
+                        <div class='separator'>OR</div>
+                        <p>Paste in the ingredients from a recipe of something you'd like to make</p>
+                        <textarea id='recipeText' name='recipeText' form='subitForm' placeholder='Enter your ingredients' rows='10' cols='30'></textarea>
                         <input type='submit' id='uploadImg' name='uploadImg' value='Scan' />
                     </form>
                 </div>
@@ -78,6 +83,53 @@
     </script>
     {% if alts %}
         <script>
+            $('#subResultsChecklist').on('change', function(e) {
+                var comps = [{
+                    "co2": 0.404,
+                    "msg": "miles driven"
+                },{
+                    "co2": 0.03475,
+                    "msg": "packs of cigarettes smoked"
+                },{
+                    "co2": 0.70706,
+                    "msg": "kWh of electricity used"
+                },{
+                    "co2": 430,
+                    "msg": "barrels of oil produced"
+                },{
+                    "co2": 24,
+                    "msg": "propane tanks used"
+                },{
+                    "co2": 0.007778,
+                    "msg": "fully charged phones"
+                }]
+                var checked = [];
+                $('#subResultsChecklist :input[type=checkbox]:checked').each(function() {
+                    checked.push($(this).val());
+                })
+                var alts = {{ alts|tojson }};
+                var totalSave = 0;
+                var count = 0;
+                for (let i = 0; i < alts.length; i++) {
+                    if (checked.includes(alts[i]['food'])) {
+                        totalSave += alts[i]['savings'];
+                        count++;
+                    }
+                }
+
+                var compStr = '';
+                for (let i = 0; i < comps.length; i++) {
+                    if (i == comps.length - 1) {
+                        compStr += ' and';
+                    }
+                    compStr += ' <span class="accent">' + (Math.round(totalSave * 100/comps[i].co2)/100).toLocaleString() + '</span> ' + comps[i].msg;
+                    if (i < comps.length - 1) {
+                        compStr += ',';
+                    }
+                }
+                $('#liveImpact').html('Subbing <span class="accent">' + count + ' ingredient(s)</span> will save <span class="accent">' + totalSave + ' kg CO<sub>2</sub></span>, which is equal to' + compStr);
+            });
+
             $('#subResultsChecklist').on('submit', function(e) {
                 e.preventDefault();
                 var checked = [];

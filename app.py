@@ -169,18 +169,24 @@ def sub():
         if request.method == 'POST':
             recipe = {}
             alternatives = []
+            print('post received')
             if request.form['recipeText'] == '':
+                print('image')
                 # Extract the image from HTML form
                 img = request.files['foodImg']
                 # Set filename and path for new image
                 filename = './static/img/upload' + img.filename
                 # Save the image
                 img.save(filename)
+                print('before recipe')
                 # Call prediction function using model.py
                 recipe = model.predict_class(modelVar, [filename], False)
+                print('after recipe')
+                print(recipe)
                 # Find alternatives using swap.py
                 alternatives = swap.findAlts(recipe['ingredients'])
             else:
+                print('text')
                 # Extract recipe from textbox
                 recipe = {
                     'name': 'From Pasted Recipe',

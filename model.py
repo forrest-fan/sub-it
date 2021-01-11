@@ -45,6 +45,7 @@ def predict_class(model, images, show = True):
             'ingredients': ings,
             'image': imageName
         }
+        print(food)
         if show:
             plt.imshow(img[0])                           
             plt.axis('off')

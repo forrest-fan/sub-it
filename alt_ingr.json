@@ -976,11 +976,7 @@
         ]
     ],
     "celeriac": [],
-    "celery": [
-        [
-
-        ]
-    ],
+    "celery": [],
     "center_-_cut_pork_loin_chop": [
         [
             "tart_shell",
@@ -1039,8 +1035,8 @@
     "chervil": [],
     "chestnuts": [],
     "chicken": [
-            "tofu",
-            0.631124801605942
+            ["tofu",
+            0.631124801605942]
         ],
     "chickpeas": [
         [
@@ -4655,8 +4651,8 @@
         ]
     ],
     "steak": [
-        "tofu",
-        0.631124801605942
+        ["tofu",
+        0.631124801605942]
     ],
     "stevia": [],
     "stew_beef_chunk": [

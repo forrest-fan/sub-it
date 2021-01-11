@@ -19,7 +19,6 @@ def findAlts(ingredients):
             if (alt_ingr.get(word) is not None) and (len(alt_ingr[word]) is not 0) and (word not in altsFound):
                 min = float('inf')
                 min_food = ""
-                print(word)
                 for ingr, co2 in alt_ingr[word]:
                     if co2 < min:
                         min = co2

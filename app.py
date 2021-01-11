@@ -178,11 +178,8 @@ def sub():
                 filename = './static/img/upload' + img.filename
                 # Save the image
                 img.save(filename)
-                print('before recipe')
                 # Call prediction function using model.py
                 recipe = model.predict_class(modelVar, [filename], False)
-                print('after recipe')
-                print(recipe)
                 # Find alternatives using swap.py
                 alternatives = swap.findAlts(recipe['ingredients'])
             else:

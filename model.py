@@ -38,14 +38,12 @@ def predict_class(model, images, show = True):
         index = np.argmax(pred)
         food_list.sort()
         pred_value = food_list[index]
-        print(pred_value)
         ings=recipe(pred_value)
         food = {
             'name': pred_value,
             'ingredients': ings,
             'image': imageName
         }
-        print(food)
         if show:
             plt.imshow(img[0])                           
             plt.axis('off')

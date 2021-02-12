@@ -14,16 +14,7 @@ import swap
 import comps
 
 # Initialize firebase
-firebaseConfig = {
-    "apiKey": "AIzaSyD-kuTNL1EcxwnCgM4_0x9oyO_k7IdzATI",
-    "authDomain": "sub-it-a29ca.firebaseapp.com",
-    "databaseURL": "https://sub-it-a29ca-default-rtdb.firebaseio.com/",
-    "projectId": "sub-it-a29ca",
-    "storageBucket": "sub-it-a29ca.appspot.com",
-    "messagingSenderId": "744036348319",
-    "appId": "1:744036348319:web:8677ea4aeddccdda3fcdaa",
-    "measurementId": "G-STLRB5PMY1"
-}
+# Removed Firebase info
 
 # Firebase integration
 firebase = pyrebase.initialize_app(firebaseConfig)
